@@ -1,0 +1,45 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% BAB PENDAHULUAN:
+%=====================================================================
+\pagenumbering{arabic}
+\renewcommand{\thechapter}{\Roman{chapter}}
+\addtocontents{toc}{\vskip10pt}
+\chapter{PENDAHULUAN}
+\renewcommand{\thechapter}{\arabic{chapter}}
+\pagestyle{konten}
+%---------------------------------------------------------------------
+
+
+\section{Latar Belakang}
+Penelitian mengenai material dua dimensi (2D) telah mendapatkan perhatian luas sejak penemuan graphene, yang membuka jalan bagi eksplorasi berbagai material 2D lainnya, seperti \textit{hexagonal boron nitride} (hBN) dan molibdenum disulfida (MoS\textsubscript{2}). Sejumlah studi terdahulu menunjukkan bahwa reduksi dimensi ke skala atom tunggal menghasilkan sifat-sifat unik yang berbeda dari material bentuk tiga dimensinya. Misalnya, penelitian oleh \citep{novoselov_electric_2004} dan \citep{geim_rise_2007} telah mendemonstrasikan keunikan sifat elektronik dan mekanika graphene yang kemudian menginspirasi penelitian lebih lanjut terhadap hBN.
+
+Secara khusus, hBN telah menarik perhatian karena strukturnya yang mirip dengan graphene namun menunjukkan perbedaan mendasar pada sifat elektroniknya. Penelitian terdahulu mengungkapkan bahwa hBN secara alami merupakan isolator dengan pita energi yang besar, sehingga sangat potensial digunakan sebagai bahan dielektrik dan substrat dalam nanoelektronika. Selain itu, studi-studi telah mengeksplorasi dampak perlakuan termal terhadap struktur atomik dan sifat elektronik hBN. Dilaporkan bahwa pemrosesan termal dapat memicu pembentukan defek, rekonstruksi atomik, dan redistribusi kerapatan muatan, yang berujung pada modifikasi nilai band gap dan keadaan elektronik material \citep{prethesis1,prethesis2}.
+
+Penelitian tambahan mengenai hBN mencakup studi tentang pertumbuhan, sifat optik, dan integrasi dalam heterostructures, seperti yang dilaporkan oleh \citep{watanabe2004direct}, \citep{rubio1994theory}, dan \citep{dean2010boron}. Studi oleh \citep{tran2016robust} dan \citep{kim2012synthesis} juga memberikan wawasan mengenai aplikasi hBN dalam perangkat nanoelektronika, sementara \citep{gorbachev2011hunting} mengeksplorasi penanda optik dan Raman dari monolayer hBN.
+
+Dalam konteks temuan-temuan tersebut, pemahaman mendalam mengenai mekanisme perubahan sifat material akibat perlakuan termal menjadi sangat penting. Penelitian Tugas Akhir ini difokuskan pada studi hBN sheet 2D single layer dengan dimensi 6$\times$6$\times$1, di mana proses pemanasan dilakukan dengan simulasi dinamika molekul (MD) menggunakan perangkat lunak LAMMPS. Penerapan potensial ReaxFF yang telah disesuaikan khusus untuk sistem hBN memungkinkan pemodelan interaksi antar-atom secara mendetail dalam rentang suhu 500 K hingga 4000 K. Data yang diperoleh dari simulasi MD, seperti \textit{Radial Distribution Function} (RDF) dan \textit{Mean Squared Displacement} (MSD), memberikan gambaran mengenai perubahan jarak antar atom dan dinamika pergerakan atom selama pemanasan, sehingga dapat mengidentifikasi pembentukan defek struktural atau perubahan signifikan dalam struktur kristal.
+
+Setelah proses pemanasan dengan MD, struktur akhir dikonversi menggunakan \textit{Atomic Simulation Environment} (ASE) untuk menjaga integritas informasi geometri agar kompatibel dengan perhitungan Teori Fungsional Kerapatan (DFT) menggunakan Quantum ESPRESSO. Perhitungan DFT dilakukan secara bertahap, yaitu perhitungan Self-Consistent Field (SCF) untuk memperoleh kerapatan muatan yang stabil dan Non-Self-Consistent Field (NSCF) untuk analisis lebih lanjut terhadap energi eigen. Dengan demikian, diperoleh informasi komprehensif mengenai struktur pita (band structure), \textit{Density of States} (DOS), \textit{Projected Density of States} (PDOS), serta distribusi muatan yang mempertimbangkan efek spin-polarization.
+
+Pentingnya penelitian ini tidak hanya terletak pada pengembangan pemahaman dasar mengenai sifat elektronik hBN, tetapi juga pada potensinya dalam aplikasi nanoelektronika, sensor, dan perangkat optoelektronik. Dengan mengoptimalkan sifat elektronik melalui perlakuan termal, hBN yang secara alami merupakan isolator dapat dimodifikasi sehingga membuka kemungkinan pengembangan material dengan karakteristik semikonduktif atau bahkan konduktif pada kondisi tertentu. Selain itu, integrasi metode komputasional seperti simulasi MD dan perhitungan DFT menawarkan pendekatan multiskala yang mampu mengungkap mekanisme mikroskopis perubahan struktur dan properti elektronik material.
+
+Perkembangan teknologi komputasi dan perangkat lunak simulasi telah memungkinkan penelitian dengan presisi tinggi. Penggunaan cluster komputasi dengan node multi-core dan interkoneksi berkecepatan tinggi mendukung pelaksanaan simulasi MD yang efisien, sedangkan Quantum ESPRESSO menyediakan platform andal untuk perhitungan DFT. Sinergi antara simulasi dinamis dan analisis elektronik ini menjadi pendekatan yang semakin populer dalam studi material 2D, karena mampu menjelaskan mekanisme fundamental di balik perubahan sifat material akibat perlakuan termal.
+
+\section{Rumusan Masalah}
+Rumusan masalah dalam penelitian ini dapat dirumuskan sebagai berikut. Pertama, penelitian ini akan mengkaji pengaruh pemanasan pada rentang suhu 500K hingga 4000K terhadap struktur atomik hBN sheet 2D single layer berukuran 6×6×1. Kedua, studi ini akan menganalisis perubahan struktur yang terjadi akibat pemanasan serta menentukan apakah proses tersebut menghasilkan defek atau rekonstruksi atomik yang signifikan. Ketiga, dampak perubahan struktural terhadap sifat elektronik hBN, terutama pada aspek band gap, distribusi kerapatan muatan, dan pembentukan keadaan elektronik baru, akan diteliti secara menyeluruh. Terakhir, penelitian ini akan mengevaluasi kemampuan pendekatan perhitungan DFT dengan metode SCF dan NSCF dalam memberikan gambaran akurat mengenai modifikasi sifat elektronik yang diakibatkan oleh proses pemanasan.
+
+\section{Tujuan Penelitian}
+Penelitian ini bertujuan untuk mengevaluasi pengaruh pemanasan terhadap sifat elektronik hBN sheet 2D single layer dengan dimensi 6×6×1 melalui kombinasi simulasi dinamika molekul menggunakan LAMMPS dan perhitungan Density Functional Theory (DFT) dengan Quantum ESPRESSO (QE). Penelitian ini berupaya mengungkap perubahan struktural yang terjadi selama pemanasan pada rentang suhu 500K hingga 4000K serta dampaknya terhadap parameter elektronik, seperti band gap, distribusi kerapatan muatan, dan pembentukan keadaan elektronik baru. Melalui pendekatan komputasional yang terintegrasi, penelitian ini diharapkan dapat memberikan wawasan mendalam mengenai mekanisme rekayasa termal pada material 2D dan membuka potensi aplikasi hBN dalam bidang nanoelektronika dan sensor. Pendekatan ini juga diharapkan mampu menyediakan dasar komputasional yang kuat bagi penelitian eksperimental dan pengembangan material 2D di masa mendatang.
+
+\section{Batasan Masalah}
+Batasan masalah dalam penelitian ini adalah
+\begin{itemize}
+    \item Penelitian ini hanya akan dilakukan pada hBN sheet 2D single layer dengan dimensi 6×6×1, sehingga hasil yang diperoleh bersifat spesifik untuk skala dan orientasi tersebut.
+    \item Simulasi pemanasan dilakukan menggunakan LAMMPS dengan potensial ReaxFF yang telah terbukti efektif untuk sistem hBN.
+    \item Perhitungan sifat elektronik dilakukan menggunakan Quantum ESPRESSO (QE) dengan pendekatan DFT menggunakan fungsional PBEsol PAW.
+    \item Rentang suhu yang digunakan dalam simulasi adalah 500K hingga 4000K, sehingga hasil penelitian terbatas pada kondisi termal tersebut.
+    \item Analisis perhitungan DFT difokuskan pada perhitungan SCF dan NSCF untuk memperoleh struktur pita, DOS, PDOS, dan distribusi muatan, sedangkan aspek lain seperti dinamika elektron waktu nyata tidak dibahas.
+\end{itemize}
+
+\section{Manfaat Penelitian}
+Penelitian ini diharapkan memberikan manfaat yang signifikan baik dari sisi ilmiah maupun aplikatif. Secara ilmiah, hasil penelitian akan memperkaya pemahaman tentang bagaimana pemanasan mempengaruhi struktur dan sifat elektronik material 2D, khususnya hBN. Pengetahuan ini dapat menjadi dasar bagi pengembangan teori tentang interaksi termal-elektronik pada material dua dimensi. Secara aplikatif, dengan memahami pengaruh pemanasan terhadap band gap dan distribusi muatan, penelitian ini membuka peluang untuk rekayasa material secara termal, sehingga hBN dapat dimodifikasi untuk digunakan dalam aplikasi semikonduktor, sensor, dan perangkat optoelektronik. Selain itu, pendekatan komputasional yang mengintegrasikan simulasi MD dan perhitungan DFT dapat dijadikan referensi dan acuan bagi penelitian lanjutan dalam bidang material 2D, yang berpotensi menghasilkan inovasi teknologi baru di bidang nanoelektronika.
