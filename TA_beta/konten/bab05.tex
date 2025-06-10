@@ -8,19 +8,58 @@
 \renewcommand{\thechapter}{\arabic{chapter}}
 %---------------------------------------------------------------------
 
-%=====================================================================
 \section{Kesimpulan}
-%=====================================================================
+\label{sec:kesimpulan}
+Analisis komprehensif terhadap hasil perhitungan Teori Fungsional Kerapatan (DFT) pada monolayer hBN supercell $4 \times 4 \times 1$, dengan struktur atomik yang dihasilkan dari simulasi Dinamika Molekuler (MD) pada berbagai temperatur (800K, 1100K, dan 1225K), telah menghasilkan beberapa temuan penting mengenai pengaruh perlakuan termal dan keberadaan defek antisite (N$_B$ dan B$_N$) terhadap sifat elektronik dan magnetik material tersebut:
 
-Berdasarkan penelitian yang telah dilakukan, dapat ditarik kesimpulan bahwa stanene bersifat konduktor yang berpusat pada titik \texttt{k-points} K. Perbedaan nilai dari penelitian sebelumnya yang dilakukan oleh \citeauthor{sagar2019} kemungkinan besar disebabkan oleh perbedaan parameter atau kesalahan kalkulasi yang digunakan. Dalam penelitian sebelumnya juga disebutkan bahwa untuk struktur 2-dimensi stanene dilakukan dengan menggunakan fungsional PBE-GGA yang diverifikasi oleh fungsional LDA tetapi pada penelitian ini hanya menggunakan fungsional PBE-GGA
-
-%=====================================================================
-\section{Saran}
-%=====================================================================
 \begin{enumerate}
-    \item Untuk penelitian selanjutnya, disarankan menggunakan parameter yang digunakan
-    \item Mengecek parameter dengan paper yang telah ada
-    \item Mengecek hasil sudah akurat atau belum
+    \item \textbf{Monolayer hBN Murni:}
+    Hasil perhitungan pada hBN murni (\textit{pristine}) menunjukkan celah pita energi sebesar $4.446$ eV, yang konsisten dengan underestimasi tipikal dari fungsional PBEsol bila dibandingkan dengan nilai eksperimental (sekitar $5.9-6.1$ eV). Peningkatan temperatur dari kondisi \textit{pristine} hingga 1225K menyebabkan penurunan celah pita energi secara monoton menjadi $4.069$ eV. Penurunan ini diatribusikan pada kombinasi efek kopling elektron-fonon dan potensi ekspansi termal kisi. Sistem hBN murni tetap bersifat non-magnetik pada semua temperatur yang diuji. Perilaku penurunan celah pita ini, meskipun umum untuk semikonduktor, kontras dengan beberapa laporan mengenai \textit{blueshift} pada hBN multilayer pada rentang temperatur tertentu, yang menyoroti pengaruh dimensionalitas dan kemungkinan respons termomekanik yang berbeda pada monolayer.
 
+    \item \textbf{Monolayer hBN dengan Defek Antisite N$_B$ ("NN defect"):}
+    Kehadiran defek antisite N$_B$ (atom Nitrogen pada situs Boron) secara drastis mengurangi celah pita energi hBN (misalnya, menjadi $0.694$ eV pada 800K). Secara menarik dan berbeda dari hBN murni, celah pita energi untuk sistem dengan defek N$_B$ menunjukkan tren anomali, yaitu meningkat dengan meningkatnya temperatur (mencapai $1.214$ eV pada 1225K). Pergeseran Energi Fermi ke nilai yang jauh lebih negatif juga teramati, mengindikasikan bahwa defek N$_B$ kemungkinan bertindak sebagai akseptor. Sistem hBN dengan defek N$_B$ ini sebagian besar tetap non-magnetik dalam rentang temperatur dan kondisi yang dipelajari.
+
+    \item \textbf{Monolayer hBN dengan Defek Antisite B$_N$ ("BB defect"):}
+    Kehadiran defek antisite B$_N$ (atom Boron pada situs Nitrogen) juga secara signifikan mengurangi celah pita energi (misalnya, menjadi $0.990$ eV pada 800K). Berbeda dengan defek N$_B$, celah pita pada sistem dengan defek B$_N$ menunjukkan tren penurunan dengan meningkatnya temperatur (mencapai $0.316$ eV pada 1225K), serupa dengan perilaku hBN murni. Temuan yang paling menonjol adalah bahwa defek B$_N$ menginduksi sifat magnetisme $d^0$ yang kuat, yang juga bergantung pada temperatur. Sistem menjadi magnetik pada 1100K (magnetisasi total $0.150 \mu_B$) dan magnetisasinya meningkat secara signifikan pada 1225K (magnetisasi total $1.850 \mu_B$). Selain momen spin, momen orbital yang terukur juga teramati pada atom Boron (dan Nitrogen pada temperatur tertinggi), mengindikasikan lingkungan simetri rendah di sekitar defek dan potensi kontribusi interaksi spin-orbit.
 \end{enumerate}
+
+Secara keseluruhan, penelitian ini menggarisbawahi bahwa sifat elektronik dan magnetik monolayer hBN sangat sensitif terhadap kondisi termal dan jenis defek titik yang ada. Perilaku kompleks yang teramati, seperti tren temperatur celah pita yang anomali pada defek N$_B$ dan induksi serta penguatan magnetisme dengan temperatur pada defek B$_N$, menunjukkan adanya interaksi yang rumit antara distorsi struktural lokal yang ditangkap oleh simulasi MD pada temperatur tinggi dan respons elektronik yang dihitung oleh DFT. Temuan ini membuka perspektif baru mengenai potensi rekayasa sifat hBN untuk aplikasi fungsional di bidang optoelektronika dan spintronika.
+
+\section{Saran}
+\label{sec:saran}
+Berdasarkan evaluasi kritis terhadap metodologi komputasi yang digunakan dan analisis hasil yang telah dipaparkan, beberapa rekomendasi diajukan untuk penelitian lanjutan guna meningkatkan keandalan, kedalaman pemahaman, dan potensi validasi temuan:
+
+\begin{enumerate}
+    \item \textbf{Validasi dan Penyempurnaan Model Dinamika Molekuler (MD):}
+    \begin{itemize}
+        \item Disarankan untuk mengeksplorasi atau mengembangkan potensial ReaxFF yang secara spesifik diparameterisasi dan divalidasi untuk memodelkan sifat termal, stabilitas, dan dinamika defek dalam sistem hBN fasa terkondensasi (bulk atau monolayer), bukan hanya untuk proses sintesis fasa gas. Perbandingan hasil dengan potensial interatomik alternatif lain (misalnya, Tersoff, Stillinger-Weber yang dimodifikasi, atau potensial berbasis \textit{machine learning} seperti GAP) dapat memberikan gambaran yang lebih komprehensif mengenai keandalan struktur atomik yang dihasilkan MD.
+        \item Untuk kasus-kasus yang paling menarik atau menunjukkan perilaku tak terduga (misalnya, sistem hBN dengan defek B$_N$ pada temperatur tinggi yang menunjukkan magnetisme kuat), pelaksanaan simulasi MD ab initio (AIMD) pada skala kecil dapat digunakan untuk memvalidasi konfigurasi atomik dan dinamika lokal yang diperoleh dari MD klasik dengan potensial ReaxFF.
+    \end{itemize}
+
+    \item \textbf{Peningkatan Akurasi Kalkulasi Teori Fungsional Kerapatan (DFT):}
+    \begin{itemize}
+        \item Untuk mendapatkan prediksi kuantitatif yang lebih akurat mengenai celah pita energi dan posisi tingkat energi defek, serta untuk memverifikasi sifat magnetik yang teramati (khususnya magnetisme $d^0$), disarankan untuk menggunakan fungsional DFT yang lebih canggih. Fungsional hibrid seperti HSE06 atau metode berbasis teori fungsi Green seperti kalkulasi GW dapat dipertimbangkan, meskipun dengan konsekuensi peningkatan biaya komputasi.
+        \item Perlu dilakukan uji konvergensi yang lebih sistematis terhadap ukuran supercell untuk perhitungan yang melibatkan defek. Penggunaan supercell yang lebih besar (misalnya, $6 \times 6 \times 1$ atau $8 \times 8 \times 1$) akan membantu meminimalkan interaksi artifisial antar citra periodik defek dan memastikan bahwa sifat defek yang dihitung bersifat intrinsik dari defek tunggal pada batas konsentrasi encer.
+        \item Parameter smearing dalam kalkulasi DFT perlu dipilih dengan hati-hati. Untuk sistem semikonduktor atau isolator seperti hBN, penggunaan skema smearing Fermi-Dirac atau Gaussian dengan lebar smearing yang sangat kecil (misalnya, $0.01-0.05$ eV) lebih direkomendasikan daripada \textit{cold smearing} jika tidak dioptimalkan secara spesifik. Penting untuk melaporkan nilai lebar smearing yang digunakan.
+    \end{itemize}
+
+    \item \textbf{Karakterisasi Defek yang Lebih Mendalam:}
+    \begin{itemize}
+        \item Lakukan analisis Kerapatan Keadaan Terproyeksi (PDOS) yang lebih rinci untuk mengidentifikasi kontribusi orbital atomik spesifik (misalnya, B-$2s$, B-$2p_x$, B-$2p_y$, B-$2p_z$, dan orbital N yang bersesuaian) pada pembentukan keadaan defek di sekitar VBM dan CBM, serta untuk memahami orbital mana yang paling bertanggung jawab atas polarisasi spin dan momen magnetik yang teramati.
+        \item Hitung energi pembentukan defek antisite N$_B$ dan B$_N$ di bawah berbagai kondisi potensial kimia (misalnya, kondisi kaya-Boron vs. kaya-Nitrogen) untuk menilai stabilitas termodinamika dan kelimpahan relatif dari masing-masing jenis defek pada kondisi sintesis atau operasi tertentu.
+        \item Investigasi pengaruh keadaan muatan yang berbeda (misalnya, N$_B^+$, N$_B^-$, B$_N^+$, B$_N^-$) terhadap sifat elektronik dan magnetik defek antisite, karena keadaan muatan dapat secara signifikan memodifikasi posisi tingkat energi defek dan potensi induksi magnetisme.
+    \end{itemize}
+
+    \item \textbf{Studi Lanjutan Mengenai Fenomena yang Diamati:}
+    \begin{itemize}
+        \item Selidiki lebih lanjut mekanisme di balik tren temperatur celah pita ($E_g(T)$) yang anomali (meningkat dengan T) untuk sistem dengan defek N$_B$, serta mekanisme peningkatan magnetisasi dengan temperatur untuk sistem dengan defek B$_N$. Ini mungkin memerlukan analisis interaksi elektron-fonon spesifik-defek yang lebih detail, studi dinamika kisi yang lebih canggih, atau investigasi potensi transisi fasa struktural atau elektronik lokal di sekitar defek.
+        \item Perluas cakupan studi untuk menyertakan jenis defek lain yang relevan secara eksperimental atau teoritis di hBN, seperti kekosongan Boron (V$_B$), kekosongan Nitrogen (V$_N$), impuritas karbon (C$_B$, C$_N$), atau kompleks defek (misalnya, pasangan V$_N$-N$_B$), dan bagaimana sifat-sifat ini dipengaruhi oleh perlakuan termal.
+    \end{itemize}
+
+    \item \textbf{Korelasi dengan Hasil Eksperimental:}
+    \begin{itemize}
+        \item Jika memungkinkan, usulkan atau jalin kolaborasi untuk memvalidasi temuan komputasi ini secara eksperimental. Sebagai contoh, pengukuran spektroskopi optik (seperti fotoluminesensi atau absorpsi) yang bergantung pada temperatur pada sampel hBN yang diketahui mengandung jenis defek tertentu dapat dibandingkan dengan prediksi celah pita dan sifat optik dari DFT. Untuk sifat magnetik, teknik seperti SQUID (\textit{Superconducting Quantum Interference Device}) magnetometri atau XMCD (\textit{X-ray Magnetic Circular Dichroism}) pada sampel yang direkayasa defeknya dapat memberikan konfirmasi eksperimental.
+    \end{itemize}
+\end{enumerate}
+Dengan mengatasi keterbatasan saat ini dan mengeksplorasi arah penelitian yang disarankan, pemahaman yang lebih komprehensif dan akurat mengenai perilaku kompleks monolayer hBN akibat perlakuan termal dan keberadaan defek dapat dicapai, yang pada gilirannya akan mendukung pengembangan aplikasi inovatif berbasis material 2D ini.
 
