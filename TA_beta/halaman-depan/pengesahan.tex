@@ -1,70 +1,71 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-%   Secara umum, informasi yang dibutuhkan pada lembar pengesahan
-%   ini diambil dari file "informasi.tex"
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
+\vspace*{15mm}
 \begin{center}
-    {\large\textbf{LEMBAR PENGESAHAN}}
-    \addcontentsline{toc}{chapter}{LEMBAR PENGESAHAN}
-    \pagestyle{fancy}
+  \large
+  \textbf{LEMBAR PENGESAHAN}
 \end{center}
 
-%---------------------------------------------------------------------
+% Menyembunyikan nomor halaman
+\thispagestyle{empty}
 
 \begin{center}
-    
-    {\large\MakeUppercase{\textbf{{\judulTA}}}}
-
-    \vspace{5mm}
-        
-    {\large\textbf{PROPOSAL TUGAS AKHIR}}
-
-    \vspace{2mm}
-    
-    
-    %
-    Diajukan untuk memenuhi salah satu syarat \\ [-2mm]
-    Memperoleh gelas S.Si pada \\[-2mm]
-    Program Studi S-1 \\[-2mm] 
-    \namaDepartemen \\[-2mm]
-    \namaFakultas \\[-2mm]
-    \namaUniversitas \\[-2mm]
-    \namaKota \\[-2mm]
-
-    \vspace{6mm}
-    
-    Oleh: 
-   {\textbf{\MakeUppercase{\namaMahasiswa}}}\\
-   \textbf{NRP.} {\textbf{\MakeUppercase{\noIndukMahasiswa}}}\\[20mm]
-
+  \textbf{\kodeTA}
 \end{center}
 
-%---------------------------------------------------------------------
+\begingroup
+% Pemilihan font ukuran small
+\small
 
 \begin{center}
-Disetujui oleh Tim Penguji Proposal Tugas Akhir \\[2mm]  
+  \textbf{TUGAS AKHIR}
+  \\Diajukan untuk memenuhi salah satu syarat \\
+  memperoleh gelar Sarjana Teknik pada \\
+  Program Studi S-1 Fisika \\
+  \namaDepartemen \\
+  \namaFakultas \\
+  Institut Teknologi Sepuluh Nopember
 \end{center}
-
-\begin{flushleft}
-\begin{tabular}{ l c l c}
-    1.& &\namaDosenPembimbingSatu & Pembimbing \\
-& & & \\
-    2.& &\namaDosenPembimbingDua & Ko-pembimbing \\
-& & & \\
-\end{tabular}
-\end{flushleft}
-
-\vfill
 
 \begin{center}
-    \textbf{\namaKota,} \\[-2mm] 
-    \textbf{\tanggalPengesahan}
+  Oleh: \textbf{\namaMahasiswa}
+  \\NRP. \noIndukMahasiswa
 \end{center}
 
-\vfill
+\begin{center}
+  Disetujui oleh Tim Penguji Tugas Akhir:
+\end{center}
 
-\newpage
+\begingroup
+% Menghilangkan padding
+\setlength{\tabcolsep}{0pt}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\noindent
+\begin{tabularx}{\textwidth}{X l}
+  \namaDosenPembimbingSatu               & (Pembimbing I)                      \\
+  NIP: \nipDosenPembimbingSatu       &                                     \\
+                           & ................................... \\
+  \namaDosenPembimbingDua            & (Pembimbing II)                     \\
+  NIP: \nipDosenPembimbingDua     &                                     \\
+                           & ................................... \\
+  \exami{}.          & (Penguji I)                         \\
+  NIP: \examineronenip{}   &                                     \\
+                           & ................................... \\
+  \examinertwo{}.          & (Penguji II)                        \\
+  NIP: \examinertwonip{}   &                                     \\
+                           & ................................... \\
+\end{tabularx}
+\endgroup
+
+\begin{center}
+  Mengetahui, \\
+  Kepala Departemen \namaDepartemen \namaFakultas - ITS\\
+
+  \vspace{8ex}
+
+  \underline{\namaKaDep.} \\
+  NIP. \nipKaDep
+\end{center}
+
+\begin{center}
+  \textbf{\MakeUppercase{Surabaya Juni, 2025}}
+\end{center}
+\endgroup

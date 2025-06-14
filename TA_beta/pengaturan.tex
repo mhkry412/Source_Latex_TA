@@ -21,8 +21,6 @@
 \usepackage{pgfgantt} 
 \usepackage[bahasa]{babel}
 \usepackage{fontenc}
-\usepackage{graphicx}
-\usepackage{geometry}
 \usepackage{setspace}
 \onehalfspacing
 \usepackage{times}
@@ -31,12 +29,16 @@
 \usepackage{booktabs} % For better table rules
 \usepackage{longtable} % For tables that might span pages
 \usepackage{array} % For table column formatting
+\usepackage{booktabs}
+\usepackage{threeparttable}
+\usepackage{eso-pic} 
+\usepackage{tabularx}
 
 %======================================================================
 %   Mengatur margin 
 %======================================================================
 \usepackage[top=3cm,left=3cm,right=2cm,bottom=2.5cm]{geometry}
-    \linespread{1.3} % Gunakan 1.3 untuk spasi satu setengah, 
+\linespread{1.3} % Gunakan 1.3 untuk spasi satu setengah, 
                      % Gunakan 1.6 untukspasi dua
     
 %======================================================================
@@ -97,8 +99,8 @@
     angle=0,
     contents={%
     \includegraphics[width=\paperwidth,height=\paperheight]
-    {./gambar/cover_prop_d-1.png}
-    }%
+    {./halaman-depan/sampul-luar.png}
+    }
 }
 
 %======================================================================

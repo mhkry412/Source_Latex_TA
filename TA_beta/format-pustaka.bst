@@ -66,48 +66,51 @@ FUNCTION {output.nonnull}
   s
 }
 
-FUNCTION {output.nonnull2}
-{ 's :=
-  output.state2 mid.sentence2 =
-    { "  " * write$ }
-    { output.state2 after.block2 =
-        { add.period$ write$
-          newline$
-          "\newblock " write$
-        }
-        { output.state2 before.all2 =
-            { 'write$ }
-            { add.period$ " " * write$ }
-          if$
-        }
-      if$
-      mid.sentence2 'output.state2 :=
-    }
-  if$
-  s
-}
+ FUNCTION {output.nonnull2}
+ { 's :=
+   output.state2 mid.sentence2 =
+     { "  " * write$ }
+     { output.state2 after.block2 =
+         { add.period$ write$
+           newline$
+           "\newblock " write$
+         }
+         { output.state2 before.all2 =
+             { 'write$ }
+             { add.period$ " " * write$ }
+           if$
+         }
+       if$
+       mid.sentence2 'output.state2 :=
+     }
+   if$
+-  s
++  s   % push s
++  pop$  % pop it off, so no leak
+ }
 
-
-FUNCTION {output.nonnull3}
-{ 's :=
-  output.state2 mid.sentence2 =
-    { ". " * write$ }
-    { output.state2 after.block2 =
-	{ add.period$ write$
-	  newline$
-	  "\newblock " write$
-	}
-	{ output.state2 before.all2 =
-	    'write$
-	    { add.period$ " " * write$ }
-	  if$
-	}
-      if$
-      mid.sentence2 'output.state2 :=
-    }
-  if$
-  s
-}
+ FUNCTION {output.nonnull3}
+ { 's :=
+   output.state2 mid.sentence2 =
+     { ". " * write$ }
+     { output.state2 after.block2 =
+         { add.period$ write$
+           newline$
+           "\newblock " write$
+         }
+         { output.state2 before.all2 =
+             'write$
+             { add.period$ " " * write$ }
+           if$
+         }
+       if$
+       mid.sentence2 'output.state2 :=
+     }
+   if$
+-  s
++  s    % push s
++  pop$ % pop it off
+ }
 
 FUNCTION {output}
 { duplicate$ empty$

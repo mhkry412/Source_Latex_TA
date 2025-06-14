@@ -4,34 +4,39 @@
 
     \thispagestyle{empty}
 
-    \BgThispage
-\begin{flushleft}
-        \includegraphics[width=25.4mm]{halaman-depan/00-Logo-ITS.png}
-        \hspace{10mm}
-\end{flushleft}
+\AddToShipoutPictureBG*{
+  \AtPageLowerLeft{
+    % Ubah nilai berikut jika posisi horizontal background tidak sesuai
+    \hspace{-4mm}
+
+    % Ubah nilai berikut jika posisi vertikal background tidak sesuai
+    \raisebox{0mm}{
+      \includegraphics[width=\paperwidth,height=\paperheight]{halaman-depan/sampul-luar.png}
+    }
+  }
+}
     
-    \vspace{24mm}
-    
-    \noindent {\large\textsf{\color{black}{%
+    \vspace*{40mm}
+    \noindent {\large\textsf{\color{white}{%
     \textbf{\kodeTA} % Nama dan kode mata kuliah
     }}}
     
     \vspace{4mm}
     
     \begin{flushleft}
-        \noindent {\Large\textsf{\color{black}
+        \noindent {\Large\textsf{\color{white}
         {\MakeUppercase{\textbf{\judulTA}}}}}
     \end{flushleft}
     
     \vspace{25mm}
     
-    {\noindent\textsf{\color{black}
+    {\noindent\textsf{\color{white}
     {\MakeUppercase{\large\textbf{\namaMahasiswa}\\[0mm]
     {NRP. \noIndukMahasiswa}}}}}
     
     \vspace{7mm}
     
-    {\noindent\textsf{\color{black}{%
+    {\noindent\textsf{\color{white}{%
         \large\textbf{Dosen Pembimbing}\\[3mm]
         \textbf{\namaDosenPembimbingSatu}\\[2mm]
         \large{NIP 196003031987011002}\\[2mm]
@@ -41,7 +46,7 @@
     
     \vspace{15mm}
     
-    {\noindent\large\textsf{\color{black}{%
+    {\noindent\large\textsf{\color{white}{%
         \textbf{\namaDepartemen}\\[0mm]
         \textbf{\namaFakultas}\\[0mm]
         \textbf{\namaUniversitas}\\[0mm]
@@ -59,14 +64,22 @@
 %======================================================================
 %   Halaman judul (Bahasa Indonesia)
 %======================================================================
+\AddToShipoutPictureBG*{
+  \AtPageLowerLeft{
+    % Ubah nilai berikut jika posisi horizontal background tidak sesuai
+    \hspace{-4mm}
 
+    % Ubah nilai berikut jika posisi vertikal background tidak sesuai
+    \raisebox{0mm}{
+      \includegraphics[width=\paperwidth,height=\paperheight]{halaman-depan/sampul-luar-tipis.png}
+    }
+  }
+}
+
+\vspace*{10mm}
 {
 \setcounter{page}{1}
 \addcontentsline{toc}{chapter}{HALAMAN JUDUL}
-    
-\begin{flushleft}
-        \includegraphics[width=30mm]{./halaman-depan/00-Logo-ITS.png}
-    \end{flushleft}
     
     \vspace{24mm}
     
@@ -116,10 +129,20 @@
 %======================================================================
 %   Halaman judul (Bahasa Inggris)
 %======================================================================
+\pagebreak
+\vspace*{10mm}
+\AddToShipoutPictureBG*{
+  \AtPageLowerLeft{
+    % Ubah nilai berikut jika posisi horizontal background tidak sesuai
+    \hspace{-4mm}
 
-\begin{flushleft}
-        \includegraphics[width=30mm]{./halaman-depan/00-Logo-ITS.png}
-    \end{flushleft}
+    % Ubah nilai berikut jika posisi vertikal background tidak sesuai
+    \raisebox{0mm}{
+      \includegraphics[width=\paperwidth,height=\paperheight]{halaman-depan/sampul-luar-tipis.png}
+    }
+  }
+}
+
     
     \vspace{24mm}
     

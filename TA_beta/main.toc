@@ -1,0 +1,87 @@
+\babel@toc {bahasa}{}\relax 
+\babel@toc {bahasa}{}\relax 
+\contentsline {chapter}{HALAMAN JUDUL}{i}{Doc-Start}%
+\contentsline {chapter}{ABSTRAK}{iv}{Doc-Start}%
+\contentsline {chapter}{\textit {ABSTRACT}}{v}{Doc-Start}%
+\contentsline {chapter}{DAFTAR ISI}{v}{Doc-Start}%
+\contentsline {chapter}{DAFTAR GAMBAR}{ix}{Doc-Start}%
+\contentsline {chapter}{DAFTAR TABEL}{xi}{Doc-Start}%
+\vskip 10pt
+\contentsline {chapter}{\numberline {I}PENDAHULUAN}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Latar Belakang}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Rumusan Masalah}{2}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Tujuan Penelitian}{3}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Batasan Masalah}{3}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Manfaat Penelitian}{3}{section.1.5}%
+\vskip 10pt
+\contentsline {chapter}{\numberline {II}TINJAUAN PUSTAKA}{5}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Material 2D}{5}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Deskripsi Material 2D}{5}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Sifat Struktural dan Mekanik}{6}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Sifat Elektronik dan Optik}{6}{subsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.1.4}Sifat Termal dan Transportasi}{7}{subsection.2.1.4}%
+\contentsline {subsection}{\numberline {2.1.5}Aplikasi dan Prospek Riset Material 2D}{7}{subsection.2.1.5}%
+\contentsline {section}{\numberline {2.2}hBN}{8}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Struktur Kristal hBN}{8}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Sifat Fisik, Elektronik, Magnetik, dan Termal hBN}{8}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Potensi Aplikasi hBN}{9}{subsection.2.2.3}%
+\contentsline {section}{\numberline {2.3}Studi Terdahulu Terkait hBN}{10}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Tinjauan Eksperimental}{10}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Tinjauan Teoritis dan Komputasional}{10}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Studi tentang Cacat dan Impuritas pada hBN}{11}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}Integrasi Studi Eksperimental dan Komputasional}{11}{subsection.2.3.4}%
+\contentsline {section}{\numberline {2.4}Dinamika Molekuler}{12}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Persamaan Gerak dan Prinsip Dasar}{12}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Medan Gaya dan Potensial Interaksi}{12}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Ensemble dalam Simulasi MD}{13}{subsection.2.4.3}%
+\contentsline {subsection}{\numberline {2.4.4}Algoritma Verlet dan Metode Integrasi Waktu}{14}{subsection.2.4.4}%
+\contentsline {subsection}{\numberline {2.4.5}Pengaturan Temperatur: Thermostat dan Barostat}{14}{subsection.2.4.5}%
+\contentsline {subsection}{\numberline {2.4.6}Implementasi Simulasi dengan LAMMPS}{15}{subsection.2.4.6}%
+\contentsline {subsection}{\numberline {2.4.7}Pendekatan Lanjutan dan Implementasi Praktis MD}{15}{subsection.2.4.7}%
+\contentsline {section}{\numberline {2.5}Density Functional Theory (DFT)}{16}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Persamaan Schrödinger}{16}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}Model Thomas-Fermi}{17}{subsection.2.5.2}%
+\contentsline {subsection}{\numberline {2.5.3}Metode Hartree-Fock}{18}{subsection.2.5.3}%
+\contentsline {subsection}{\numberline {2.5.4}Teorema Hohenberg-Kohn dan Persamaan Kohn-Sham}{18}{subsection.2.5.4}%
+\contentsline {subsection}{\numberline {2.5.5}Fungsional Pertukaran-Korelasi (XC)}{19}{subsection.2.5.5}%
+\contentsline {subsection}{\numberline {2.5.6}Potensial Semu (Pseudopotentials)}{20}{subsection.2.5.6}%
+\contentsline {subsection}{\numberline {2.5.7}Metode PAW (Projector Augmented-Wave)}{20}{subsection.2.5.7}%
+\contentsline {subsection}{\numberline {2.5.8}Quantum Espresso}{21}{subsection.2.5.8}%
+\contentsline {section}{\numberline {2.6}Studi Lanjutan dan Pengembangan Metodologi}{21}{section.2.6}%
+\vskip 10pt
+\contentsline {chapter}{\numberline {III}METODOLOGI}{23}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Diagram Alir Penelitian}{23}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Jenis dan Desain Penelitian}{23}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Rencana Penelitian }{23}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Perangkat Penelitian}{23}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Perangkat Penelitian}{25}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Perangkat Keras}{25}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}Perangkat Lunak}{26}{subsection.3.5.2}%
+\contentsline {section}{\numberline {3.6}Prosedur Penelitian}{26}{section.3.6}%
+\contentsline {subsection}{\numberline {3.6.1}Detail Komputasi}{27}{subsection.3.6.1}%
+\contentsline {subsection}{\numberline {3.6.2}Langkah Kerja}{28}{subsection.3.6.2}%
+\vskip 10pt
+\contentsline {chapter}{\numberline {IV}HASIL DAN PEMBAHASAN}{32}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Tinjauan Kritis Metodologi Komputasi yang Digunakan}{32}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Generasi Struktur melalui Dinamika Molekuler (MD) dengan LAMMPS}{32}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Kalkulasi Sifat Elektronik melalui Teori Fungsional Kerapatan (DFT) dengan Quantum ESPRESSO}{33}{subsection.4.1.2}%
+\contentsline {section}{\numberline {4.2}Analisis Sifat Elektronik dan Magnetik Monolayer hBN Murni}{35}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Karakteristik Elektronik Dasar hBN Murni (Sistem Referensi)}{35}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Pengaruh Perlakuan Termal pada hBN Murni (800K, 1100K, dan 1225K)}{37}{subsection.4.2.2}%
+\contentsline {section}{\numberline {4.3}Dampak Defek Antisite pada Sifat Elektronik dan Magnetik hBN}{41}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Monolayer hBN dengan Defek Antisite N$_B$ ("NN defect")}{41}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Monolayer hBN dengan Defek Antisite B$_N$ ("BB defect")}{44}{subsection.4.3.2}%
+\contentsline {section}{\numberline {4.4}Diskusi Komprehensif dan Implikasi Hasil}{49}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Analisis Perbandingan Celah Pita Energi Antar Sistem}{49}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Asal Usul dan Sifat Magnetisme pada hBN dengan Defek B$_N$}{50}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}Korelasi Modifikasi Struktural (dari MD) dengan Fenomena Elektronik dan Magnetik}{51}{subsection.4.4.3}%
+\contentsline {subsection}{\numberline {4.4.4}Implikasi Temuan untuk Aplikasi Potensial}{52}{subsection.4.4.4}%
+\vskip 10pt
+\contentsline {chapter}{\numberline {V}PENUTUP}{54}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Kesimpulan}{54}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Saran}{55}{section.5.2}%
+\vskip 10pt
+\contentsline {chapter}{DAFTAR PUSTAKA}{57}{Item.24}%
+ \addtolength \cftchapnumwidth {-\mylength } \renewcommand {\cftchappresnum }{LAMPIRAN~} \settowidth \mylength { \bfseries \cftchappresnum \cftchapaftersnum } \addtolength \cftchapnumwidth {\mylength }
+\vskip 10pt
+\vskip 10pt
