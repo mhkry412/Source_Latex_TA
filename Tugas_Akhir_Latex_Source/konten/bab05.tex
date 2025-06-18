@@ -9,15 +9,17 @@
 
 \section{Kesimpulan}
 \label{sec:kesimpulan}
-Penelitian ini menunjukkan bahwa efek termal dan defek titik secara sinergis memodulasi sifat elektronik dan magnetik monolayer hBN.
-Telah terbukti bahwa hBN murni mengalami pergeseran merah (redshift) celah pita yang normal akibat kopling elektron-fonon.
-Sebaliknya, defek antisite N$_B$ menyebabkan pergeseran biru (blueshift) yang anomali, menunjukkan adanya mekanisme fisika yang terlokalisasi di sekitar defek.
-Temuan paling krusial adalah induksi magnetisme $d^0$ oleh defek B$_N$, yang secara tak terduga menguat pada temperatur tinggi.
-Fenomena ini mengindikasikan adanya kopling spin-fonon yang kuat, di mana distorsi kisi termal secara aktif menstabilkan keadaan magnetik.
-Keandalan kuantitatif dari temuan ini, khususnya besaran momen magnetik, bergantung pada akurasi metodologi komputasi yang digunakan.
+Berdasarkan analisis komputasi multi-skala yang telah dilakukan, penelitian ini menghasilkan beberapa kesimpulan fundamental yang secara langsung menjawab rumusan masalah:
+\begin{enumerate}
+    \item Pengaruh temperatur pada monolayer hBN murni termanifestasi sebagai penurunan monoton pada celah pita energi (pergeseran merah), dari 4.415 eV pada 800 K menjadi 4.069 eV pada 1225 K. Fenomena ini merupakan akibat dari interaksi kopling elektron-fonon yang menguat seiring dengan meningkatnya vibrasi kisi.
+
+    \item cacat antisite secara kualitatif mengubah respons termal sistem. cacat N$_B$ menginduksi keadaan terlokalisasi di dalam celah pita dan menyebabkan pergeseran biru (\textit{blueshift}) yang anomali, di mana celah pita efektif melebar dari 0.694 eV menjadi 1.214 eV seiring kenaikan temperatur. Sebaliknya, cacat B$_N$ menunjukkan respons termal yang berbeda secara fundamental dengan menginduksi transisi fasa magnetik.
+
+    \item cacat antisite B$_N$ terbukti mampu menginduksi magnetisme $d^0$ pada monolayer hBN yang intrinsik non-magnetik. Secara krusial, distorsi struktural yang diinduksi oleh temperatur tidak menghancurkan, melainkan menginduksi dan memperkuat momen magnetik. Sistem yang non-magnetik pada 800 K menunjukkan magnetisasi total 1.850 $\mu_B$ pada 1225 K , mengindikasikan adanya mekanisme kopling spin-fonon yang kuat, di mana vibrasi termal menstabilkan keadaan magnetik.Keandalan kuantitatif dari temuan-temuan ini, khususnya besaran momen magnetik, bergantung pada akurasi metodologi komputasi yang digunakan dan memerlukan validasi lebih lanjut.
+\end{enumerate}
 
 \section{Saran}
 \label{sec:saran}
 Untuk penelitian selanjutnya, disarankan untuk memvalidasi temuan ini dengan metode komputasi yang lebih akurat guna meningkatkan keandalan kuantitatif.
-Ini mencakup penggunaan \textbf{potensial antar-atom berbasis machine-learning (MLIPs)} untuk simulasi dinamika molekuler yang lebih realistis dan penerapan \textbf{fungsional hibrid (seperti HSE06) atau metode GW} untuk perhitungan sifat elektronik yang lebih presisi.
-Selain itu, analisis energi pembentukan defek serta penggunaan supercell yang lebih besar sangat direkomendasikan untuk mengkonfirmasi stabilitas termodinamika defek dan menghilangkan potensi interaksi antar citra periodik, sehingga memastikan bahwa sifat-sifat yang teramati bersifat intrinsik dan bukan artefak komputasi.
+Ini mencakup penggunaan potensial antar-atom berbasis \emph{machine-learning} (MLIPs) untuk simulasi dinamika molekuler yang lebih realistis dan penerapan fungsional hibrid (seperti HSE06) atau metode GW untuk perhitungan sifat elektronik yang lebih presisi.
+Selain itu, analisis energi pembentukan cacat serta penggunaan supercell yang lebih besar sangat direkomendasikan untuk mengkonfirmasi stabilitas termodinamika cacat dan menghilangkan potensi interaksi antar citra periodik, sehingga memastikan bahwa sifat-sifat yang teramati bersifat intrinsik dan bukan artefak komputasi.

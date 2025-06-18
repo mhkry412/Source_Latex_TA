@@ -87,9 +87,9 @@
 \contentsline {section}{\numberline {5.1}Kesimpulan}{62}{section.5.1}%
 \contentsline {section}{\numberline {5.2}Saran}{62}{section.5.2}%
 \vskip 10pt
-\contentsline {chapter}{DAFTAR PUSTAKA}{62}{section.5.2}%
+\contentsline {chapter}{DAFTAR PUSTAKA}{63}{section.5.2}%
  \addtolength \cftchapnumwidth {-\mylength } \renewcommand {\cftchappresnum }{LAMPIRAN~} \settowidth \mylength { \bfseries \cftchappresnum \cftchapaftersnum } \addtolength \cftchapnumwidth {\mylength }
 \vskip 10pt
-\contentsline {chapter}{\numberline {A}Lampiran}{69}{appendix.A}%
-\contentsline {section}{\numberline {A.1}Kode dan Keluaran Hasil Simulasi dan Komputasi MD dan DFT }{69}{section.A.1}%
+\contentsline {chapter}{\numberline {A}Lampiran}{70}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Kode dan Keluaran Hasil Simulasi dan Komputasi MD dan DFT }{70}{section.A.1}%
 \vskip 10pt

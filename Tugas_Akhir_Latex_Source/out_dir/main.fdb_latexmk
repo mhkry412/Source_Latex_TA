@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex out_dir/main"] 1750281103.05997 "out_dir/main.aux" "out_dir/main.bbl" "out_dir/main" 1750281138.96878 0
+["bibtex out_dir/main"] 1750281512.92101 "out_dir/main.aux" "out_dir/main.bbl" "out_dir/main" 1750281672.37414 0
   "./pustaka.bib" 1750280315 38206 a821ee052ffb3836c54cc186da518e18 ""
   "C:/Users/HANDAR/AppData/Local/Programs/MiKTeX/bibtex/bst/natbib/plainnat.bst" 1284455456 26816 ffe5423d2019860bad9f54bc402fac15 ""
-  "out_dir/main.aux" 1750281137 47428 028c4b8b96e0e8dddd20317cac4d5f8e "lualatex"
+  "out_dir/main.aux" 1750281670 47428 87d2229c4e02809ed49a4b4d4882d710 "lualatex"
   (generated)
   "out_dir/main.bbl"
   "out_dir/main.blg"
   (rewritten before read)
-["lualatex"] 1750281103.48043 "c:/Users/HANDAR/Documents/DFT_MD/Dokumen_Kerja/Source_Latex_TA#/Tugas_Akhir_Latex_Source/main.tex" "out_dir/main.pdf" "main" 1750281138.9696 0
+["lualatex"] 1750281641.12997 "c:/Users/HANDAR/Documents/DFT_MD/Dokumen_Kerja/Source_Latex_TA#/Tugas_Akhir_Latex_Source/main.tex" "out_dir/main.pdf" "main" 1750281672.37492 0
   "C:/Users/HANDAR/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1750243363 138015 59d065424a851e22c1ae4c8fcdad4626 ""
   "C:/Users/HANDAR/AppData/Local/MiKTeX/luatex-cache/generic/fonts/otl/inconsolata-variablefont-wdth-wght.luc" 1749739928 143384 b36a999f549d1c5f195db8050e817c13 ""
   "C:/Users/HANDAR/AppData/Local/MiKTeX/luatex-cache/generic/fonts/otl/lmroman12-regular.luc" 1749739870 127681 680ed51b8826882998aba89dadc70e88 ""
@@ -424,14 +424,14 @@
   "konten/bab02.tex" 1750281062 54704 a42e025d8a78dad3d2d59c531db5f4e7 ""
   "konten/bab03.tex" 1750280943 10077 bf77089771399e683390936a6d04a2be ""
   "konten/bab04.tex" 1750280311 53360 e64fb66f84230e512c63dd7546482c05 ""
-  "konten/bab05.tex" 1750280325 2009 75de314a2898681e2fc648791ac70bd3 ""
+  "konten/bab05.tex" 1750281635 2787 ebe88173d6a64ce1e6e1f1d748c22dbf ""
   "main.tex" 1750257680 4031 c2211f53892b2b6a7fc81962741d8b21 ""
-  "out_dir/main.aux" 1750281137 47428 028c4b8b96e0e8dddd20317cac4d5f8e "lualatex"
-  "out_dir/main.bbl" 1750281103 22663 3d55cc3e47a808fb05b6a291b8c81d4c "bibtex out_dir/main"
-  "out_dir/main.lof" 1750281137 7245 7f40f4ba6ecd29abc0085c93e953b12d "lualatex"
-  "out_dir/main.lot" 1750281137 864 5998117f987c1d9d7670f872d84f2f7c "lualatex"
-  "out_dir/main.out" 1750281137 17161 aacde286d233ac0ba86f775062b5c046 "lualatex"
-  "out_dir/main.toc" 1750281137 8375 6394f9e777b34c0657cabb32d199f465 "lualatex"
+  "out_dir/main.aux" 1750281670 47428 87d2229c4e02809ed49a4b4d4882d710 "lualatex"
+  "out_dir/main.bbl" 1750281513 22663 3d55cc3e47a808fb05b6a291b8c81d4c "bibtex out_dir/main"
+  "out_dir/main.lof" 1750281670 7245 7f40f4ba6ecd29abc0085c93e953b12d "lualatex"
+  "out_dir/main.lot" 1750281670 864 5998117f987c1d9d7670f872d84f2f7c "lualatex"
+  "out_dir/main.out" 1750281670 17161 aacde286d233ac0ba86f775062b5c046 "lualatex"
+  "out_dir/main.toc" 1750281670 8375 3b7a42f6b4f8ff94000183bb7a6a6a46 "lualatex"
   "pengaturan.tex" 1750280814 11368 6d901b5130908397096c46c6081f9619 ""
   (generated)
   "out_dir/main.aux"
