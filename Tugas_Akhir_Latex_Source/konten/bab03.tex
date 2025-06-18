@@ -28,11 +28,31 @@ Perangkat lunak yang digunakan dalam penelitian ini meliputi:
     \item \textbf{Python (NumPy, Matplotlib):} Digunakan untuk analisis data dan pembuatan plot hasil komputasi.
 \end{itemize}
 
-\begin{figure}
+\begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\linewidth]{gambar_hasil/structures_all.png}
-    \caption{Model hBN 4x4x1 dengan a) struktur hBN murni b) struktur hBN dengan cacat N-N c) struktur hBN dengan cacat B-B}
-    \label{Struktur hBN 4x4x1}
+
+    \begin{subfigure}{0.8\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{gambar_hasil/pure_hBN_4x4x1.png}
+        \caption{Struktur hBN murni}
+    \end{subfigure}
+    \vspace{0.5cm} % jarak antar gambar
+
+    \begin{subfigure}{0.8\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{gambar_hasil/NN_defect_hBN_center_4x4x1.png}
+        \caption{Struktur hBN dengan cacat N-N}
+    \end{subfigure}
+    \vspace{0.5cm}
+
+    \begin{subfigure}{0.8\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{gambar_hasil/BB_defect_hBN_center_4x4x1.png}
+        \caption{Struktur hBN dengan cacat B-B}
+    \end{subfigure}
+
+    \caption{Model hBN 4$\times$4$\times$1 dengan berbagai konfigurasi cacat}
+    \label{fig:struktur_hBN_4x4x1}
 \end{figure}
 
 \section{Prosedur Penelitian}
@@ -47,18 +67,18 @@ Tiga jenis sistem dimodelkan menggunakan supercell monolayer hBN berukuran $4 \t
     \item \textbf{hBN dengan Defek N$_B$:} Satu atom Boron digantikan oleh satu atom Nitrogen.
     \item \textbf{hBN dengan Defek B$_N$:} Satu atom Nitrogen digantikan oleh satu atom Boron.
 \end{enumerate}
-Visualisasi model-model ini dapat dilihat pada Gambar \ref{Struktur_hBN_4x4x1_revisi}.
+Visualisasi model-model ini dapat dilihat pada Gambar \ref{fig:struktur_hBN_4x4x1}.
 
 \begin{figure}
     \centering
-    \includegraphics[width=0.35\linewidth]{gambar/MD.drawio.png}
+    \includegraphics[width=0.8\linewidth]{gambar/MD.drawio.png}
     \caption{Alur Komputasi MD}
     \label{Diagram Alir MD}
 \end{figure}
 
 \begin{figure}
     \centering
-    \includegraphics[width=0.5\linewidth]{gambar/DFT.drawio.png}
+    \includegraphics[width=0.8\linewidth]{gambar/DFT.drawio.png}
     \caption{Alur Komputasi DFT }
     \label{Diagram Alir DFT}
 \end{figure}
@@ -79,8 +99,8 @@ Simulasi MD dilakukan menggunakan perangkat lunak LAMMPS.
     \item \textbf{Potensial Interatomik:} Interaksi antar atom dimodelkan menggunakan potensial ReaxFF yang diparameterisasi oleh Lele et al. \citep{Lele2022}. Perlu dicatat bahwa potensial ini secara spesifik dikembangkan untuk memodelkan sintesis fasa gas dan mekanisme reaksi. Penggunaannya untuk mensimulasikan dinamika termal fasa padat, seperti dalam penelitian ini, membawa asumsi bahwa potensial ini cukup akurat dalam mendeskripsikan vibrasi kisi dan relaksasi struktural. Validitas asumsi ini akan dievaluasi secara kritis pada Bab IV.
     \item \textbf{Prosedur Simulasi:}
     \begin{enumerate}
-        \item \textbf{Relaksasi Awal:} Setiap struktur awal direlaksasi energinya pada 0K untuk meminimalkan gaya-gaya internal.
-        \item \textbf{Ekuiilibrasi Termal:} Sistem kemudian dipanaskan dan disetimbangkan pada tiga temperatur target—800K, 1100K, dan 1225K—menggunakan ensemble kanonik (NVT) dengan thermostat Nosé-Hoover. Langkah waktu integrasi yang digunakan adalah 0.25 fs.
+        \item \textbf{Relaksasi Awal:} Setiap struktur awal direlaksasi energinya pada 0 K untuk meminimalkan gaya-gaya internal.
+        \item \textbf{Kesetimbangan Termal:} Sistem kemudian dipanaskan dan disetimbangkan pada tiga temperatur target—800K, 1100K, dan 1225K—menggunakan ensemble kanonik (NVT) dengan thermostat Nosé-Hoover. Langkah waktu integrasi yang digunakan adalah 0.25 fs.
         \item \textbf{Ekstraksi Struktur:} Setelah sistem mencapai kesetimbangan termal pada setiap temperatur target, satu potret (snapshot) konfigurasi atomik (koordinat) diekstraksi dari lintasan MD. Struktur statis inilah yang menjadi input untuk tahap perhitungan DFT selanjutnya.
     \end{enumerate}
 \end{itemize}
@@ -106,7 +126,7 @@ Perhitungan DFT dilakukan menggunakan paket perangkat lunak Quantum ESPRESSO.
 Untuk setiap struktur yang diperoleh dari MD, serangkaian perhitungan DFT dilakukan sebagai berikut:
 \begin{enumerate}
     \item \textbf{Perhitungan SCF (\textit{Self-Consistent Field}):} Dilakukan untuk mendapatkan kerapatan muatan dan energi total keadaan dasar dari sistem pada geometri atomik yang tetap (diperoleh dari MD).
-    \item \textbf{Perhitungan NSCF (\textit{Non-Self-Consistent Field}):} Dilakukan menggunakan kerapatan muatan yang telah konvergen dari langkah SCF. Perhitungan ini menggunakan jejaring k-point yang lebih padat atau di sepanjang jalur simetri tinggi (misalnya, $\Gamma$-M-K-$\Gamma$) untuk menghitung nilai eigen secara akurat.
+    \item \textbf{Perhitungan NSCF (\textit{Non-Self-Consistent Field}):} Dilakukan menggunakan kerapatan muatan yang telah konvergen dari langkah SCF. Perhitungan ini menggunakan jejaring k-point yang lebih padat atau di sepanjang jalur simetri tinggi (misalnya, $\Gamma$-M-K-$\Gamma$) untuk menghitung nilai Eigen secara akurat.
     \item \textbf{Pasca-pemrosesan:} Data dari perhitungan NSCF diproses lebih lanjut untuk menghasilkan:
     \begin{itemize}
         \item Struktur Pita Elektronik (\textit{Band Structure})

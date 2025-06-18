@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.22.0 (MiKTeX 25.4) (format=lualatex 2025.6.14)  18 JUN 2025 01:42
+This is LuaHBTeX, Version 1.22.0 (MiKTeX 25.4) (format=lualatex 2025.6.14)  18 JUN 2025 13:05
  restricted system commands enabled.
  file:line:error style messages enabled.
 **c:/Users/HANDAR/Documents/DFT_MD/Dokumen_Kerja/Source_Latex_TA#/Tugas_Akhir_L
@@ -1851,7 +1851,7 @@ Overfull \hbox (32.69656pt too wide) in paragraph at lines 51--65
 [8]
 
 [9]
-<gambar/hBN_structure_brillouinzone.png, id=681, 853.1875pt x 388.45125pt>
+<gambar/hBN_structure_brillouinzone.png, id=689, 853.1875pt x 388.45125pt>
 File: gambar/hBN_structure_brillouinzone.png Graphic file (type png)
 <use gambar/hBN_structure_brillouinzone.png>
 Package luatex.def Info: gambar/hBN_structure_brillouinzone.png  used on input 
@@ -1870,20 +1870,20 @@ line 155.
 [14]
 
 [15]
-<gambar/NVE.png, id=782, 316.18124pt x 265.99374pt>
+<gambar/NVE.png, id=791, 316.18124pt x 265.99374pt>
 File: gambar/NVE.png Graphic file (type png)
 <use gambar/NVE.png>
-Package luatex.def Info: gambar/NVE.png  used on input line 322.
+Package luatex.def Info: gambar/NVE.png  used on input line 323.
 (luatex.def)             Requested size: 204.85846pt x 172.34189pt.
-<gambar/NVT.png, id=783, 420.57124pt x 357.335pt>
+<gambar/NVT.png, id=792, 420.57124pt x 357.335pt>
 File: gambar/NVT.png Graphic file (type png)
 <use gambar/NVT.png>
-Package luatex.def Info: gambar/NVT.png  used on input line 332.
+Package luatex.def Info: gambar/NVT.png  used on input line 333.
 (luatex.def)             Requested size: 204.85846pt x 174.05424pt.
-<gambar/NPT.png, id=784, 1104.125pt x 363.3575pt>
+<gambar/NPT.png, id=793, 1104.125pt x 363.3575pt>
 File: gambar/NPT.png Graphic file (type png)
 <use gambar/NPT.png>
-Package luatex.def Info: gambar/NPT.png  used on input line 342.
+Package luatex.def Info: gambar/NPT.png  used on input line 343.
 (luatex.def)             Requested size: 341.43307pt x 112.36243pt.
 
 
@@ -1900,80 +1900,109 @@ Package luatex.def Info: gambar/NPT.png  used on input line 342.
 [21]
 
 [22]
+<gambar/jacob_ladder.png, id=882, 752.8125pt x 737.75626pt>
+File: gambar/jacob_ladder.png Graphic file (type png)
+<use gambar/jacob_ladder.png>
+Package luatex.def Info: gambar/jacob_ladder.png  used on input line 516.
+(luatex.def)             Requested size: 409.71692pt x 401.53447pt.
+
 
 [23]
-<gambar/pseudopotential.png, id=887, 1540.75626pt x 662.475pt>
+
+[24<./gambar/jacob_ladder.png>]
+<gambar/pseudopotential.png, id=905, 1540.75626pt x 662.475pt>
 File: gambar/pseudopotential.png Graphic file (type png)
 <use gambar/pseudopotential.png>
-Package luatex.def Info: gambar/pseudopotential.png  used on input line 527.
+Package luatex.def Info: gambar/pseudopotential.png  used on input line 536.
 (luatex.def)             Requested size: 409.71692pt x 176.16154pt.
 
 
-[24<./gambar/pseudopotential.png>]
+[25<./gambar/pseudopotential.png>]
 
-[25]
-
-Package natbib Warning: Citation `ando_dynamical_2002' on page 26 undefined on 
-input line 569.
+Package natbib Warning: Citation `Ando2002' on page 26 undefined on input line 
+578.
 
 ) (./konten/bab03.tex
 
 [26]
 
 [27]
+
+[28]
 Bab III.
 
 
-[28
+[29
 
 ]
-<gambar_hasil/structures_all.png, id=973, 845.0772pt x 597.432pt>
-File: gambar_hasil/structures_all.png Graphic file (type png)
-<use gambar_hasil/structures_all.png>
-Package luatex.def Info: gambar_hasil/structures_all.png  used on input line 33
+<gambar_hasil/pure_hBN_4x4x1.png, id=990, 1437.37pt x 783.92876pt>
+File: gambar_hasil/pure_hBN_4x4x1.png Graphic file (type png)
+<use gambar_hasil/pure_hBN_4x4x1.png>
+Package luatex.def Info: gambar_hasil/pure_hBN_4x4x1.png  used on input line 36
 .
-(luatex.def)             Requested size: 364.19667pt x 257.47418pt.
+(luatex.def)             Requested size: 364.19667pt x 198.62526pt.
+<gambar_hasil/NN_defect_hBN_center_4x4x1.png, id=991, 1437.37pt x 783.92876pt>
+File: gambar_hasil/NN_defect_hBN_center_4x4x1.png Graphic file (type png)
+<use gambar_hasil/NN_defect_hBN_center_4x4x1.png>
+Package luatex.def Info: gambar_hasil/NN_defect_hBN_center_4x4x1.png  used on i
+nput line 43.
+(luatex.def)             Requested size: 364.19667pt x 198.62526pt.
+<gambar_hasil/BB_defect_hBN_center_4x4x1.png, id=992, 1437.37pt x 783.92876pt>
+File: gambar_hasil/BB_defect_hBN_center_4x4x1.png Graphic file (type png)
+<use gambar_hasil/BB_defect_hBN_center_4x4x1.png>
+Package luatex.def Info: gambar_hasil/BB_defect_hBN_center_4x4x1.png  used on i
+nput line 50.
+(luatex.def)             Requested size: 364.19667pt x 198.62526pt.
 
 
-LaTeX Warning: Reference `Struktur_hBN_4x4x1_revisi' on page 29 undefined on in
-put line 50.
+[30]
+Overfull \vbox (21.07176pt too high) has occurred while \output is active []
 
-<gambar/MD.drawio.png, id=974, 316.18124pt x 1035.87pt>
+
+
+[31<./gambar_hasil/pure_hBN_4x4x1.png><./gambar_hasil/NN_defect_hBN_center_4x4x1
+.png><./gambar_hasil/BB_defect_hBN_center_4x4x1.png>]
+<gambar/MD.drawio.png, id=1005, 316.18124pt x 1035.87pt>
 File: gambar/MD.drawio.png Graphic file (type png)
 <use gambar/MD.drawio.png>
-Package luatex.def Info: gambar/MD.drawio.png  used on input line 54.
-(luatex.def)             Requested size: 159.33821pt x 522.0275pt.
-<gambar/DFT.drawio.png, id=975, 421.575pt x 1025.8325pt>
+Package luatex.def Info: gambar/MD.drawio.png  used on input line 74.
+(luatex.def)             Requested size: 364.19667pt x 1193.26443pt.
+
+
+LaTeX Warning: Float too large for page by 529.20772pt on input line 77.
+
+<gambar/DFT.drawio.png, id=1006, 421.575pt x 1025.8325pt>
 File: gambar/DFT.drawio.png Graphic file (type png)
 <use gambar/DFT.drawio.png>
-Package luatex.def Info: gambar/DFT.drawio.png  used on input line 61.
-(luatex.def)             Requested size: 227.62206pt x 553.89435pt.
-<gambar/Diagram_reaxff.png, id=976, 935.495pt x 553.06625pt>
+Package luatex.def Info: gambar/DFT.drawio.png  used on input line 81.
+(luatex.def)             Requested size: 364.19667pt x 886.22159pt.
+
+LaTeX Warning: Float too large for page by 222.16487pt on input line 84.
+
+<gambar/Diagram_reaxff.png, id=1007, 935.495pt x 553.06625pt>
 File: gambar/Diagram_reaxff.png Graphic file (type png)
 <use gambar/Diagram_reaxff.png>
-Package luatex.def Info: gambar/Diagram_reaxff.png  used on input line 72.
+Package luatex.def Info: gambar/Diagram_reaxff.png  used on input line 92.
 (luatex.def)             Requested size: 409.71692pt x 242.2275pt.
 
 
-[29<./gambar_hasil/structures_all.png>]
+[32]
 
-[30<./gambar/MD.drawio.png>]
+[33<./gambar/MD.drawio.png>]
 
-[31<./gambar/DFT.drawio.png>]
+[34<./gambar/DFT.drawio.png>]
 
-[32<./gambar/Diagram_reaxff.png>]
+[35<./gambar/Diagram_reaxff.png>]) (./konten/bab04.tex
 
-[33]) (./konten/bab04.tex
-
-[34]
+[36]
 Bab IV.
 
 
-[35
+[37
 
 ]
 
-Package natbib Warning: Citation `Weismiller2010' on page 36 undefined on input
+Package natbib Warning: Citation `Weismiller2010' on page 38 undefined on input
  line 35.
 
 LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
@@ -2025,63 +2054,63 @@ Overfull \hbox (14.46582pt too wide) in paragraph at lines 31--47
 
 
 
-[36]
+[38]
 
-Package natbib Warning: Citation `Wen2014' on page 37 undefined on input line 5
+Package natbib Warning: Citation `Wen2014' on page 39 undefined on input line 5
 2.
 
 
-Package natbib Warning: Citation `Yoon2011' on page 37 undefined on input line 
+Package natbib Warning: Citation `Yoon2011' on page 39 undefined on input line 
 52.
-
-
-
-[37]
-
-Package natbib Warning: Citation `Perdew1981' on page 38 undefined on input lin
-e 71.
-
-
-Package natbib Warning: Citation `MoriSanchez2008' on page 38 undefined on inpu
-t line 71.
-
-
-Package natbib Warning: Citation `Cohen2008' on page 38 undefined on input line
- 71.
-
-
-
-[38]
-
-Package natbib Warning: Citation `MoriSanchez2008' on page 39 undefined on inpu
-t line 73.
-
-
-Package natbib Warning: Citation `Cohen2012' on page 39 undefined on input line
- 73.
-
-
-Package natbib Warning: Citation `Krukau2006' on page 39 undefined on input lin
-e 75.
 
 
 
 [39]
 
-Package natbib Warning: Citation `Shishkin2007' on page 40 undefined on input l
-ine 87.
+Package natbib Warning: Citation `Perdew1981' on page 40 undefined on input lin
+e 71.
+
+
+Package natbib Warning: Citation `MoriSanchez2008' on page 40 undefined on inpu
+t line 71.
+
+
+Package natbib Warning: Citation `Cohen2008' on page 40 undefined on input line
+ 71.
 
 
 
 [40]
-<gambar_hasil/simple_bands_pdos_pristine.png, id=1159, 778.3479pt x 422.2977pt>
+
+Package natbib Warning: Citation `MoriSanchez2008' on page 41 undefined on inpu
+t line 73.
+
+
+Package natbib Warning: Citation `Cohen2012' on page 41 undefined on input line
+ 73.
+
+
+Package natbib Warning: Citation `Krukau2006' on page 41 undefined on input lin
+e 75.
+
+
+
+[41]
+
+Package natbib Warning: Citation `Shishkin2007' on page 42 undefined on input l
+ine 87.
+
+
+
+[42]
+<gambar_hasil/simple_bands_pdos_pristine.png, id=1186, 778.3479pt x 422.2977pt>
 
 File: gambar_hasil/simple_bands_pdos_pristine.png Graphic file (type png)
 <use gambar_hasil/simple_bands_pdos_pristine.png>
 Package luatex.def Info: gambar_hasil/simple_bands_pdos_pristine.png  used on i
 nput line 100.
 (luatex.def)             Requested size: 409.71692pt x 222.28954pt.
-<gambar_hasil/hBN_rho_3d_pristine.png, id=1160, 1078.0275pt x 587.94656pt>
+<gambar_hasil/hBN_rho_3d_pristine.png, id=1187, 1078.0275pt x 587.94656pt>
 File: gambar_hasil/hBN_rho_3d_pristine.png Graphic file (type png)
 <use gambar_hasil/hBN_rho_3d_pristine.png>
 Package luatex.def Info: gambar_hasil/hBN_rho_3d_pristine.png  used on input li
@@ -2091,7 +2120,7 @@ ne 107.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<gambar_hasil/hBN_rho_pristine.png, id=1161, 1184.17406pt x 725.71124pt>
+<gambar_hasil/hBN_rho_pristine.png, id=1188, 1184.17406pt x 725.71124pt>
 File: gambar_hasil/hBN_rho_pristine.png Graphic file (type png)
 <use gambar_hasil/hBN_rho_pristine.png>
 Package luatex.def Info: gambar_hasil/hBN_rho_pristine.png  used on input line 
@@ -2102,15 +2131,15 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 
-[41<./gambar_hasil/simple_bands_pdos_pristine.png>]
+[43<./gambar_hasil/simple_bands_pdos_pristine.png>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 
-[42<./gambar_hasil/hBN_rho_3d_pristine.png><./gambar_hasil/hBN_rho_pristine.png>
+[44<./gambar_hasil/hBN_rho_3d_pristine.png><./gambar_hasil/hBN_rho_pristine.png>
 ]
-<gambar_hasil/simple_bands_pdos_pure_800K.png, id=1189, 867.24pt x 433.62pt>
+<gambar_hasil/simple_bands_pdos_pure_800K.png, id=1216, 867.24pt x 433.62pt>
 File: gambar_hasil/simple_bands_pdos_pure_800K.png Graphic file (type png)
 <use gambar_hasil/simple_bands_pdos_pure_800K.png>
 Package luatex.def Info: gambar_hasil/simple_bands_pdos_pure_800K.png  used on 
@@ -2120,7 +2149,7 @@ input line 170.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<gambar_hasil/simple_bands_pdos_pure_1100K.png, id=1190, 867.24pt x 433.62pt>
+<gambar_hasil/simple_bands_pdos_pure_1100K.png, id=1217, 867.24pt x 433.62pt>
 File: gambar_hasil/simple_bands_pdos_pure_1100K.png Graphic file (type png)
 <use gambar_hasil/simple_bands_pdos_pure_1100K.png>
 Package luatex.def Info: gambar_hasil/simple_bands_pdos_pure_1100K.png  used on
@@ -2129,7 +2158,7 @@ Package luatex.def Info: gambar_hasil/simple_bands_pdos_pure_1100K.png  used on
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<gambar_hasil/simple_bands_pdos_pure_1225K.png, id=1191, 867.24pt x 433.62pt>
+<gambar_hasil/simple_bands_pdos_pure_1225K.png, id=1218, 867.24pt x 433.62pt>
 File: gambar_hasil/simple_bands_pdos_pure_1225K.png Graphic file (type png)
 <use gambar_hasil/simple_bands_pdos_pure_1225K.png>
 Package luatex.def Info: gambar_hasil/simple_bands_pdos_pure_1225K.png  used on
@@ -2140,14 +2169,14 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 
-[43]
+[45]
 
-[44<./gambar_hasil/simple_bands_pdos_pure_800K.png><./gambar_hasil/simple_bands_
+[46<./gambar_hasil/simple_bands_pdos_pure_800K.png><./gambar_hasil/simple_bands_
 pdos_pure_1100K.png>]
 
-[45<./gambar_hasil/simple_bands_pdos_pure_1225K.png>]
+[47<./gambar_hasil/simple_bands_pdos_pure_1225K.png>]
 
-[46]
+[48]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 231.
@@ -2160,17 +2189,13 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 231.
 
-
-LaTeX Warning: Reference `fig:hbn_NN_1225K_2D_plots' on page 47 undefined on in
-put line 233.
-
-<gambar_hasil/simple_bands_pdos_NN_800K.png, id=1245, 867.24pt x 433.62pt>
+<gambar_hasil/simple_bands_pdos_NN_800K.png, id=1274, 867.24pt x 433.62pt>
 File: gambar_hasil/simple_bands_pdos_NN_800K.png Graphic file (type png)
 <use gambar_hasil/simple_bands_pdos_NN_800K.png>
 Package luatex.def Info: gambar_hasil/simple_bands_pdos_NN_800K.png  used on in
 put line 253.
 (luatex.def)             Requested size: 409.71692pt x 204.86006pt.
-<gambar_hasil/simple_bands_pdos_NN_1100K.png, id=1246, 867.24pt x 433.62pt>
+<gambar_hasil/simple_bands_pdos_NN_1100K.png, id=1275, 867.24pt x 433.62pt>
 File: gambar_hasil/simple_bands_pdos_NN_1100K.png Graphic file (type png)
 <use gambar_hasil/simple_bands_pdos_NN_1100K.png>
 Package luatex.def Info: gambar_hasil/simple_bands_pdos_NN_1100K.png  used on i
@@ -2179,7 +2204,7 @@ nput line 259.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<gambar_hasil/simple_bands_pdos_NN_1225K.png, id=1247, 867.24pt x 433.62pt>
+<gambar_hasil/simple_bands_pdos_NN_1225K.png, id=1276, 867.24pt x 433.62pt>
 File: gambar_hasil/simple_bands_pdos_NN_1225K.png Graphic file (type png)
 <use gambar_hasil/simple_bands_pdos_NN_1225K.png>
 Package luatex.def Info: gambar_hasil/simple_bands_pdos_NN_1225K.png  used on i
@@ -2188,7 +2213,7 @@ nput line 265.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<gambar_hasil/hBN_rho_3D_NN_1225K.png, id=1248, 1078.0275pt x 587.94656pt>
+<gambar_hasil/hBN_rho_3D_NN_1225K.png, id=1277, 1078.0275pt x 587.94656pt>
 File: gambar_hasil/hBN_rho_3D_NN_1225K.png Graphic file (type png)
 <use gambar_hasil/hBN_rho_3D_NN_1225K.png>
 Package luatex.def Info: gambar_hasil/hBN_rho_3D_NN_1225K.png  used on input li
@@ -2197,13 +2222,13 @@ ne 271.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<gambar_hasil/hBN_rho_NN_1225K.png, id=1249, 1184.17406pt x 725.71124pt>
+<gambar_hasil/hBN_rho_NN_1225K.png, id=1278, 1184.17406pt x 725.71124pt>
 File: gambar_hasil/hBN_rho_NN_1225K.png Graphic file (type png)
 <use gambar_hasil/hBN_rho_NN_1225K.png>
 Package luatex.def Info: gambar_hasil/hBN_rho_NN_1225K.png  used on input line 
 281.
 (luatex.def)             Requested size: 204.84845pt x 125.53967pt.
-<gambar_hasil/hBN_spin_NN_1225K.png, id=1250, 1077.90704pt x 587.91644pt>
+<gambar_hasil/hBN_spin_NN_1225K.png, id=1279, 1077.90704pt x 587.91644pt>
 File: gambar_hasil/hBN_spin_NN_1225K.png Graphic file (type png)
 <use gambar_hasil/hBN_spin_NN_1225K.png>
 Package luatex.def Info: gambar_hasil/hBN_spin_NN_1225K.png  used on input line
@@ -2214,9 +2239,9 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 
-[47<./gambar_hasil/simple_bands_pdos_NN_800K.png>]
+[49<./gambar_hasil/simple_bands_pdos_NN_800K.png>]
 
-[48<./gambar_hasil/simple_bands_pdos_NN_1100K.png><./gambar_hasil/simple_bands_p
+[50<./gambar_hasil/simple_bands_pdos_NN_1100K.png><./gambar_hasil/simple_bands_p
 dos_NN_1225K.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
@@ -2231,13 +2256,13 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 305.
 
 
-LaTeX Warning: Reference `fig:hbn_BB_1225K_2D_plots' on page 49 undefined on in
+LaTeX Warning: Reference `fig:hbn_BB_1225K_2D_plots' on page 51 undefined on in
 put line 307.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<gambar_hasil/simple_bands_pdos_BB_800K.png, id=1275, 867.24pt x 433.62pt>
+<gambar_hasil/simple_bands_pdos_BB_800K.png, id=1303, 867.24pt x 433.62pt>
 File: gambar_hasil/simple_bands_pdos_BB_800K.png Graphic file (type png)
 <use gambar_hasil/simple_bands_pdos_BB_800K.png>
 Package luatex.def Info: gambar_hasil/simple_bands_pdos_BB_800K.png  used on in
@@ -2246,7 +2271,7 @@ put line 329.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<gambar_hasil/simple_bands_pdos_BB_1100K.png, id=1276, 867.24pt x 433.62pt>
+<gambar_hasil/simple_bands_pdos_BB_1100K.png, id=1304, 867.24pt x 433.62pt>
 File: gambar_hasil/simple_bands_pdos_BB_1100K.png Graphic file (type png)
 <use gambar_hasil/simple_bands_pdos_BB_1100K.png>
 Package luatex.def Info: gambar_hasil/simple_bands_pdos_BB_1100K.png  used on i
@@ -2255,7 +2280,7 @@ nput line 335.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<gambar_hasil/simple_bands_pdos_BB_1225K.png, id=1277, 867.24pt x 433.62pt>
+<gambar_hasil/simple_bands_pdos_BB_1225K.png, id=1305, 867.24pt x 433.62pt>
 File: gambar_hasil/simple_bands_pdos_BB_1225K.png Graphic file (type png)
 <use gambar_hasil/simple_bands_pdos_BB_1225K.png>
 Package luatex.def Info: gambar_hasil/simple_bands_pdos_BB_1225K.png  used on i
@@ -2264,7 +2289,7 @@ nput line 341.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<gambar_hasil/hBN_spin_BB_1225K.png, id=1278, 1077.90704pt x 587.91644pt>
+<gambar_hasil/hBN_spin_BB_1225K.png, id=1306, 1077.90704pt x 587.91644pt>
 File: gambar_hasil/hBN_spin_BB_1225K.png Graphic file (type png)
 <use gambar_hasil/hBN_spin_BB_1225K.png>
 Package luatex.def Info: gambar_hasil/hBN_spin_BB_1225K.png  used on input line
@@ -2275,21 +2300,21 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 
-[49<./gambar_hasil/hBN_rho_3D_NN_1225K.png><./gambar_hasil/hBN_rho_NN_1225K.png>
+[51<./gambar_hasil/hBN_rho_3D_NN_1225K.png><./gambar_hasil/hBN_rho_NN_1225K.png>
 <./gambar_hasil/hBN_spin_NN_1225K.png>]
 
-[50<./gambar_hasil/simple_bands_pdos_BB_800K.png><./gambar_hasil/simple_bands_pd
+[52<./gambar_hasil/simple_bands_pdos_BB_800K.png><./gambar_hasil/simple_bands_pd
 os_BB_1100K.png>]
 
-LaTeX Warning: Reference `fig:hbn_BB_1225K_spindensity_2D' on page 51 undefined
+LaTeX Warning: Reference `fig:hbn_BB_1225K_spindensity_2D' on page 53 undefined
  on input line 355.
 
 
 
-[51<./gambar_hasil/simple_bands_pdos_BB_1225K.png><./gambar_hasil/hBN_spin_BB_12
+[53<./gambar_hasil/simple_bands_pdos_BB_1225K.png><./gambar_hasil/hBN_spin_BB_12
 25K.png>]
 
-[52]
+[54]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 378.
@@ -2304,40 +2329,40 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 
 
-[53]
+[55]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 ) (./konten/bab05.tex
 
-[54]
+[56]
 
-[55]
+[57]
 Bab V.
 )
 (c:/Users/HANDAR/Documents/DFT_MD/Dokumen_Kerja/Source_Latex_TA#/Tugas_Akhir_La
 tex_Source/out_dir/main.bbl
 
-[56
+[58
 
 ]
 
-[57
+[59
 
 ]
-
-[58]
-
-[59]
 
 [60]
 
 [61]
 
-[62]) (./halaman-belakang/biografi.tex
+[62]
 
 [63]
-<./gambar/Pas Foto Handar Ori.JPG, id=1380, 1284.8pt x 1927.2pt>
+
+[64]) (./halaman-belakang/biografi.tex
+
+[65]
+<./gambar/Pas Foto Handar Ori.JPG, id=1408, 1284.8pt x 1927.2pt>
 File: ./gambar/Pas Foto Handar Ori.JPG Graphic file (type jpg)
 <use ./gambar/Pas Foto Handar Ori.JPG>
 Package luatex.def Info: ./gambar/Pas Foto Handar Ori.JPG  used on input line 1
@@ -2345,7 +2370,7 @@ Package luatex.def Info: ./gambar/Pas Foto Handar Ori.JPG  used on input line 1
 (luatex.def)             Requested size: 136.57462pt x 204.84683pt.
 )
 
-[64
+[66
 
 <./gambar/Pas Foto Handar Ori.JPG>]
 
@@ -2366,18 +2391,18 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 98487A1F9EF9C8D8B3F5934E9673FEFC;17748.
+(rerunfilecheck)             Checksum: E19A4C99A8B097261337ACB433F12DF9;17617.
 )
 
 Here is how much of LuaTeX's memory you used:
- 37110 strings out of 470209
- 100000,1373583 words of node,token memory allocated
- 1833 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 218 attribute, 142 glue_sp
-ec, 110 attribute_list, 3 write, 42 pdf_action nodes
-   avail lists: 2:1615,3:397,4:56,5:368,6:84,7:9265,8:88,9:719,10:24,11:1500
- 63783 multiletter control sequences out of 65536+600000
- 230 fonts using 33026999 bytes
+ 37156 strings out of 470209
+ 125007,1373583 words of node,token memory allocated
+ 1875 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 226 attribute, 142 glue_sp
+ec, 114 attribute_list, 3 write, 45 pdf_action nodes
+   avail lists: 2:1615,3:397,4:63,5:370,6:81,7:10837,8:88,9:719,10:24,11:1738
+ 63814 multiletter control sequences out of 65536+600000
+ 232 fonts using 34189639 bytes
  107i,18n,108p,1380b,624s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/HANDAR/AppData/Local/Microsoft/Windows/Fonts/inconsolata-variablefont_
 wdth,wght.ttf><C:/WINDOWS/Fonts/timesi.ttf>{C:/Users/HANDAR/AppData/Local/Progra
@@ -2391,9 +2416,9 @@ X/fonts/type1/public/lm/lmr9.pfb><C:/Users/HANDAR/AppData/Local/Programs/MiKTeX/
 fonts/type1/public/newtx/txexs.pfb><C:/Users/HANDAR/AppData/Local/Programs/MiKTe
 X/fonts/type1/public/newtx/txmiaX.pfb><C:/Users/HANDAR/AppData/Local/Programs/Mi
 KTeX/fonts/type1/public/newtx/txsys.pfb>
-Output written on main.pdf (78 pages, 14494837 bytes).
+Output written on main.pdf (80 pages, 14765905 bytes).
 
-PDF statistics: 1466 PDF objects out of 1728 (max. 8388607)
- 309 named destinations out of 1000 (max. 131072)
+PDF statistics: 1494 PDF objects out of 1728 (max. 8388607)
+ 315 named destinations out of 1000 (max. 131072)
  632 words of extra memory for PDF output out of 10000 (max. 100000000)
 

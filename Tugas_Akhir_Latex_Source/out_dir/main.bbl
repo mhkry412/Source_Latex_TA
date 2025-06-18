@@ -1,4 +1,4 @@
-\begin{thebibliography}{66}
+\begin{thebibliography}{67}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -399,6 +399,15 @@ M.~C. Payne, M.~P. Teter, D.~C. Allan, T.~A. Arias, and J.~D. Joannopoulos.
 \newblock \emph{Reviews of Modern Physics}, 64\penalty0 (4):\penalty0
   1045--1097, 1992.
 \newblock \doi{10.1103/RevModPhys.64.1045}.
+
+\bibitem[Perdew et~al.(2005)Perdew, Ruzsinszky, Tao, Staroverov, Scuseria, and
+  Csonka]{perdew2005}
+John Perdew, Adrienn Ruzsinszky, Jianmin Tao, Viktor Staroverov, Gustavo
+  Scuseria, and Gabor Csonka.
+\newblock Prescription for the design and selection of density functional
+  approximations: More constraint satisfaction with fewer fits.
+\newblock \emph{The Journal of chemical physics}, 123:\penalty0 62201, 09 2005.
+\newblock \doi{10.1063/1.1904565}.
 
 \bibitem[Perdew et~al.(1996)Perdew, Burke, and Ernzerhof]{Perdew1996}
 John~P. Perdew, Kieron Burke, and Matthias Ernzerhof.

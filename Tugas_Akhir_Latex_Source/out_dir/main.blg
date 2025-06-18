@@ -1,11 +1,15 @@
 This is BibTeX, Version 0.99d
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
+Case mismatch error between cite keys Ando2002 and ando2002
+---line 149 of file main.aux
+ : \citation{Ando2002
+ :                   }
+I'm skipping whatever remains of this command
 Reallocating 'name_of_file' (item size: 1) to 9 items.
 The style file: plainnat.bst
 Reallocating 'name_of_file' (item size: 1) to 8 items.
 Database file #1: pustaka.bib
-Warning--I didn't find a database entry for "ando_dynamical_2002"
 Warning--I didn't find a database entry for "Weismiller2010"
 Warning--I didn't find a database entry for "Wen2014"
 Warning--I didn't find a database entry for "Yoon2011"
@@ -16,45 +20,45 @@ Warning--I didn't find a database entry for "Cohen2012"
 Warning--I didn't find a database entry for "Krukau2006"
 Warning--I didn't find a database entry for "Shishkin2007"
 Warning--empty school in elias2020
-You've used 66 entries,
+You've used 67 entries,
             2773 wiz_defined-function locations,
-            1123 strings with 20218 characters,
-and the built_in function-call counts, 39449 in all, are:
-= -- 3379
-> -- 3148
+            1131 strings with 20511 characters,
+and the built_in function-call counts, 40085 in all, are:
+= -- 3431
+> -- 3205
 < -- 25
-+ -- 1056
-- -- 990
-* -- 3776
-:= -- 6333
-add.period$ -- 260
-call.type$ -- 66
-change.case$ -- 524
-chr.to.int$ -- 66
-cite$ -- 133
-duplicate$ -- 1361
-empty$ -- 2580
-format.name$ -- 1082
-if$ -- 7962
++ -- 1075
+- -- 1008
+* -- 3840
+:= -- 6437
+add.period$ -- 264
+call.type$ -- 67
+change.case$ -- 533
+chr.to.int$ -- 67
+cite$ -- 135
+duplicate$ -- 1382
+empty$ -- 2618
+format.name$ -- 1101
+if$ -- 8089
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 70
-newline$ -- 399
-num.names$ -- 264
-pop$ -- 908
+missing$ -- 71
+newline$ -- 405
+num.names$ -- 268
+pop$ -- 923
 preamble$ -- 1
-purify$ -- 462
+purify$ -- 470
 quote$ -- 0
-skip$ -- 1146
+skip$ -- 1163
 stack$ -- 0
-substring$ -- 1404
-swap$ -- 81
+substring$ -- 1421
+swap$ -- 83
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 696
+type$ -- 707
 warning$ -- 1
-while$ -- 284
+while$ -- 288
 width$ -- 0
-write$ -- 988
-(There were 11 warnings)
+write$ -- 1003
+(There was 1 error message)
