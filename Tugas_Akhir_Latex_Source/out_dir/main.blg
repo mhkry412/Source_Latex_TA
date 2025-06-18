@@ -1,64 +1,50 @@
 This is BibTeX, Version 0.99d
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
-Case mismatch error between cite keys Ando2002 and ando2002
----line 149 of file main.aux
- : \citation{Ando2002
- :                   }
-I'm skipping whatever remains of this command
 Reallocating 'name_of_file' (item size: 1) to 9 items.
 The style file: plainnat.bst
 Reallocating 'name_of_file' (item size: 1) to 8 items.
 Database file #1: pustaka.bib
-Warning--I didn't find a database entry for "Weismiller2010"
-Warning--I didn't find a database entry for "Wen2014"
-Warning--I didn't find a database entry for "Yoon2011"
-Warning--I didn't find a database entry for "Perdew1981"
-Warning--I didn't find a database entry for "MoriSanchez2008"
-Warning--I didn't find a database entry for "Cohen2008"
-Warning--I didn't find a database entry for "Cohen2012"
-Warning--I didn't find a database entry for "Krukau2006"
-Warning--I didn't find a database entry for "Shishkin2007"
 Warning--empty school in elias2020
-You've used 67 entries,
+You've used 59 entries,
             2773 wiz_defined-function locations,
-            1131 strings with 20511 characters,
-and the built_in function-call counts, 40085 in all, are:
-= -- 3431
-> -- 3205
-< -- 25
-+ -- 1075
-- -- 1008
-* -- 3840
-:= -- 6437
-add.period$ -- 264
-call.type$ -- 67
-change.case$ -- 533
-chr.to.int$ -- 67
-cite$ -- 135
-duplicate$ -- 1382
-empty$ -- 2618
-format.name$ -- 1101
-if$ -- 8089
+            1057 strings with 18455 characters,
+and the built_in function-call counts, 35858 in all, are:
+= -- 3051
+> -- 2942
+< -- 23
++ -- 986
+- -- 927
+* -- 3442
+:= -- 5776
+add.period$ -- 233
+call.type$ -- 59
+change.case$ -- 482
+chr.to.int$ -- 59
+cite$ -- 119
+duplicate$ -- 1217
+empty$ -- 2292
+format.name$ -- 1012
+if$ -- 7223
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 71
-newline$ -- 405
-num.names$ -- 268
-pop$ -- 923
+missing$ -- 63
+newline$ -- 358
+num.names$ -- 236
+pop$ -- 840
 preamble$ -- 1
-purify$ -- 470
+purify$ -- 427
 quote$ -- 0
-skip$ -- 1163
+skip$ -- 1041
 stack$ -- 0
-substring$ -- 1421
-swap$ -- 83
+substring$ -- 1212
+swap$ -- 74
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 707
+type$ -- 619
 warning$ -- 1
-while$ -- 288
+while$ -- 253
 width$ -- 0
-write$ -- 1003
-(There was 1 error message)
+write$ -- 886
+(There was 1 warning)

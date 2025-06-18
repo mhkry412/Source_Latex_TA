@@ -1,4 +1,4 @@
-\begin{thebibliography}{67}
+\begin{thebibliography}{59}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -16,30 +16,12 @@ Philip~B. Allen and Manuel Cardona.
 \newblock \emph{Physical Review B}, 27\penalty0 (8):\penalty0 4760--4769, 1983.
 \newblock \doi{10.1103/PhysRevB.27.4760}.
 
-\bibitem[Ando et~al.(2002)Ando, Zheng, and Suzuura]{ando2002}
+\bibitem[Ando et~al.(2002)Ando, Zheng, and Suzuura]{Ando2002}
 Tsuneya Ando, Yisong Zheng, and Hidekatsu Suzuura.
 \newblock Dynamical conductivity and zero-mode anomaly in honeycomb lattices.
 \newblock \emph{Journal of the Physical Society of Japan}, 71\penalty0
   (5):\penalty0 1318--1324, 2002.
 \newblock \doi{10.1143/JPSJ.71.1318}.
-
-\bibitem[Arnaud et~al.(2006)Arnaud, Leb{\`e}gue, Rabiller, and
-  Alouani]{arnaud2006}
-B.~Arnaud, S.~Leb{\`e}gue, P.~Rabiller, and M.~Alouani.
-\newblock Huge excitonic effects in layered hexagonal boron nitride.
-\newblock \emph{Physical Review Letters}, 96\penalty0 (2):\penalty0 026402, Jan
-  2006.
-\newblock \doi{10.1103/PhysRevLett.96.026402}.
-
-\bibitem[Arı et~al.(2025)Arı, Polat, Fırat, {\c{C}}akır, and
-  Ateş]{ozan2025}
-Ozan Arı, Nahit Polat, Volkan Fırat, {\"O}zg{\"u}r {\c{C}}akır, and Serkan
-  Ateş.
-\newblock Temperature-dependent spectral properties of hexagonal boron nitride
-  color centers.
-\newblock \emph{ACS Photonics}, 12\penalty0 (3):\penalty0 1676--1682, 2025.
-\newblock \doi{10.1021/acsphotonics.4c02616}.
-\newblock URL \url{https://doi.org/10.1021/acsphotonics.4c02616}.
 
 \bibitem[Becke(1993)]{Becke1993}
 Axel~D. Becke.
@@ -71,14 +53,6 @@ A.~H. Castro~Neto, F.~Guinea, N.~M.~R. Peres, K.~S. Novoselov, and A.~K. Geim.
 \newblock \emph{Reviews of Modern Physics}, 81\penalty0 (1):\penalty0 109--162,
   2009.
 \newblock \doi{10.1103/RevModPhys.81.109}.
-
-\bibitem[Choyal et~al.(2024)Choyal, Patil, Luhadiya, and Kundalwal]{Choyal2024}
-Vijay Choyal, Mahesh Patil, Nitin Luhadiya, and S.~I. Kundalwal.
-\newblock Machine-learned interatomic potentials for accurate analysis of the
-  mechanical properties of boron nitride sheets.
-\newblock \emph{Journal of Physics: Materials}, 7\penalty0 (1):\penalty0
-  015003, 2024.
-\newblock \doi{10.1088/2515-7639/ad9635}.
 
 \bibitem[Commons(2025)]{pseudopotential}
 Wikimedia Commons.
@@ -160,15 +134,6 @@ Zacharias~G. Fthenakis, Ioannis~D. Petsalakis, Valentina Tozzini, and
 \newblock \emph{Frontiers in Chemistry}, 10:\penalty0 951261, 2022.
 \newblock \doi{10.3389/fchem.2022.951261}.
 
-\bibitem[Ganyecz et~al.(2024)Ganyecz, Babar, Benedek, Aharonovich, Barcza, and
-  Iv{\'a}dy]{ganyecz2024}
-{\'A}d{\'a}m Ganyecz, Rohit Babar, Zsolt Benedek, Igor Aharonovich, Gergely
-  Barcza, and Viktor Iv{\'a}dy.
-\newblock First-principles theory of the nitrogen interstitial in hbn: a
-  plausible model for the blue emitter.
-\newblock \emph{Nanoscale}, 16:\penalty0 4125--4139, 2024.
-\newblock \doi{10.1039/D3NR05811E}.
-
 \bibitem[Geim and Grigorieva(2013)]{Geim2013}
 A.~K. Geim and I.~V. Grigorieva.
 \newblock Van der waals heterostructures.
@@ -223,29 +188,6 @@ P.~Giannozzi, O.~Andreussi, T.~Brumme, O.~Bunau, M.~Buongiorno~Nardelli,
   (46):\penalty0 465901, 2017.
 \newblock \doi{10.1088/1361-648X/aa8f79}.
 
-\bibitem[Grosso et~al.(2020)Grosso, Moon, Ciccarino, Flick, Mendelson, Mennel,
-  Narang, and Englund]{Grosso2020}
-Gabriele Grosso, Hyeong-Ryeol Moon, Christopher~J. Ciccarino, Johannes Flick,
-  Noah Mendelson, Lukas Mennel, Prineha Narang, and Dirk~R. Englund.
-\newblock Low-temperature electron--phonon interaction of quantum emitters in
-  hexagonal boron nitride.
-\newblock \emph{ACS Photonics}, 7\penalty0 (6):\penalty0 1410--1417, 2020.
-\newblock \doi{10.1021/acsphotonics.0c00207}.
-
-\bibitem[Hedin(1965)]{Hedin1965}
-Lars Hedin.
-\newblock New method for calculating the one-particle {Green's} function with
-  application to the electron-gas problem.
-\newblock \emph{Physical Review}, 139\penalty0 (3A):\penalty0 A796--A823, 1965.
-\newblock \doi{10.1103/PhysRev.139.A796}.
-
-\bibitem[Heyd et~al.(2003)Heyd, Scuseria, and Ernzerhof]{Heyd2003}
-Jochen Heyd, Gustavo~E. Scuseria, and Matthias Ernzerhof.
-\newblock Hybrid functionals based on a screened coulomb potential.
-\newblock \emph{The Journal of Chemical Physics}, 118\penalty0 (18):\penalty0
-  8207--8215, 2003.
-\newblock \doi{10.1063/1.1564060}.
-
 \bibitem[Hohenberg and Kohn(1964)]{Hohenberg1964}
 P.~Hohenberg and W.~Kohn.
 \newblock Inhomogeneous electron gas.
@@ -281,13 +223,6 @@ W.~Kohn and L.~J. Sham.
   1965.
 \newblock \doi{10.1103/PhysRev.140.A1133}.
 
-\bibitem[Korkmaz et~al.(2020)Korkmaz, Bulutay, and Sevik]{korkmaz2020}
-Ya{\u{g}}mur Korkmaz, Ceyhun Bulutay, and Cem Sevik.
-\newblock Defect states in monolayer hexagonal bn: A comparative dft and
-  dft-1/2 study.
-\newblock \emph{Physica B: Condensed Matter}, 584:\penalty0 411959, feb 2020.
-\newblock \doi{10.1016/j.physb.2019.411959}.
-
 \bibitem[Kresse and Joubert(1999)]{Kresse1999}
 G.~Kresse and D.~Joubert.
 \newblock From ultrasoft pseudopotentials to the projector augmented-wave
@@ -312,12 +247,14 @@ Aditya Lele, Alireza Ostadhossein, Adri C.~T. van Duin, Andrew~M. Rappe, and
   (2):\penalty0 321--331, 2022.
 \newblock \doi{10.1021/acs.jpca.1c09648}.
 
-\bibitem[Liu(2024)]{liu2024}
-Guoliang Liu.
-\newblock First-principle calculations on o-doped hexagonal boron nitride
-  (h-bn) for carbon dioxide (co2) reduction into c1 products.
-\newblock \emph{Molecules}, 29\penalty0 (24):\penalty0 5960, 2024.
-\newblock \doi{10.3390/molecules29245960}.
+\bibitem[Li et~al.(2025)Li, Li, and Gali]{song2025}
+Song Li, Pei Li, and Adam Gali.
+\newblock Native antisite defects in h-bn.
+\newblock \emph{Applied Physics Letters}, 126\penalty0 (6):\penalty0 062104, 02
+  2025.
+\newblock ISSN 0003-6951.
+\newblock \doi{10.1063/5.0248897}.
+\newblock URL \url{https://doi.org/10.1063/5.0248897}.
 
 \bibitem[Liu et~al.(2025)Liu, Gong, Huang, Jin, Du, He, Janzen, Yang,
   Henriksen, Edgar, Galli, and Zu]{Liu_2025}
@@ -331,15 +268,6 @@ Zhongyuan Liu, Ruotian Gong, Benchen Huang, Yu~Jin, Xinyi Du, Guanghui He, Eli
 \newblock \doi{10.1103/physrevb.111.024108}.
 \newblock URL \url{http://dx.doi.org/10.1103/PhysRevB.111.024108}.
 
-\bibitem[Los et~al.(2017)Los, Kroes, Albe, Gordillo, Katsnelson, and
-  Fasolino]{Los2017}
-J.~H. Los, J.~M.~H. Kroes, K.~Albe, R.~M. Gordillo, M.~I. Katsnelson, and
-  A.~Fasolino.
-\newblock Extended tersoff potential for boron nitride: Energetics and elastic
-  properties of pristine and defective h-bn.
-\newblock \emph{Physical Review B}, 96\penalty0 (18):\penalty0 184108, 2017.
-\newblock \doi{10.1103/PhysRevB.96.184108}.
-
 \bibitem[Mann et~al.(2017)Mann, Kumar, and Jindal]{Mann2017}
 Sarita Mann, Ranjan Kumar, and V.~K. Jindal.
 \newblock Negative thermal expansion of pure and doped graphene.
@@ -351,13 +279,13 @@ Richard~M. Martin.
 \newblock \emph{Electronic Structure: Basic Theory and Practical Methods}.
 \newblock Cambridge University Press, Cambridge, 2004.
 
-\bibitem[Marzari and Vanderbilt(1997)]{marzari1997}
-Nicola Marzari and David Vanderbilt.
-\newblock Maximally localized generalized wannier functions for composite
-  energy bands.
-\newblock \emph{Phys. Rev. B}, 56:\penalty0 12847--12865, Nov 1997.
-\newblock \doi{10.1103/PhysRevB.56.12847}.
-\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevB.56.12847}.
+\bibitem[Mori-S{\'a}nchez et~al.(2008)Mori-S{\'a}nchez, Cohen, and
+  Yang]{MoriSanchez2008}
+Paula Mori-S{\'a}nchez, Aron~J. Cohen, and Weitao Yang.
+\newblock Localization and delocalization errors in density functional theory
+  and implications for band-gap prediction.
+\newblock \emph{Physical Review Letters}, 100:\penalty0 146401, 2008.
+\newblock \doi{10.1103/PhysRevLett.100.146401}.
 
 \bibitem[Munro et~al.(2020)Munro, Court, and Chelikowsky]{Munro2020}
 Jason~M. Munro, Riley~E. Court, and James~R. Chelikowsky.
@@ -366,14 +294,6 @@ Jason~M. Munro, Riley~E. Court, and James~R. Chelikowsky.
 \newblock \emph{npj Computational Materials}, 6\penalty0 (1):\penalty0 126,
   2020.
 \newblock \doi{10.1038/s41524-020-00383-7}.
-
-\bibitem[Nieto~Luna et~al.(2025)Nieto~Luna, Smeyers, Sevik, Covaci, and
-  Milo{\v{s}}evi{\'c}]{NietoLuna2025}
-Wilson~A. Nieto~Luna, Robin Smeyers, Cem Sevik, Lucian Covaci, and Milorad~V.
-  Milo{\v{s}}evi{\'c}.
-\newblock Machine-learning interatomic potential for twisted hexagonal boron
-  nitride: Accurate structural relaxation and emergent polarization.
-\newblock \emph{arXiv preprint arXiv:2503.11797}, 2025.
 
 \bibitem[Novoselov et~al.(2004)Novoselov, Geim, Morozov, Jiang, Zhang, Dubonos,
   Grigorieva, and Firsov]{Novoselov2004}
@@ -399,6 +319,13 @@ M.~C. Payne, M.~P. Teter, D.~C. Allan, T.~A. Arias, and J.~D. Joannopoulos.
 \newblock \emph{Reviews of Modern Physics}, 64\penalty0 (4):\penalty0
   1045--1097, 1992.
 \newblock \doi{10.1103/RevModPhys.64.1045}.
+
+\bibitem[Perdew and Zunger(1981)]{perdew1981}
+J.~P. Perdew and Alex Zunger.
+\newblock Self-interaction correction to density-functional approximations for
+  many-electron systems.
+\newblock \emph{Phys. Rev. B}, 23:\penalty0 5048--5079, May 1981.
+\newblock \doi{10.1103/PhysRevB.23.5048}.
 
 \bibitem[Perdew et~al.(2005)Perdew, Ruzsinszky, Tao, Staroverov, Scuseria, and
   Csonka]{perdew2005}
@@ -439,7 +366,7 @@ D.~C. Rapaport.
 \newblock Cambridge University Press, Cambridge, 2nd edition, 2004.
 
 \bibitem[Sachs et~al.(2011)Sachs, Wehling, Katsnelson, and
-  Lichtenstein]{sachs2011}
+  Lichtenstein]{Sachs2011}
 B.~Sachs, T.~O. Wehling, M.~I. Katsnelson, and A.~I. Lichtenstein.
 \newblock Adhesion and electronic structure of graphene on hexagonal boron
   nitride substrates.
@@ -454,6 +381,19 @@ Sevil Sarikurt, Yusuf~Zuntu Abdullahi, Engin Durgun, and Fatih Ersan.
 \newblock \emph{Journal of Physics D: Applied Physics}, 55\penalty0
   (31):\penalty0 315303, 2022.
 \newblock \doi{10.1088/1361-6463/ac6e12}.
+
+\bibitem[Senftle et~al.(2016)Senftle, Hong, Islam, Kylasa, Zheng, Shin,
+  Junkermeier, Engel-Herbert, Janik, Aktulga, Verstraelen, Grama, and van
+  Duin]{Senftle2016}
+Thomas~P. Senftle, Sungwook Hong, Md~Mahbubul Islam, Sudhir~B. Kylasa, Yuan
+  Zheng, Yun~Kyung Shin, Chad Junkermeier, Roman Engel-Herbert, Michael~J.
+  Janik, Hasan~Metin Aktulga, Toon Verstraelen, Ananth Grama, and Adri C.~T.
+  van Duin.
+\newblock The {ReaxFF} reactive force-field: development, applications and
+  future directions.
+\newblock \emph{npj Computational Materials}, 2\penalty0 (1):\penalty0 15011,
+  2016.
+\newblock \doi{10.1038/npjcompumats.2015.11}.
 
 \bibitem[Shen et~al.(2022)Shen, Munro, Horton, Huck, Dwaraknath, and
   Persson]{Shen2022}
@@ -477,6 +417,15 @@ S.~P. Timoshenko and J.~N. Goodier.
 \newblock \emph{Theory of Elasticity}.
 \newblock McGraw-Hill, New York, 3rd edition, 1970.
 
+\bibitem[van Duin et~al.(2001)van Duin, Dasgupta, Lorant, and
+  Goddard]{vanDuin2001}
+Adri C.~T. van Duin, Siddharth Dasgupta, Francois Lorant, and William~A.
+  Goddard.
+\newblock {ReaxFF}: A reactive force field for hydrocarbons.
+\newblock \emph{The Journal of Physical Chemistry A}, 105\penalty0
+  (41):\penalty0 9396--9409, 2001.
+\newblock \doi{10.1021/jp004368u}.
+
 \bibitem[Wang et~al.(2017)Wang, Ma, and Sun]{Wang2017}
 Jingang Wang, Fengcai Ma, and Mengtao Sun.
 \newblock Graphene, hexagonal boron nitride, and their heterostructures:
@@ -491,6 +440,15 @@ K.~Watanabe, T.~Taniguchi, and H.~Kanda.
 \newblock \emph{Nature Materials}, 3\penalty0 (6):\penalty0 404--409, 2004.
 \newblock \doi{10.1038/nmat1134}.
 
+\bibitem[Weismiller et~al.(2010)Weismiller, van Duin, Lee, and
+  Yetter]{Weismiller2010}
+Michael~R. Weismiller, Adri C.~T. van Duin, Jiyoung Lee, and Richard~A. Yetter.
+\newblock Reaction kinetics of the initial stages of boron nitride chemical
+  vapor deposition from borazine.
+\newblock \emph{The Journal of Physical Chemistry A}, 114:\penalty0 540--546,
+  2010.
+\newblock \doi{10.1021/jp908642n}.
+
 \bibitem[Weston et~al.(2018)Weston, Wickramaratne,
   Mackoit-Sinkevi{\v{c}}ien{\.{e}}, Alkauskas, and Van~de Walle]{Weston2018}
 L.~Weston, D.~Wickramaratne, Ma{\v{z}}ena Mackoit-Sinkevi{\v{c}}ien{\.{e}},
@@ -498,14 +456,6 @@ L.~Weston, D.~Wickramaratne, Ma{\v{z}}ena Mackoit-Sinkevi{\v{c}}ien{\.{e}},
 \newblock Native point defects and impurities in hexagonal boron nitride.
 \newblock \emph{Physical Review B}, 97\penalty0 (21):\penalty0 214104, 2018.
 \newblock \doi{10.1103/PhysRevB.97.214104}.
-
-\bibitem[Wickramaratne et~al.(2018)Wickramaratne, Weston, and Van~de
-  Walle]{Wickramaratne2018}
-Darshana Wickramaratne, L.~Weston, and Chris~G. Van~de Walle.
-\newblock Monolayer to bulk properties of hexagonal boron nitride.
-\newblock \emph{The Journal of Physical Chemistry C}, 122\penalty0
-  (44):\penalty0 25524--25529, 2018.
-\newblock \doi{10.1021/acs.jpcc.8b09087}.
 
 \bibitem[Yates et~al.(1972)Yates, Overy, and Pirgon]{Yates1972}
 B.~Yates, M.~J. Overy, and O.~Pirgon.
@@ -535,13 +485,5 @@ Shengqiang Zhou and Xiaolong Chen.
 \newblock Defect induced magnetism in sic.
 \newblock \emph{Journal of Physics D: Applied Physics}, 52, 07 2019.
 \newblock \doi{10.1088/1361-6463/ab2495}.
-
-\bibitem[Zhu et~al.(2011)Zhu, Yang, Xi, Yuan, and Zhang]{Zhu2011}
-Li-ya Zhu, Jiong Yang, Li-li Xi, Xun Yuan, and Wen-qing Zhang.
-\newblock Effect of disorder on the magnetic properties of a partially filled
-  skutterudite.
-\newblock \emph{Journal of Physics: Condensed Matter}, 23\penalty0
-  (41):\penalty0 416002, 2011.
-\newblock \doi{10.1088/0953-8984/23/41/416002}.
 
 \end{thebibliography}

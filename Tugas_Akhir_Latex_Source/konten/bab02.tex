@@ -9,62 +9,6 @@
 %---------------------------------------------------------------------
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Dasar-Dasar Ruang Resiprokal dan Zona Brillouin}
-Dalam fisika benda padat, deskripsi material kristalin dimulai dari konsep kisi kristal, yaitu susunan atom, ion, atau molekul yang berulang secara periodik dalam ruang. Struktur periodik ini, yang dijelaskan oleh vektor kisi basis, merupakan fondasi untuk memahami sifat-sifat makroskopik material. Namun, untuk menganalisis fenomena yang memiliki karakter gelombang—seperti fungsi gelombang elektron, getaran kisi (fonon), atau difraksi sinar-X—diperlukan sebuah kerangka kerja matematis yang berbeda. Kerangka kerja ini adalah ruang resiprokal, sebuah konsep transformatif yang menjadi bahasa universal untuk mendeskripsikan eksitasi kolektif dalam kristal.
-
-\subsection{Dari Kisi Kristal ke Kisi Resiprokal: Bahasa Gelombang dalam Kristal}
-Kisi kristal, atau kisi langsung, didefinisikan oleh sekumpulan vektor translasi primitif, misalnya $\mathbf{a}_1$ dan $\mathbf{a}_2$ untuk sistem dua dimensi (2D). Vektor-vektor ini menentukan periodisitas struktur. Ruang resiprokal adalah transformasi Fourier dari kisi langsung ini, yang menghasilkan sebuah kisi baru yang titik-titiknya memiliki satuan panjang terbalik ($m^{-1}$), sesuai dengan satuan bilangan gelombang atau momentum.
-
-Vektor basis primitif dari kisi resiprokal, $\mathbf{b}_1$ dan $\mathbf{b}_2$, didefinisikan melalui hubungan fundamental dengan vektor kisi langsung:
-\[
-\mathbf{a}_i \cdot \mathbf{b}_j = 2\pi \delta_{ij}
-\]
-di mana $\delta_{ij}$ adalah delta Kronecker (bernilai 1 jika $i=j$ dan 0 jika $i \neq j$). Persamaan ini memastikan bahwa setiap vektor kisi resiprokal tegak lurus terhadap bidang yang dibentuk oleh vektor-vektor kisi langsung lainnya (dalam 3D) atau terhadap vektor kisi langsung lainnya (dalam 2D).
-
-Signifikansi ruang resiprokal melampaui abstraksi matematis. Ia adalah arena konseptual di mana dinamika gelombang dalam kristal paling alami dideskripsikan. Vektor gelombang elektron ($\mathbf{k}$) dan fonon ($\mathbf{q}$) adalah vektor yang hidup di dalam ruang ini. Berbagai sifat material yang dibahas dalam dokumen ini—seperti struktur pita elektronik yang menentukan sifat konduktor atau isolator, dispersi fonon yang mengatur konduktivitas termal, dan transisi optik—semuanya dianalisis dalam kerangka ruang resiprokal. Dengan demikian, pemahaman tentang ruang resiprokal menyediakan benang merah yang menyatukan berbagai fenomena fisik yang tampaknya berbeda dalam material kristalin. Secara eksperimental, ruang ini memiliki manifestasi fisik yang nyata: pola difraksi yang dihasilkan oleh hamburan sinar-X atau elektron pada sebuah kristal adalah peta langsung dari kisi resiprokal material tersebut.
-
-\subsection{Zona Brillouin Pertama: Konstruksi dan Signifikansi Fisik}
-Zona Brillouin pertama (1BZ) adalah sel primitif Wigner-Seitz dari kisi resiprokal. Secara intuitif, 1BZ adalah wilayah di ruang resiprokal yang berisi semua titik yang lebih dekat ke titik asal (titik $\Gamma$, $\mathbf{k}=0$) daripada ke titik kisi resiprokal lainnya. Konstruksi geometrisnya dilakukan dengan langkah-langkah berikut:
-\begin{enumerate}
-    \item Pilih satu titik kisi resiprokal sebagai titik asal ($\Gamma$).
-    \item Gambar vektor dari titik asal ke semua titik kisi resiprokal tetangga terdekat.
-    \item Konstruksi bidang (atau garis dalam 2D) yang merupakan pembagi tegak lurus (\emph{perpendicular bisector}) untuk setiap vektor tersebut.
-    \item Volume (atau area dalam 2D) terkecil yang tertutup oleh bidang-bidang pembagi ini adalah Zona Brillouin pertama.
-\end{enumerate}
-
-Signifikansi fisik 1BZ terkait erat dengan Teorema Bloch, yang menyatakan bahwa fungsi gelombang elektron dalam potensial periodik kristal, $\psi_{\mathbf{k}}(\mathbf{r})$, dapat ditulis sebagai $\psi_{\mathbf{k}}(\mathbf{r}) = e^{i\mathbf{k}\cdot\mathbf{r}} u_{\mathbf{k}}(\mathbf{r})$, di mana $u_{\mathbf{k}}(\mathbf{r})$ memiliki periodisitas yang sama dengan kisi kristal. Konsekuensi langsung dari teorema ini adalah bahwa nilai eigen energi, $E(\mathbf{k})$, juga periodik dalam ruang resiprokal. Artinya, $E(\mathbf{k}) = E(\mathbf{k} + \mathbf{G})$, di mana $\mathbf{G}$ adalah sembarang vektor kisi resiprokal.
-
-Periodisitas ini menyiratkan bahwa semua informasi unik mengenai keadaan elektronik (atau fononik) dari kristal terkandung sepenuhnya di dalam satu sel primitif ruang resiprokal. 1BZ adalah pilihan konvensional untuk sel ini karena memiliki simetri penuh dari kisi. Oleh karena itu, 1BZ merepresentasikan himpunan lengkap dan non-redundan dari semua vektor gelombang unik yang mungkin ada di dalam kristal. Inilah alasan mendasar mengapa diagram struktur pita energi dan dispersi fonon selalu digambarkan terbatas di dalam batas-batas 1BZ.
-
-\subsection{Titik dan Jalur Simetri Tinggi: Peta Jalan untuk Memahami Sifat Material}
-Di dalam 1BZ, terdapat titik-titik dan garis-garis tertentu yang memiliki simetri lebih tinggi daripada titik-titik lainnya. Titik-titik ini, yang dikenal sebagai titik simetri tinggi (misalnya $\Gamma$, K, M), dan jalur yang menghubungkannya (misalnya $\Gamma$-M-K-$\Gamma$), membentuk "peta jalan" untuk memahami sifat elektronik material. Keberadaan dan sifat titik-titik ini adalah konsekuensi langsung dari simetri grup titik kristal di ruang nyata (misalnya, grup $D_{6h}$ untuk hBN).
-
-Prinsip simetri dalam mekanika kuantum mendikte bahwa sifat fisik, seperti energi $E(\mathbf{k})$, harus invarian terhadap operasi simetri kristal. Pada titik-titik simetri tinggi, grup simetri dari vektor gelombang $\mathbf{k}$ (yaitu, himpunan operasi simetri yang membiarkan $\mathbf{k}$ tidak berubah atau memetakannya ke vektor yang ekuivalen) lebih besar daripada pada titik umum. Menurut teori grup, keadaan energi pada titik-titik ini harus membentuk basis untuk representasi tak tereduksi dari grup tersebut. Dimensi representasi ini menentukan tingkat degenerasi (penggabungan) pita energi.
-
-Hal ini memberikan penjelasan mendasar mengapa pita-pita energi sering kali "menempel" bersama atau terpisah pada titik-titik simetri tertentu. Ini juga menjelaskan mengapa ekstrema pita (maksimum pita valensi dan minimum pita konduksi), yang menentukan celah pita dan sifat optoelektronik material, sering kali terletak pada titik-titik simetri tinggi ini. Akibatnya, dalam praktik komputasi material, perhitungan struktur pita energi secara efisien difokuskan di sepanjang jalur simetri tinggi, karena jalur ini menangkap fitur-fitur paling penting dari struktur elektronik material dengan upaya komputasi minimal.
-
-Untuk material heksagonal seperti grafena dan hBN, titik-titik simetri tinggi yang paling relevan diringkas dalam tabel berikut.
-
-\begin{table}[h!]
-\centering
-\caption{Titik-titik simetri tinggi pada Zona Brillouin heksagonal.}
-\begin{tabular}{|l|c|l|p{7cm}|}
-\hline
-\textbf{Titik Simetri} & \textbf{Simbol} & \textbf{Koordinat (basis $\mathbf{b}_1, \mathbf{b}_2$)} & \textbf{Signifikansi Fisik dan Kaitannya dengan Grup Titik} \\
-\hline
-Pusat Zona & $\Gamma$ & (0, 0) & Pusat BZ ($\mathbf{k}=0$). Memiliki simetri penuh dari grup titik kristal. Seringkali merupakan lokasi band extremum (misalnya, di banyak semikonduktor direct-gap). \\
-\hline
-Sudut Zona & K & (2/3, 1/3) & Sudut heksagon. Grup wave vector adalah $D_{3h}$. Titik krusial untuk sifat elektronik grafena (lokasi Dirac cone) dan hBN (lokasi celah pita). \\
-\hline
-Sudut Zona & K' & (1/3, 2/3) & Sudut heksagon lainnya. Terkait dengan K oleh operasi simetri. Ekuivalen dengan K di grafena, namun tidak ekuivalen di hBN. \\
-\hline
-Titik Tengah Sisi & M & (1/2, 0) & Titik tengah dari sisi heksagon. Grup wave vector adalah $C_{2v}$. Seringkali merupakan titik pelana (\emph{saddle point}) dalam dispersi energi. \\
-\hline
-\end{tabular}
-\label{tab:symmetry_points}
-\end{table}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Material 2D}
 Material berdimensi dua (2D) merupakan sistem kristal di mana atom-atom tersusun dalam lapisan tunggal atau beberapa lapisan yang sangat tipis, dengan ikatan kovalen yang kuat secara \emph{dalam bidang (in-plane, IP)} dan interaksi van der Waals di antara lapisan.
 Material ini telah menjadi fokus riset intensif sejak isolasi grafena pada tahun 2004 karena sifat mekanik, elektronik, dan termalnya yang unik \citep{Novoselov2004, Geim2007}.
@@ -131,7 +75,7 @@ di mana \( C_{\lambda} \) adalah kapasitas panas per mode, \( v_{\lambda} \) ada
 Model ini sangat relevan untuk mengkaji transportasi termal pada material 2D seperti grafena dan hBN.
 Karena pembatasan dimensi, banyak fenomena kuantum yang tidak terlihat pada material 3D dapat diobservasi.
 Misalnya, efek Hall kuantum dan osilasi Shubnikov-de Haas muncul pada material 2D pada medan magnet kuat, serta fenomena lokalitas Anderson pada sistem tak teratur.
-Efek kuantum ini dijelaskan melalui persamaan Schrödinger yang dimodifikasi untuk sistem dua dimensi dan melalui pendekatan \emph{Green’s function} \citep{ando2002}.
+Efek kuantum ini dijelaskan melalui persamaan Schrödinger yang dimodifikasi untuk sistem dua dimensi dan melalui pendekatan \emph{Green’s function} \citep{Ando2002}.
 
 \subsection{Aplikasi dan Prospek Riset Material 2D}
 Material 2D telah diaplikasikan dalam berbagai bidang, mulai dari elektronik, sensor, hingga fotonik.
@@ -231,6 +175,18 @@ Bagian ini memaparkan tinjauan literatur yang mendalam mengenai penelitian ekspe
 Studi-studi terdahulu mencakup pendekatan sintetis, karakterisasi struktur, perhitungan elektronik, serta simulasi dinamika molekuler dan DFT untuk memahami cacat, cacat, dan modifikasi sifat material hBN.
 
 \subsection{Tinjauan Eksperimental}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.9\textwidth]{gambar/hBN_stem.jpeg}
+  \caption{Identifikasi substitusi atom pada monolayer h-BN menggunakan STEM yang dikoreksi aberasi. 
+  (a) Citra ADF STEM monolayer h-BN yang direkam, dan 
+  (b) citra ADF STEM hasil dekonvolusi. 
+  (c) Profil garis dari intensitas ADF yang direkam sepanjang garis X--X′ dan Y--Y′ pada panel (b). 
+  (d) Struktur atom h-BN hasil simulasi dengan atom pengotor substitusional (merah: B, kuning: C, hijau: N, dan biru: O) ditumpangkan pada citra ADF STEM hasil dekonvolusi. \citep{Zhang2020}}
+  \label{fig:ADF_hBN_substitusi}
+\end{figure}
+
 Penelitian eksperimental mengenai hBN telah melibatkan teknik sintesis seperti eksfoliasi mekanik, CVD, dan epitaksi uap kimia.
 Eksperimen karakterisasi menggunakan Raman spectroscopy, TEM, dan STM memberikan informasi mendetail mengenai struktur kristal, cacat titik, dan distribusi muatan elektron dalam hBN.
 Sebagai contoh, studi oleh \citep{Bhimanapati2016} menunjukkan bahwa morfologi domain hBN pada substrat logam sangat bervariasi tergantung parameter sintesis, yang selanjutnya mempengaruhi sifat optik dan elektronik material.
@@ -241,6 +197,17 @@ Pengukuran konduktivitas termal dan respon magnetik hBN juga telah dilakukan sec
 Teknik termal seperti time-domain thermoreflectance (TDTR) digunakan untuk mengukur konduktivitas termal IP, sedangkan studi magnetik dilakukan dengan magnetometri SQUID untuk mengidentifikasi pengaruh cacat terhadap sifat magnetik \citep{Zhang2020}.
 
 \subsection{Tinjauan Teoritis dan Komputasional}
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.9\textwidth]{gambar/referensi_band_plot.jpeg}
+  \caption{Struktur atom dan pita energi h‑BN. 
+    (a) Struktur atom bulk h‑BN. 
+    (b) Struktur atom monolayer h‑BN. 
+    (c) Struktur pita elektronik bulk h‑BN dihitung dengan LDA (garis hitam) dan GW (garis ungu). 
+    (d) Struktur pita elektronik monolayer h‑BN dihitung melalui pendekatan DFT. \citep{Zhang2020}}
+  \label{fig:hbn_atomic_band_structure}
+\end{figure}
+
 Pendekatan teoretis pada hBN melibatkan perhitungan DFT dan simulasi MD untuk memodelkan struktur elektronik, interaksi antar atom, dan dinamika cacat.
 Studi oleh \citep{Lele2022} menggunakan ReaxFF-based molecular dynamics simulations untuk memprediksi morfologi domain hBN pada substrat nikel.
 Metode ini melibatkan parameterisasi potensial reaktif yang memungkinkan simulasi reaksi kimia dan dinamika permukaan secara \emph{real-time}.
@@ -251,6 +218,22 @@ Sebuah database densitas muatan yang \emph{representation-independent} telah dik
 Pendekatan ini memverifikasi konsistensi data elektronik antara eksperimen dan simulasi, sehingga menjadi alat yang berguna dalam riset material hBN \citep{Shen2022}.
 
 \subsection{Studi tentang Cacat dan Impuritas pada hBN}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.8\textwidth]{gambar/antisite_hBN.jpg}
+  \caption{Pandangan skematis cacat antisite asli $B_N$, $N_B$, dan $B_NN_B$. \citep{song2025}}
+  \label{fig:schematic_antisite_defects}
+\end{figure}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.9\textwidth]{gambar/elektronik_hBN_antisite.jpg}
+  \caption{(a) Level energi keadaan dasar dari cacat BN(0) dengan simetri $\mathrm{C}_{3v}$ pada h‑BN. 
+    (b) Spektrum PL eksperimental (Ref.\,31) dan simulasi. Inset menunjukkan mode getaran yang terkait dengan distorsi Jahn–Teller. 
+    (c,d) Energi formasi $B_N$ dan $N_B$ pada kondisi kaya N dan miskin N. \citep{song2025}}
+  \label{fig:BN0_JT_formation_energy}
+\end{figure}
 Penelitian mengenai cacat pada hBN sangat penting karena cacat dapat mengubah sifat elektronik dan magnetik material.
 Berbagai studi telah menginvestigasi cacat titik seperti vacancy, interstisial, dan substitusi menggunakan simulasi DFT dan MD.
 Hasil simulasi menunjukkan bahwa cacat dapat memicu keadaan lokal yang magnetik atau memodifikasi distribusi densitas elektron, sehingga berimplikasi pada aplikasi spintronik \citep{Zhang2020}.
@@ -315,7 +298,7 @@ Model ini memungkinkan penyesuaian parameter secara lokal dan telah terbukti efe
 
 \subsection{Ensemble dalam Simulasi MD}
 
-\begin{figure}[H]
+\begin{figure}[htbp]
     \centering
     % Gambar 1
     \begin{subfigure}[b]{0.45\textwidth}
@@ -575,7 +558,7 @@ Sebagai kelanjutan dari tinjauan pustaka di atas, sejumlah penelitian terbaru te
 Studi-studi ini tidak hanya memperkaya pemahaman kita terhadap sifat fundamental material 2D, tetapi juga memberikan kontribusi signifikan dalam peningkatan teknik simulasi dan perhitungan kuantum.
 Penelitian mengenai sifat termal material 2D, misalnya, telah diteliti secara mendalam oleh \citep{Khan2017}, yang menunjukkan konduktivitas termal yang sangat tinggi pada grafena.
 Temuan ini melengkapi studi sebelumnya dan membuka peluang untuk aplikasi pendinginan pasif dalam perangkat nanoelektronik.
-Di samping itu, teori transport kuantum yang dikembangkan oleh Ando \citep{Ando2002} menyediakan kerangka teoretis untuk memahami mobilitas dan perilaku elektron dalam sistem dua dimensi, yang sangat krusial untuk pengembangan perangkat berbasis 2D.
+Di samping itu, teori transport kuantum yang dikembangkan oleh \cite{Ando2002} menyediakan kerangka teoretis untuk memahami mobilitas dan perilaku elektron dalam sistem dua dimensi, yang sangat krusial untuk pengembangan perangkat berbasis 2D.
 Analisis struktur dan cacat juga mengalami kemajuan melalui pendekatan eksperimental dan komputasional.
 Penelitian oleh Zhang \citep{Zhang2020} dan \citep{Slotman2013} menyoroti peran penting cacat titik dalam memodifikasi sifat elektronik dan optik material 2D.
 Selain itu, pendekatan representation-independent yang lebih baru, seperti yang diuraikan oleh \citep{Shen2022}, telah meningkatkan keakuratan perhitungan DFT untuk sistem dengan variasi densitas yang kompleks.
