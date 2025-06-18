@@ -1,0 +1,60 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+Reallocating 'name_of_file' (item size: 1) to 9 items.
+The style file: plainnat.bst
+Reallocating 'name_of_file' (item size: 1) to 8 items.
+Database file #1: pustaka.bib
+Warning--I didn't find a database entry for "ando_dynamical_2002"
+Warning--I didn't find a database entry for "Weismiller2010"
+Warning--I didn't find a database entry for "Wen2014"
+Warning--I didn't find a database entry for "Yoon2011"
+Warning--I didn't find a database entry for "Perdew1981"
+Warning--I didn't find a database entry for "MoriSanchez2008"
+Warning--I didn't find a database entry for "Cohen2008"
+Warning--I didn't find a database entry for "Cohen2012"
+Warning--I didn't find a database entry for "Krukau2006"
+Warning--I didn't find a database entry for "Shishkin2007"
+Warning--empty school in elias2020
+You've used 66 entries,
+            2773 wiz_defined-function locations,
+            1123 strings with 20218 characters,
+and the built_in function-call counts, 39449 in all, are:
+= -- 3379
+> -- 3148
+< -- 25
++ -- 1056
+- -- 990
+* -- 3776
+:= -- 6333
+add.period$ -- 260
+call.type$ -- 66
+change.case$ -- 524
+chr.to.int$ -- 66
+cite$ -- 133
+duplicate$ -- 1361
+empty$ -- 2580
+format.name$ -- 1082
+if$ -- 7962
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 70
+newline$ -- 399
+num.names$ -- 264
+pop$ -- 908
+preamble$ -- 1
+purify$ -- 462
+quote$ -- 0
+skip$ -- 1146
+stack$ -- 0
+substring$ -- 1404
+swap$ -- 81
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 696
+warning$ -- 1
+while$ -- 284
+width$ -- 0
+write$ -- 988
+(There were 11 warnings)
