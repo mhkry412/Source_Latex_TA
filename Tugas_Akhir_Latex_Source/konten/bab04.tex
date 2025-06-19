@@ -89,7 +89,7 @@ Pemanasan menginduksi fluktuasi termal yang menyebabkan atom-atom bergerak kelua
   \begin{subfigure}{\textwidth}
     \centering
     \includegraphics[width=0.49\linewidth]{gambar_hasil/hBN_pure_800K.png}\hfill
-    \includegraphics[width=0.49\linewidth]{gambar_hasil/hBN_pure_side_800K.png}
+    \includegraphics[width=0.49\linewidth]{hBN_pure_side_800K.png}
     \caption{Murni, 800 K}
     \label{subfig:md_pure_800k}
   \end{subfigure}
@@ -189,81 +189,40 @@ Ini memberikan wawasan tentang dinamika dan stabilitas struktural material.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure}[htbp]
   \centering
+
+  % --- Gambar gabungan untuk Murni ---
   \begin{subfigure}{0.9\textwidth}
     \centering
-    \includegraphics[width=\linewidth]{pure_800K_notitle.png}
-    \caption{Murni, 800 K}
-    \label{subfig:rdf_msd_pure_800k}
+    \includegraphics[width=\linewidth]{pure_combined_notitle.png}
+    \caption{hBN murni pada suhu 800 K, 1100 K, dan 1225 K}
+    \label{subfig:rdf_msd_pure_combined}
   \end{subfigure}
+
   \vspace{1em}
+
+  % --- Gambar gabungan untuk cacat N_B ---
   \begin{subfigure}{0.9\textwidth}
     \centering
-    \includegraphics[width=\linewidth]{pure_1100K_notitle.png}
-    \caption{Murni, 1100 K}
-    \label{subfig:rdf_msd_pure_1100k}
+    \includegraphics[width=\linewidth]{NN_combined_notitle.png}
+    \caption{Cacat N\textsubscript{B} pada suhu 800 K, 1100 K, dan 1225 K}
+    \label{subfig:rdf_msd_nn_combined}
   \end{subfigure}
+
   \vspace{1em}
+
+  % --- Gambar gabungan untuk cacat B_N ---
   \begin{subfigure}{0.9\textwidth}
     \centering
-    \includegraphics[width=\linewidth]{pure_1225K_notitle.png}
-    \caption{Murni, 1225 K}
-    \label{subfig:rdf_msd_pure_1225k}
+    \includegraphics[width=\linewidth]{BB_combined_notitle.png}
+    \caption{Cacat B\textsubscript{N} pada suhu 800 K, 1100 K, dan 1225 K}
+    \label{subfig:rdf_msd_bb_combined}
   \end{subfigure}
-  \label{fig:rdf_msd_grid}
+
+  \caption{Plot RDF dan MSD gabungan untuk variasi struktur hBN: murni, cacat N\textsubscript{B}, dan cacat B\textsubscript{N}, masing-masing pada suhu 800 K, 1100 K, dan 1225 K.}
+  \label{fig:rdf_msd_gabungan}
 \end{figure}
 
-% --- Bagian 2: Cacat N_B ---
-\begin{figure}[htbp]\ContinuedFloat
-  \centering
-  \begin{subfigure}{0.9\textwidth}
-    \centering
-    \includegraphics[width=\linewidth]{NN_800K_notitle.png}
-    \caption{Cacat N\textsubscript{B}, 800 K}
-    \label{subfig:rdf_msd_nn_800k}
-  \end{subfigure}
-  \vspace{1em}
-  \begin{subfigure}{0.9\textwidth}
-    \centering
-    \includegraphics[width=\linewidth]{NN_1100K_notitle.png}
-    \caption{Cacat N\textsubscript{B}, 1100 K}
-    \label{subfig:rdf_msd_nn_1100k}
-  \end{subfigure}
-  \vspace{1em}
-  \begin{subfigure}{0.9\textwidth}
-    \centering
-    \includegraphics[width=\linewidth]{NN_1225K_notitle.png}
-    \caption{Cacat N\textsubscript{B}, 1225 K}
-    \label{subfig:rdf_msd_nn_1225k}
-  \end{subfigure}
-\end{figure}
-
-% --- Bagian 3: Cacat B_N ---
-\begin{figure}[htbp]\ContinuedFloat
-  \centering
-  \begin{subfigure}{0.9\textwidth}
-    \centering
-    \includegraphics[width=\linewidth]{BB_800K_notitle.png}
-    \caption{Cacat B\textsubscript{N}, 800 K}
-    \label{subfig:rdf_msd_bb_800k}
-  \end{subfigure}
-  \vspace{1em}
-  \begin{subfigure}{0.9\textwidth}
-    \centering
-    \includegraphics[width=\linewidth]{BB_1100K_notitle.png}
-    \caption{Cacat B\textsubscript{N}, 1100 K}
-    \label{subfig:rdf_msd_bb_1100k}
-  \end{subfigure}
-  \vspace{1em}
-  \begin{subfigure}{0.9\textwidth}
-    \centering
-    \includegraphics[width=\linewidth]{BB_1225K_notitle.png}
-    \caption{Cacat B\textsubscript{N}, 1225 K}
-    \label{subfig:rdf_msd_bb_1225k}
-  \end{subfigure}
-    \caption{Plot RDF dan MSD untuk setiap variasi}
-\end{figure}
-
-Gambar \ref{fig:rdf_msd_grid} menunjukkan plot RDF dan MSD untuk setiap sistem dan temperatur.
+Gambar \ref{fig:rdf_msd_gabungan} menunjukkan plot RDF dan MSD untuk setiap sistem dan temperatur.
 Beberapa tren kunci dapat diidentifikasi dari plot RDF:
 \begin{itemize}
     \item Pengaruh Temperatur: Untuk semua sistem, seiring dengan meningkatnya temperatur dari 800 K ke 1225 K, puncak-puncak RDF menjadi lebih rendah dan lebih lebar.
@@ -275,7 +234,7 @@ Kehadiran ikatan yang "salah" (misalnya, B-B atau N-N di sekitar cacat antisite)
 Sistem B\textsubscript{N} menunjukkan pelebaran puncak yang paling signifikan, menandakan distorsi lokal terbesar, yang merupakan prasyarat penting untuk fenomena elektronik yang akan dibahas nanti.
 \end{itemize}
 
-Dari plot MSD pada Gambar \ref{fig:rdf_msd_grid}, perilaku dinamis sistem dapat dianalisis:
+Dari plot MSD pada Gambar \ref{fig:rdf_msd_gabungan}, perilaku dinamis sistem dapat dianalisis:
 \begin{itemize}
     \item Stabilitas Fasa Padat: Untuk semua kasus, MSD meningkat seiring waktu tetapi tidak menunjukkan rezim difusif linier yang jelas (seperti pada cairan), melainkan menunjukkan perilaku sub-difusif yang khas untuk atom dalam fasa padat pada temperatur tinggi.
 Ini mengonfirmasi bahwa monolayer hBN, bahkan pada 1225 K, tetap dalam keadaan padat dan tidak meleleh selama simulasi.
@@ -671,11 +630,11 @@ Peningkatan energi termal menggerakkan moda fonon beramplitudo lebih besar—seb
 Alih-alih mengacaukan tatanan magnetik, vibrasi-vibrasi ini secara aktif menstabilkan distorsi geometris lokal yang tidak hanya memungkinkan tetapi juga \emph{memperkuat} polarisasi spin.
 Fenomena kontra-intuitif di mana "gangguan" (vibrasi termal) mengarah pada "tatanan" (magnetisme) kini terkonfirmasi secara visual.
 
-\section{Sintesis: Keterkaitan antara Dinamika Struktur, Stabilitas Termal, dan Sifat Kuantum}
+\section{Keterkaitan antara Dinamika Struktur, Stabilitas Termal, dan Sifat Kuantum}
 \label{sec:diskusi_komprehensif}
 Analisis yang telah dipaparkan mengungkapkan sebuah narasi yang kaya tentang bagaimana struktur, stabilitas, dan sifat kuantum saling terkait erat dalam monolayer hBN.
 Dengan menggabungkan wawasan dari simulasi MD dan kalkulasi DFT, kita dapat membangun gambaran komprehensif tentang fisika yang mendasari perilaku material ini di bawah pengaruh temperatur dan cacat.
-\subsection{Korelasi Struktur-Sifat: Dari RDF/MSD ke Elektronik}
+\subsection{Korelasi Struktur-Sifat: Dari RDF dan MSD ke Elektronik}
 \label{subsec:korelasi_struktur_md_dft}
 Alur kerja multi-skala yang digunakan dalam penelitian ini menyoroti hubungan sebab-akibat yang krusial: dinamika struktural pada skala pikosekon (ditangkap oleh MD) secara langsung menentukan sifat elektronik keadaan dasar (dihitung oleh DFT).
 \begin{itemize}

@@ -4,9 +4,9 @@
 \contentsline {chapter}{ABSTRAK}{v}{Doc-Start}%
 \contentsline {chapter}{\textit {ABSTRACT}}{vi}{Doc-Start}%
 \contentsline {chapter}{KATA PENGANTAR}{vii}{Doc-Start}%
-\contentsline {chapter}{DAFTAR ISI}{viii}{Item.6}%
-\contentsline {chapter}{DAFTAR GAMBAR}{xi}{Item.6}%
-\contentsline {chapter}{DAFTAR TABEL}{xiv}{Item.6}%
+\contentsline {chapter}{DAFTAR ISI}{viii}{Item.7}%
+\contentsline {chapter}{DAFTAR GAMBAR}{xi}{Item.7}%
+\contentsline {chapter}{DAFTAR TABEL}{xiv}{Item.7}%
 \vskip 10pt
 \contentsline {chapter}{\numberline {I}PENDAHULUAN}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Latar Belakang}{1}{section.1.1}%
@@ -70,26 +70,26 @@
 \contentsline {section}{\numberline {4.2}Analisis Stabilitas dan Struktur Termal dari Simulasi MD}{38}{section.4.2}%
 \contentsline {subsection}{\numberline {4.2.1}Struktur Atomik Hasil Pemanasan}{38}{subsection.4.2.1}%
 \contentsline {subsection}{\numberline {4.2.2}Analisis Tatanan Struktural dan Mobilitas Atomik: RDF dan MSD}{42}{subsection.4.2.2}%
-\contentsline {section}{\numberline {4.3}Pengaruh Temperatur pada Sifat Elektronik Monolayer hBN Murni}{46}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Karakteristik Elektronik Dasar hBN Murni (Sistem Referensi)}{46}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Renormalisasi Celah Pita oleh Kopling Elektron-Fonon (EPC)}{46}{subsection.4.3.2}%
-\contentsline {subsection}{\numberline {4.3.3}Analisis Visual Kerapatan Muatan dan Spin}{49}{subsection.4.3.3}%
-\contentsline {section}{\numberline {4.4}Rekayasa Sifat Elektronik dan Magnetik Melalui Cacat Antisite}{51}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Cacat N\textsubscript {B}: Pergeseran Biru Anomali dan Kopling Elektron-Fonon Terlokalisasi}{51}{subsection.4.4.1}%
-\contentsline {subsubsection}{Analisis Visual Kerapatan Muatan dan Spin untuk Cacat N\textsubscript {B}}{53}{figure.caption.27}%
-\contentsline {subsection}{\numberline {4.4.2}Cacat B\textsubscript {N}: Induksi Magnetisme $d^0$ dan Kopling Spin-Fonon}{55}{subsection.4.4.2}%
-\contentsline {subsubsection}{Bukti Visual Kopling Spin-Fonon dari Kerapatan Muatan dan Spin}{57}{Item.28}%
-\contentsline {section}{\numberline {4.5}Sintesis: Keterkaitan antara Dinamika Struktur, Stabilitas Termal, dan Sifat Kuantum}{59}{section.4.5}%
-\contentsline {subsection}{\numberline {4.5.1}Korelasi Struktur-Sifat: Dari RDF/MSD ke Elektronik}{59}{subsection.4.5.1}%
-\contentsline {subsection}{\numberline {4.5.2}Ringkasan Mekanisme Fisik dan Implikasi}{60}{subsection.4.5.2}%
+\contentsline {section}{\numberline {4.3}Pengaruh Temperatur pada Sifat Elektronik Monolayer hBN Murni}{44}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Karakteristik Elektronik Dasar hBN Murni (Sistem Referensi)}{44}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Renormalisasi Celah Pita oleh Kopling Elektron-Fonon (EPC)}{44}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Analisis Visual Kerapatan Muatan dan Spin}{47}{subsection.4.3.3}%
+\contentsline {section}{\numberline {4.4}Rekayasa Sifat Elektronik dan Magnetik Melalui Cacat Antisite}{49}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Cacat N\textsubscript {B}: Pergeseran Biru Anomali dan Kopling Elektron-Fonon Terlokalisasi}{49}{subsection.4.4.1}%
+\contentsline {subsubsection}{Analisis Visual Kerapatan Muatan dan Spin untuk Cacat N\textsubscript {B}}{51}{figure.caption.25}%
+\contentsline {subsection}{\numberline {4.4.2}Cacat B\textsubscript {N}: Induksi Magnetisme $d^0$ dan Kopling Spin-Fonon}{53}{subsection.4.4.2}%
+\contentsline {subsubsection}{Bukti Visual Kopling Spin-Fonon dari Kerapatan Muatan dan Spin}{55}{Item.28}%
+\contentsline {section}{\numberline {4.5}Keterkaitan antara Dinamika Struktur, Stabilitas Termal, dan Sifat Kuantum}{57}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Korelasi Struktur-Sifat: Dari RDF dan MSD ke Elektronik}{57}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}Ringkasan Mekanisme Fisik dan Implikasi}{58}{subsection.4.5.2}%
 \vskip 10pt
-\contentsline {chapter}{\numberline {V}PENUTUP}{62}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Kesimpulan}{62}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Saran}{62}{section.5.2}%
+\contentsline {chapter}{\numberline {V}PENUTUP}{60}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Kesimpulan}{60}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Saran}{60}{section.5.2}%
 \vskip 10pt
-\contentsline {chapter}{DAFTAR PUSTAKA}{63}{section.5.2}%
+\contentsline {chapter}{DAFTAR PUSTAKA}{61}{section.5.2}%
  \addtolength \cftchapnumwidth {-\mylength } \renewcommand {\cftchappresnum }{LAMPIRAN~} \settowidth \mylength { \bfseries \cftchappresnum \cftchapaftersnum } \addtolength \cftchapnumwidth {\mylength }
 \vskip 10pt
-\contentsline {chapter}{\numberline {A}Lampiran}{70}{appendix.A}%
-\contentsline {section}{\numberline {A.1}Kode dan Keluaran Hasil Simulasi dan Komputasi MD dan DFT }{70}{section.A.1}%
+\contentsline {chapter}{\numberline {A}Lampiran}{68}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Kode dan Keluaran Hasil Simulasi dan Komputasi MD dan DFT }{68}{section.A.1}%
 \vskip 10pt

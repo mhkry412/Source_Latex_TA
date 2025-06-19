@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.22.0 (MiKTeX 25.4) (format=lualatex 2025.6.14)  19 JUN 2025 04:20
+This is LuaHBTeX, Version 1.22.0 (MiKTeX 25.4) (format=lualatex 2025.6.14)  19 JUN 2025 13:03
  restricted system commands enabled.
  file:line:error style messages enabled.
 **c:/Users/HANDAR/Documents/DFT_MD/Dokumen_Kerja/Source_Latex_TA#/Tugas_Akhir_L
@@ -1061,9 +1061,11 @@ Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
 \ESO@tempdima=\dimen308
 \ESO@tempdimb=\dimen309
 )
-(C:/Users/HANDAR/AppData/Local/Programs/MiKTeX/tex/latex/geometry/geometry.sty
+(C:/Users/HANDAR/AppData/Local/Programs/MiKTeX/tex/latex/placeins/placeins.sty
+Package: placeins 2005/04/18  v 2.2
+) (C:/Users/HANDAR/AppData/Local/Programs/MiKTeX/tex/latex/geometry/geometry.st
+y
 Package: geometry 2020/01/02 v5.9 Page Geometry
-
 (C:/Users/HANDAR/AppData/Local/Programs/MiKTeX/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
@@ -1137,7 +1139,7 @@ Package tocloft Info: The document has chapter divisions on input line 51.
 
 
 LaTeX Font Warning: Font shape `TU/bch/b/n' undefined
-(Font)              using `TU/bch/m/n' instead on input line 81.
+(Font)              using `TU/bch/m/n' instead on input line 82.
 
 
 (C:/Users/HANDAR/AppData/Local/Programs/MiKTeX/tex/latex/background/background.
@@ -2017,12 +2019,12 @@ File: gambar_hasil/hBN_pure_800K.png Graphic file (type png)
 Package luatex.def Info: gambar_hasil/hBN_pure_800K.png  used on input line 91.
 
 (luatex.def)             Requested size: 223.07211pt x 121.65123pt.
-<gambar_hasil/hBN_pure_side_800K.png, id=1174, 1437.37pt x 783.92876pt>
+<gambar_hasil/hBN_pure_side_800K.png, id=1174, 2874.74pt x 1567.8575pt>
 File: gambar_hasil/hBN_pure_side_800K.png Graphic file (type png)
 <use gambar_hasil/hBN_pure_side_800K.png>
 Package luatex.def Info: gambar_hasil/hBN_pure_side_800K.png  used on input lin
 e 92.
-(luatex.def)             Requested size: 223.07211pt x 121.65125pt.
+(luatex.def)             Requested size: 223.07211pt x 121.65123pt.
 <gambar_hasil/hBN_pure_1100K.png, id=1175, 2874.74pt x 1567.8575pt>
 File: gambar_hasil/hBN_pure_1100K.png Graphic file (type png)
 <use gambar_hasil/hBN_pure_1100K.png>
@@ -2076,12 +2078,12 @@ File: gambar_hasil/hBN_NN_1225K.png Graphic file (type png)
 Package luatex.def Info: gambar_hasil/hBN_NN_1225K.png  used on input line 135.
 
 (luatex.def)             Requested size: 223.07211pt x 121.65123pt.
-<gambar_hasil/hBN_NN_side_1225K.png, id=1184, 2874.74pt x 1567.8575pt>
+<gambar_hasil/hBN_NN_side_1225K.png, id=1184, 1437.37pt x 783.92876pt>
 File: gambar_hasil/hBN_NN_side_1225K.png Graphic file (type png)
 <use gambar_hasil/hBN_NN_side_1225K.png>
 Package luatex.def Info: gambar_hasil/hBN_NN_side_1225K.png  used on input line
  136.
-(luatex.def)             Requested size: 223.07211pt x 121.65123pt.
+(luatex.def)             Requested size: 223.07211pt x 121.65125pt.
 <gambar_hasil/hBN_BB_800K.png, id=1185, 2874.74pt x 1567.8575pt>
 File: gambar_hasil/hBN_BB_800K.png Graphic file (type png)
 <use gambar_hasil/hBN_BB_800K.png>
@@ -2132,383 +2134,324 @@ BN_NN_1225K.png><./gambar_hasil/hBN_NN_side_1225K.png>]
 [41<./gambar_hasil/hBN_BB_800K.png><./gambar_hasil/hBN_BB_side_800K.png><./gamba
 r_hasil/hBN_BB_1100K.png><./gambar_hasil/hBN_BB_side_1100K.png><./gambar_hasil/h
 BN_BB_1225K.png><./gambar_hasil/hBN_BB_side_1225K.png>]
-<gambar_hasil/pure_800K_notitle.png, id=1230, 856.6404pt x 349.7868pt>
-File: gambar_hasil/pure_800K_notitle.png Graphic file (type png)
-<use gambar_hasil/pure_800K_notitle.png>
-Package luatex.def Info: gambar_hasil/pure_800K_notitle.png  used on input line
- 194.
-(luatex.def)             Requested size: 409.71692pt x 167.29797pt.
-<gambar_hasil/pure_1100K_notitle.png, id=1231, 856.6404pt x 350.0277pt>
-File: gambar_hasil/pure_1100K_notitle.png Graphic file (type png)
-<use gambar_hasil/pure_1100K_notitle.png>
-Package luatex.def Info: gambar_hasil/pure_1100K_notitle.png  used on input lin
-e 201.
+<gambar_hasil/pure_combined_notitle.png, id=1230, 856.3995pt x 349.7868pt>
+File: gambar_hasil/pure_combined_notitle.png Graphic file (type png)
+<use gambar_hasil/pure_combined_notitle.png>
+Package luatex.def Info: gambar_hasil/pure_combined_notitle.png  used on input 
+line 196.
+(luatex.def)             Requested size: 409.71692pt x 167.34601pt.
+<gambar_hasil/NN_combined_notitle.png, id=1231, 856.6404pt x 350.0277pt>
+File: gambar_hasil/NN_combined_notitle.png Graphic file (type png)
+<use gambar_hasil/NN_combined_notitle.png>
+Package luatex.def Info: gambar_hasil/NN_combined_notitle.png  used on input li
+ne 206.
 (luatex.def)             Requested size: 409.71692pt x 167.4132pt.
-<gambar_hasil/pure_1225K_notitle.png, id=1232, 856.6404pt x 349.7868pt>
-File: gambar_hasil/pure_1225K_notitle.png Graphic file (type png)
-<use gambar_hasil/pure_1225K_notitle.png>
-Package luatex.def Info: gambar_hasil/pure_1225K_notitle.png  used on input lin
-e 208.
-(luatex.def)             Requested size: 409.71692pt x 167.29797pt.
-<gambar_hasil/NN_800K_notitle.png, id=1233, 856.3995pt x 350.0277pt>
-File: gambar_hasil/NN_800K_notitle.png Graphic file (type png)
-<use gambar_hasil/NN_800K_notitle.png>
-Package luatex.def Info: gambar_hasil/NN_800K_notitle.png  used on input line 2
-20.
-(luatex.def)             Requested size: 409.71692pt x 167.46126pt.
-<gambar_hasil/NN_1100K_notitle.png, id=1234, 856.6404pt x 350.0277pt>
-File: gambar_hasil/NN_1100K_notitle.png Graphic file (type png)
-<use gambar_hasil/NN_1100K_notitle.png>
-Package luatex.def Info: gambar_hasil/NN_1100K_notitle.png  used on input line 
-227.
+<gambar_hasil/BB_combined_notitle.png, id=1232, 856.6404pt x 350.0277pt>
+File: gambar_hasil/BB_combined_notitle.png Graphic file (type png)
+<use gambar_hasil/BB_combined_notitle.png>
+Package luatex.def Info: gambar_hasil/BB_combined_notitle.png  used on input li
+ne 216.
 (luatex.def)             Requested size: 409.71692pt x 167.4132pt.
-<gambar_hasil/NN_1225K_notitle.png, id=1235, 856.6404pt x 350.0277pt>
-File: gambar_hasil/NN_1225K_notitle.png Graphic file (type png)
-<use gambar_hasil/NN_1225K_notitle.png>
-Package luatex.def Info: gambar_hasil/NN_1225K_notitle.png  used on input line 
-234.
-(luatex.def)             Requested size: 409.71692pt x 167.4132pt.
-<gambar_hasil/BB_800K_notitle.png, id=1236, 856.6404pt x 350.0277pt>
-File: gambar_hasil/BB_800K_notitle.png Graphic file (type png)
-<use gambar_hasil/BB_800K_notitle.png>
-Package luatex.def Info: gambar_hasil/BB_800K_notitle.png  used on input line 2
-45.
-(luatex.def)             Requested size: 409.71692pt x 167.4132pt.
-<gambar_hasil/BB_1100K_notitle.png, id=1237, 856.3995pt x 350.0277pt>
-File: gambar_hasil/BB_1100K_notitle.png Graphic file (type png)
-<use gambar_hasil/BB_1100K_notitle.png>
-Package luatex.def Info: gambar_hasil/BB_1100K_notitle.png  used on input line 
-252.
-(luatex.def)             Requested size: 409.71692pt x 167.46126pt.
-<gambar_hasil/BB_1225K_notitle.png, id=1238, 856.6404pt x 350.0277pt>
-File: gambar_hasil/BB_1225K_notitle.png Graphic file (type png)
-<use gambar_hasil/BB_1225K_notitle.png>
-Package luatex.def Info: gambar_hasil/BB_1225K_notitle.png  used on input line 
-259.
-(luatex.def)             Requested size: 409.71692pt x 167.4132pt.
-
-
-Package caption Warning: \label without proper reference on input line 212.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:rdf_msd_grid' on page 42 undefined on input line 
-266.
-
-
-Package caption Warning: \label without proper reference on input line 212.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:rdf_msd_grid' on page 42 undefined on input line 
-278.
-
 
 
 [42]
 
-[43<./gambar_hasil/pure_800K_notitle.png><./gambar_hasil/pure_1100K_notitle.png>
-<./gambar_hasil/pure_1225K_notitle.png>]
-
-[44<./gambar_hasil/NN_800K_notitle.png><./gambar_hasil/NN_1100K_notitle.png><./g
-ambar_hasil/NN_1225K_notitle.png>]
-
-[45<./gambar_hasil/BB_800K_notitle.png><./gambar_hasil/BB_1100K_notitle.png><./g
-ambar_hasil/BB_1225K_notitle.png>]
-<gambar_hasil/simple_bands_pdos_pristine.png, id=1273, 1038.0381pt x 417.9615pt
+[43<./gambar_hasil/pure_combined_notitle.png><./gambar_hasil/NN_combined_notitle
+.png><./gambar_hasil/BB_combined_notitle.png>]
+<gambar_hasil/simple_bands_pdos_pristine.png, id=1251, 1038.0381pt x 417.9615pt
 >
 File: gambar_hasil/simple_bands_pdos_pristine.png Graphic file (type png)
 <use gambar_hasil/simple_bands_pdos_pristine.png>
 Package luatex.def Info: gambar_hasil/simple_bands_pdos_pristine.png  used on i
-nput line 305.
+nput line 264.
 (luatex.def)             Requested size: 432.48051pt x 174.13318pt.
-<gambar_hasil/simple_bands_pdos_pure_800K.png, id=1277, 1038.0381pt x 417.9615p
+<gambar_hasil/simple_bands_pdos_pure_800K.png, id=1255, 1038.0381pt x 417.9615p
 t>
 File: gambar_hasil/simple_bands_pdos_pure_800K.png Graphic file (type png)
 <use gambar_hasil/simple_bands_pdos_pure_800K.png>
 Package luatex.def Info: gambar_hasil/simple_bands_pdos_pure_800K.png  used on 
-input line 333.
+input line 292.
 (luatex.def)             Requested size: 432.48051pt x 174.13318pt.
-<gambar_hasil/simple_bands_pdos_pure_1100K.png, id=1278, 1038.0381pt x 417.9615
+<gambar_hasil/simple_bands_pdos_pure_1100K.png, id=1256, 1038.0381pt x 417.9615
 pt>
 File: gambar_hasil/simple_bands_pdos_pure_1100K.png Graphic file (type png)
 <use gambar_hasil/simple_bands_pdos_pure_1100K.png>
 Package luatex.def Info: gambar_hasil/simple_bands_pdos_pure_1100K.png  used on
- input line 340.
+ input line 299.
 (luatex.def)             Requested size: 432.48051pt x 174.13318pt.
-<gambar_hasil/simple_bands_pdos_pure_1225K.png, id=1279, 1038.0381pt x 417.9615
+<gambar_hasil/simple_bands_pdos_pure_1225K.png, id=1257, 1038.0381pt x 417.9615
 pt>
 File: gambar_hasil/simple_bands_pdos_pure_1225K.png Graphic file (type png)
 <use gambar_hasil/simple_bands_pdos_pure_1225K.png>
 Package luatex.def Info: gambar_hasil/simple_bands_pdos_pure_1225K.png  used on
- input line 347.
+ input line 306.
 (luatex.def)             Requested size: 432.48051pt x 174.13318pt.
 
 
-[46]
+[44]
 
-[47<./gambar_hasil/simple_bands_pdos_pristine.png><./gambar_hasil/simple_bands_p
+[45<./gambar_hasil/simple_bands_pdos_pristine.png><./gambar_hasil/simple_bands_p
 dos_pure_800K.png>]
 
-[48<./gambar_hasil/simple_bands_pdos_pure_1100K.png><./gambar_hasil/simple_bands
+[46<./gambar_hasil/simple_bands_pdos_pure_1100K.png><./gambar_hasil/simple_bands
 _pdos_pure_1225K.png>]
-<gambar_hasil/hBN_rho_pure_800K.png, id=1307, 2368.34813pt x 1451.4225pt>
+<gambar_hasil/hBN_rho_pure_800K.png, id=1285, 2368.34813pt x 1451.4225pt>
 File: gambar_hasil/hBN_rho_pure_800K.png Graphic file (type png)
 <use gambar_hasil/hBN_rho_pure_800K.png>
 Package luatex.def Info: gambar_hasil/hBN_rho_pure_800K.png  used on input line
- 380.
+ 339.
 (luatex.def)             Requested size: 223.07211pt x 136.69063pt.
-<gambar_hasil/hBN_spin_pure_800K.png, id=1308, 1077.90704pt x 587.91644pt>
+<gambar_hasil/hBN_spin_pure_800K.png, id=1286, 1077.90704pt x 587.91644pt>
 File: gambar_hasil/hBN_spin_pure_800K.png Graphic file (type png)
 <use gambar_hasil/hBN_spin_pure_800K.png>
 Package luatex.def Info: gambar_hasil/hBN_spin_pure_800K.png  used on input lin
-e 386.
+e 345.
 (luatex.def)             Requested size: 223.07211pt x 121.66295pt.
-<gambar_hasil/hBN_rho_pure_1100K.png, id=1309, 1184.17406pt x 725.71124pt>
+<gambar_hasil/hBN_rho_pure_1100K.png, id=1287, 1184.17406pt x 725.71124pt>
 File: gambar_hasil/hBN_rho_pure_1100K.png Graphic file (type png)
 <use gambar_hasil/hBN_rho_pure_1100K.png>
 Package luatex.def Info: gambar_hasil/hBN_rho_pure_1100K.png  used on input lin
-e 394.
+e 353.
 (luatex.def)             Requested size: 223.07211pt x 136.7017pt.
-<gambar_hasil/hBN_spin_pure_1100K.png, id=1310, 1077.90704pt x 587.91644pt>
+<gambar_hasil/hBN_spin_pure_1100K.png, id=1288, 1077.90704pt x 587.91644pt>
 File: gambar_hasil/hBN_spin_pure_1100K.png Graphic file (type png)
 <use gambar_hasil/hBN_spin_pure_1100K.png>
 Package luatex.def Info: gambar_hasil/hBN_spin_pure_1100K.png  used on input li
-ne 400.
+ne 359.
 (luatex.def)             Requested size: 223.07211pt x 121.66295pt.
-<gambar_hasil/hBN_rho_pure_1225K.png, id=1311, 1184.17406pt x 725.71124pt>
+<gambar_hasil/hBN_rho_pure_1225K.png, id=1289, 1184.17406pt x 725.71124pt>
 File: gambar_hasil/hBN_rho_pure_1225K.png Graphic file (type png)
 <use gambar_hasil/hBN_rho_pure_1225K.png>
 Package luatex.def Info: gambar_hasil/hBN_rho_pure_1225K.png  used on input lin
-e 408.
+e 367.
 (luatex.def)             Requested size: 223.07211pt x 136.7017pt.
-<gambar_hasil/hBN_spin_pure_1225K.png, id=1312, 1077.90704pt x 587.91644pt>
+<gambar_hasil/hBN_spin_pure_1225K.png, id=1290, 1077.90704pt x 587.91644pt>
 File: gambar_hasil/hBN_spin_pure_1225K.png Graphic file (type png)
 <use gambar_hasil/hBN_spin_pure_1225K.png>
 Package luatex.def Info: gambar_hasil/hBN_spin_pure_1225K.png  used on input li
-ne 414.
+ne 373.
 (luatex.def)             Requested size: 223.07211pt x 121.66295pt.
 
 
-[49]
+[47]
 
-[50<./gambar_hasil/hBN_rho_pure_800K.png><./gambar_hasil/hBN_spin_pure_800K.png>
+[48<./gambar_hasil/hBN_rho_pure_800K.png><./gambar_hasil/hBN_spin_pure_800K.png>
 <./gambar_hasil/hBN_rho_pure_1100K.png><./gambar_hasil/hBN_spin_pure_1100K.png><
 ./gambar_hasil/hBN_rho_pure_1225K.png><./gambar_hasil/hBN_spin_pure_1225K.png>]
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\mathsurround' on input line 437.
+(hyperref)                removing `\mathsurround' on input line 396.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 437.
+(hyperref)                removing `\z@' on input line 396.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 437.
+(hyperref)                removing `subscript' on input line 396.
 
-<gambar_hasil/simple_bands_pdos_NN_800K.png, id=1336, 1038.0381pt x 417.9615pt>
+<gambar_hasil/simple_bands_pdos_NN_800K.png, id=1314, 1038.0381pt x 417.9615pt>
 
 File: gambar_hasil/simple_bands_pdos_NN_800K.png Graphic file (type png)
 <use gambar_hasil/simple_bands_pdos_NN_800K.png>
 Package luatex.def Info: gambar_hasil/simple_bands_pdos_NN_800K.png  used on in
-put line 459.
+put line 418.
 (luatex.def)             Requested size: 432.48051pt x 174.13318pt.
-<gambar_hasil/simple_bands_pdos_NN_1100K.png, id=1337, 1038.0381pt x 417.9615pt
+<gambar_hasil/simple_bands_pdos_NN_1100K.png, id=1315, 1038.0381pt x 417.9615pt
 >
 File: gambar_hasil/simple_bands_pdos_NN_1100K.png Graphic file (type png)
 <use gambar_hasil/simple_bands_pdos_NN_1100K.png>
 Package luatex.def Info: gambar_hasil/simple_bands_pdos_NN_1100K.png  used on i
-nput line 465.
+nput line 424.
 (luatex.def)             Requested size: 432.48051pt x 174.13318pt.
-<gambar_hasil/simple_bands_pdos_NN_1225K.png, id=1338, 1038.0381pt x 417.9615pt
+<gambar_hasil/simple_bands_pdos_NN_1225K.png, id=1316, 1038.0381pt x 417.9615pt
 >
 File: gambar_hasil/simple_bands_pdos_NN_1225K.png Graphic file (type png)
 <use gambar_hasil/simple_bands_pdos_NN_1225K.png>
 Package luatex.def Info: gambar_hasil/simple_bands_pdos_NN_1225K.png  used on i
-nput line 471.
+nput line 430.
 (luatex.def)             Requested size: 432.48051pt x 174.13318pt.
 
 
-[51<./gambar_hasil/simple_bands_pdos_NN_800K.png>]
+[49<./gambar_hasil/simple_bands_pdos_NN_800K.png>]
 
-[52<./gambar_hasil/simple_bands_pdos_NN_1100K.png><./gambar_hasil/simple_bands_p
+[50<./gambar_hasil/simple_bands_pdos_NN_1100K.png><./gambar_hasil/simple_bands_p
 dos_NN_1225K.png>]
-<gambar_hasil/hBN_rho_NN_800K.png, id=1355, 1184.17406pt x 725.71124pt>
+<gambar_hasil/hBN_rho_NN_800K.png, id=1333, 1184.17406pt x 725.71124pt>
 File: gambar_hasil/hBN_rho_NN_800K.png Graphic file (type png)
 <use gambar_hasil/hBN_rho_NN_800K.png>
 Package luatex.def Info: gambar_hasil/hBN_rho_NN_800K.png  used on input line 4
-92.
+51.
 (luatex.def)             Requested size: 223.07211pt x 136.7017pt.
-<gambar_hasil/hBN_spin_NN_800K.png, id=1356, 1077.90704pt x 587.91644pt>
+<gambar_hasil/hBN_spin_NN_800K.png, id=1334, 1077.90704pt x 587.91644pt>
 File: gambar_hasil/hBN_spin_NN_800K.png Graphic file (type png)
 <use gambar_hasil/hBN_spin_NN_800K.png>
 Package luatex.def Info: gambar_hasil/hBN_spin_NN_800K.png  used on input line 
-498.
+457.
 (luatex.def)             Requested size: 223.07211pt x 121.66295pt.
-<gambar_hasil/hBN_rho_NN_1100K.png, id=1357, 1184.17406pt x 725.71124pt>
+<gambar_hasil/hBN_rho_NN_1100K.png, id=1335, 1184.17406pt x 725.71124pt>
 File: gambar_hasil/hBN_rho_NN_1100K.png Graphic file (type png)
 <use gambar_hasil/hBN_rho_NN_1100K.png>
 Package luatex.def Info: gambar_hasil/hBN_rho_NN_1100K.png  used on input line 
-506.
+465.
 (luatex.def)             Requested size: 223.07211pt x 136.7017pt.
-<gambar_hasil/hBN_spin_NN_1100K.png, id=1358, 1077.90704pt x 587.91644pt>
+<gambar_hasil/hBN_spin_NN_1100K.png, id=1336, 1077.90704pt x 587.91644pt>
 File: gambar_hasil/hBN_spin_NN_1100K.png Graphic file (type png)
 <use gambar_hasil/hBN_spin_NN_1100K.png>
 Package luatex.def Info: gambar_hasil/hBN_spin_NN_1100K.png  used on input line
- 512.
+ 471.
 (luatex.def)             Requested size: 223.07211pt x 121.66295pt.
-<gambar_hasil/hBN_rho_NN_1225K.png, id=1359, 1184.17406pt x 725.71124pt>
+<gambar_hasil/hBN_rho_NN_1225K.png, id=1337, 1184.17406pt x 725.71124pt>
 File: gambar_hasil/hBN_rho_NN_1225K.png Graphic file (type png)
 <use gambar_hasil/hBN_rho_NN_1225K.png>
 Package luatex.def Info: gambar_hasil/hBN_rho_NN_1225K.png  used on input line 
-520.
+479.
 (luatex.def)             Requested size: 223.07211pt x 136.7017pt.
-<gambar_hasil/hBN_spin_NN_1225K.png, id=1360, 1077.90704pt x 587.91644pt>
+<gambar_hasil/hBN_spin_NN_1225K.png, id=1338, 1077.90704pt x 587.91644pt>
 File: gambar_hasil/hBN_spin_NN_1225K.png Graphic file (type png)
 <use gambar_hasil/hBN_spin_NN_1225K.png>
 Package luatex.def Info: gambar_hasil/hBN_spin_NN_1225K.png  used on input line
- 526.
+ 485.
 (luatex.def)             Requested size: 223.07211pt x 121.66295pt.
 
 
-[53]
+[51]
 
-[54<./gambar_hasil/hBN_rho_NN_800K.png><./gambar_hasil/hBN_spin_NN_800K.png><./g
+[52<./gambar_hasil/hBN_rho_NN_800K.png><./gambar_hasil/hBN_spin_NN_800K.png><./g
 ambar_hasil/hBN_rho_NN_1100K.png><./gambar_hasil/hBN_spin_NN_1100K.png><./gambar
 _hasil/hBN_rho_NN_1225K.png><./gambar_hasil/hBN_spin_NN_1225K.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\mathsurround' on input line 545.
+(hyperref)                removing `\mathsurround' on input line 504.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 545.
+(hyperref)                removing `\z@' on input line 504.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 545.
+(hyperref)                removing `subscript' on input line 504.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 545.
+(hyperref)                removing `math shift' on input line 504.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 545.
+(hyperref)                removing `superscript' on input line 504.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 545.
+(hyperref)                removing `math shift' on input line 504.
 
-<gambar_hasil/simple_bands_pdos_BB_800K.png, id=1382, 1038.0381pt x 417.9615pt>
+<gambar_hasil/simple_bands_pdos_BB_800K.png, id=1360, 1038.0381pt x 417.9615pt>
 
 File: gambar_hasil/simple_bands_pdos_BB_800K.png Graphic file (type png)
 <use gambar_hasil/simple_bands_pdos_BB_800K.png>
 Package luatex.def Info: gambar_hasil/simple_bands_pdos_BB_800K.png  used on in
-put line 576.
+put line 535.
 (luatex.def)             Requested size: 432.48051pt x 174.13318pt.
-<gambar_hasil/simple_bands_pdos_BB_1100K.png, id=1383, 1038.0381pt x 417.9615pt
+<gambar_hasil/simple_bands_pdos_BB_1100K.png, id=1361, 1038.0381pt x 417.9615pt
 >
 File: gambar_hasil/simple_bands_pdos_BB_1100K.png Graphic file (type png)
 <use gambar_hasil/simple_bands_pdos_BB_1100K.png>
 Package luatex.def Info: gambar_hasil/simple_bands_pdos_BB_1100K.png  used on i
-nput line 582.
+nput line 541.
 (luatex.def)             Requested size: 432.48051pt x 174.13318pt.
-<gambar_hasil/simple_bands_pdos_BB_1225K.png, id=1384, 1038.0381pt x 417.9615pt
+<gambar_hasil/simple_bands_pdos_BB_1225K.png, id=1362, 1038.0381pt x 417.9615pt
 >
 File: gambar_hasil/simple_bands_pdos_BB_1225K.png Graphic file (type png)
 <use gambar_hasil/simple_bands_pdos_BB_1225K.png>
 Package luatex.def Info: gambar_hasil/simple_bands_pdos_BB_1225K.png  used on i
-nput line 588.
+nput line 547.
 (luatex.def)             Requested size: 432.48051pt x 174.13318pt.
 
 
-[55<./gambar_hasil/simple_bands_pdos_BB_800K.png>]
+[53<./gambar_hasil/simple_bands_pdos_BB_800K.png>]
 
-[56<./gambar_hasil/simple_bands_pdos_BB_1100K.png><./gambar_hasil/simple_bands_p
+[54<./gambar_hasil/simple_bands_pdos_BB_1100K.png><./gambar_hasil/simple_bands_p
 dos_BB_1225K.png>]
-<gambar_hasil/hBN_rho_BB_800K.png, id=1406, 1184.17406pt x 725.71124pt>
+<gambar_hasil/hBN_rho_BB_800K.png, id=1383, 1184.17406pt x 725.71124pt>
 File: gambar_hasil/hBN_rho_BB_800K.png Graphic file (type png)
 <use gambar_hasil/hBN_rho_BB_800K.png>
-Package luatex.def Info: gambar_hasil/hBN_rho_BB_800K.png  used on input line 6
-16.
+Package luatex.def Info: gambar_hasil/hBN_rho_BB_800K.png  used on input line 5
+75.
 (luatex.def)             Requested size: 223.07211pt x 136.7017pt.
-<gambar_hasil/hBN_spin_BB_800K.png, id=1407, 1077.90704pt x 587.91644pt>
+<gambar_hasil/hBN_spin_BB_800K.png, id=1384, 1077.90704pt x 587.91644pt>
 File: gambar_hasil/hBN_spin_BB_800K.png Graphic file (type png)
 <use gambar_hasil/hBN_spin_BB_800K.png>
 Package luatex.def Info: gambar_hasil/hBN_spin_BB_800K.png  used on input line 
-622.
+581.
 (luatex.def)             Requested size: 223.07211pt x 121.66295pt.
-<gambar_hasil/hBN_rho_BB_1100K.png, id=1408, 1184.17406pt x 725.71124pt>
+<gambar_hasil/hBN_rho_BB_1100K.png, id=1385, 1184.17406pt x 725.71124pt>
 File: gambar_hasil/hBN_rho_BB_1100K.png Graphic file (type png)
 <use gambar_hasil/hBN_rho_BB_1100K.png>
 Package luatex.def Info: gambar_hasil/hBN_rho_BB_1100K.png  used on input line 
-630.
+589.
 (luatex.def)             Requested size: 223.07211pt x 136.7017pt.
-<gambar_hasil/hBN_spin_BB_1100K.png, id=1409, 1077.90704pt x 587.91644pt>
+<gambar_hasil/hBN_spin_BB_1100K.png, id=1386, 1077.90704pt x 587.91644pt>
 File: gambar_hasil/hBN_spin_BB_1100K.png Graphic file (type png)
 <use gambar_hasil/hBN_spin_BB_1100K.png>
 Package luatex.def Info: gambar_hasil/hBN_spin_BB_1100K.png  used on input line
- 636.
+ 595.
 (luatex.def)             Requested size: 223.07211pt x 121.66295pt.
-<gambar_hasil/hBN_rho_BB_1225K.png, id=1410, 1184.17406pt x 725.71124pt>
+<gambar_hasil/hBN_rho_BB_1225K.png, id=1387, 1184.17406pt x 725.71124pt>
 File: gambar_hasil/hBN_rho_BB_1225K.png Graphic file (type png)
 <use gambar_hasil/hBN_rho_BB_1225K.png>
 Package luatex.def Info: gambar_hasil/hBN_rho_BB_1225K.png  used on input line 
-644.
+603.
 (luatex.def)             Requested size: 223.07211pt x 136.7017pt.
-<gambar_hasil/hBN_spin_BB_1225K.png, id=1411, 1077.90704pt x 587.91644pt>
+<gambar_hasil/hBN_spin_BB_1225K.png, id=1388, 1077.90704pt x 587.91644pt>
 File: gambar_hasil/hBN_spin_BB_1225K.png Graphic file (type png)
 <use gambar_hasil/hBN_spin_BB_1225K.png>
 Package luatex.def Info: gambar_hasil/hBN_spin_BB_1225K.png  used on input line
- 650.
+ 609.
 (luatex.def)             Requested size: 223.07211pt x 121.66295pt.
 
 
-[57]
+[55]
 
-[58<./gambar_hasil/hBN_rho_BB_800K.png><./gambar_hasil/hBN_spin_BB_800K.png><./g
+[56<./gambar_hasil/hBN_rho_BB_800K.png><./gambar_hasil/hBN_spin_BB_800K.png><./g
 ambar_hasil/hBN_rho_BB_1100K.png><./gambar_hasil/hBN_spin_BB_1100K.png><./gambar
 _hasil/hBN_rho_BB_1225K.png><./gambar_hasil/hBN_spin_BB_1225K.png>]
 
-[59]) (./konten/bab05.tex
+[57]) (./konten/bab05.tex
 
-[60]
+[58]
 
-[61]
+[59]
 Bab V.
 )
 
-[62
+[60
 
 ]
 (c:/Users/HANDAR/Documents/DFT_MD/Dokumen_Kerja/Source_Latex_TA#/Tugas_Akhir_La
 tex_Source/out_dir/main.bbl
 
-[63]
+[61]
 
-[64
+[62
 
 ]
+
+[63]
+
+[64]
 
 [65]
 
-[66]
+[66]) (./halaman-belakang/lampiran/lampiranA.tex
 
 [67]
-
-[68]) (./halaman-belakang/lampiran/lampiranA.tex
-
-[69]
 Lampiran A.
 ) (./halaman-belakang/biografi.tex
 
-[70
+[68
 
 ]
-<./gambar/Pas Foto Handar Ori.JPG, id=1517, 1284.8pt x 1927.2pt>
+<./gambar/Pas Foto Handar Ori.JPG, id=1495, 1284.8pt x 1927.2pt>
 File: ./gambar/Pas Foto Handar Ori.JPG Graphic file (type jpg)
 <use ./gambar/Pas Foto Handar Ori.JPG>
 Package luatex.def Info: ./gambar/Pas Foto Handar Ori.JPG  used on input line 1
@@ -2516,7 +2459,7 @@ Package luatex.def Info: ./gambar/Pas Foto Handar Ori.JPG  used on input line 1
 (luatex.def)             Requested size: 136.57462pt x 204.84683pt.
 )
 
-[71
+[69
 
 <./gambar/Pas Foto Handar Ori.JPG>]
 (c:/Users/HANDAR/Documents/DFT_MD/Dokumen_Kerja/Source_Latex_TA#/Tugas_Akhir_La
@@ -2529,21 +2472,18 @@ L3 programming layer <2025-05-26>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: AACDE286D233AC0BA86F775062B5C046;17161.
+(rerunfilecheck)             Checksum: D1829A8ADCB7C5812DD520D4AF941AC5;17134.
 )
 
 Here is how much of LuaTeX's memory you used:
- 37593 strings out of 470209
+ 37536 strings out of 470209
  125007,1373583 words of node,token memory allocated
- 1803 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 212 attribute, 142 glue_sp
-ec, 107 attribute_list, 3 write, 40 pdf_action nodes
-   avail lists: 2:1379,3:398,4:68,5:389,6:86,7:9917,8:88,9:717,10:24,11:1511
- 64167 multiletter control sequences out of 65536+600000
+ 1809 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 214 attribute, 142 glue_sp
+ec, 108 attribute_list, 3 write, 40 pdf_action nodes
+   avail lists: 2:1376,3:398,4:68,5:389,6:86,7:9917,8:88,9:717,10:24,11:1511
+ 64127 multiletter control sequences out of 65536+600000
  175 fonts using 30212663 bytes
  107i,14n,108p,1335b,643s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/HANDAR/AppData/Local/Microsoft/Windows/Fonts/inconsolata-variablefont_
@@ -2557,9 +2497,9 @@ ts/type1/public/lm/lmr9.pfb><C:/Users/HANDAR/AppData/Local/Programs/MiKTeX/fonts
 /type1/public/newtx/txexs.pfb><C:/Users/HANDAR/AppData/Local/Programs/MiKTeX/fon
 ts/type1/public/newtx/txmiaX.pfb><C:/Users/HANDAR/AppData/Local/Programs/MiKTeX/
 fonts/type1/public/newtx/txsys.pfb>
-Output written on main.pdf (86 pages, 48734653 bytes).
+Output written on main.pdf (84 pages, 45233249 bytes).
 
-PDF statistics: 1600 PDF objects out of 1728 (max. 8388607)
- 315 named destinations out of 1000 (max. 131072)
+PDF statistics: 1578 PDF objects out of 1728 (max. 8388607)
+ 311 named destinations out of 1000 (max. 131072)
  632 words of extra memory for PDF output out of 10000 (max. 100000000)
 

@@ -14,43 +14,41 @@ Penemuan grafena (\textit{graphene}) pada tahun 2004 oleh \cite{Novoselov2004} d
 
 Secara intrinsik, hBN adalah sebuah isolator celah pita lebar, dengan celah pita energi eksperimental sekitar 6 eV. Sifat ini menjadikannya kandidat ideal untuk aplikasi sebagai substrat dielektrik ultra-tipis dan lapisan enkapsulasi dalam perangkat nanoelektronika, terutama untuk meningkatkan performa perangkat berbasis grafena dengan meminimalkan hamburan dari substrat \citep{Dean2010}.
 
-Lebih dari sekadar komponen pasif, sifat-sifat intrinsik hBN dapat dimodifikasi secara dramatis. Dua mekanisme pengendalian yang paling berpengaruh adalah perlakuan termal dan rekayasa defek. Studi terdahulu telah menunjukkan bahwa pemrosesan pada temperatur tinggi dapat menginduksi pembentukan defek titik, rekonstruksi permukaan, dan redistribusi muatan, yang pada akhirnya mengubah sifat elektronik dan optik material \citep{Zhang2020, Huang2012}. Kehadiran defek, baik yang diinduksi secara termal maupun yang sengaja dibuat, dapat menciptakan keadaan elektronik terlokalisasi di dalam celah pita, secara efektif mengubah hBN dari isolator menjadi semikonduktor atau bahkan material dengan sifat fungsional baru.
+Lebih dari sekadar komponen pasif, sifat-sifat intrinsik hBN dapat dimodifikasi secara dramatis. Dua mekanisme pengendalian yang paling berpengaruh adalah perlakuan termal dan rekayasa cacat. Studi terdahulu telah menunjukkan bahwa pemrosesan pada temperatur tinggi dapat menginduksi pembentukan cacat titik, rekonstruksi permukaan, dan redistribusi muatan, yang pada akhirnya mengubah sifat elektronik dan optik material \citep{Zhang2020, Huang2012}. Kehadiran cacat, baik yang diinduksi secara termal maupun yang sengaja dibuat, dapat menciptakan keadaan elektronik terlokalisasi di dalam celah pita, secara efektif mengubah hBN dari isolator menjadi semikonduktor atau bahkan material dengan sifat fungsional baru.
 
 Untuk menyelidiki fenomena kompleks ini, pendekatan komputasi multi-skala yang menggabungkan Dinamika Molekuler (MD) dan Teori Fungsional Kerapatan (DFT) telah menjadi alat yang sangat ampuh. MD memungkinkan simulasi evolusi struktur atomik di bawah pengaruh termal, sementara DFT menyediakan perhitungan sifat elektronik dan magnetik dari prinsip pertama untuk struktur yang dihasilkan. Namun, kekuatan prediksi dari alur kerja komputasi ini sangat bergantung pada akurasi model fisika yang mendasarinya, yaitu potensial interatomik yang digunakan dalam MD dan fungsional tukar-tambah-hubungan dalam DFT. Setiap keterbatasan dalam model-model ini dapat merambat dan berpotensi menghasilkan artefak komputasi.
 
-Oleh karena itu, penelitian ini tidak hanya bertujuan untuk melaporkan hasil simulasi, tetapi juga untuk melakukan evaluasi kritis terhadap metodologi yang digunakan. Dengan mengeksplorasi pengaruh temperatur dan defek antisite (N$_B$ dan B$_N$) pada monolayer hBN, penelitian ini berupaya untuk mengungkap fisika menarik yang muncul—seperti ketergantungan temperatur anomali pada celah pita dan induksi magnetisme—dengan secara sistematis mempertimbangkan sejauh mana temuan ini dapat dipercaya dalam batas-batas pendekatan komputasi yang dipilih.
+Oleh karena itu, penelitian ini tidak hanya bertujuan untuk melaporkan hasil simulasi, tetapi juga untuk melakukan evaluasi kritis terhadap metodologi yang digunakan. Dengan mengeksplorasi pengaruh temperatur dan cacat antisite (N$_B$ dan B$_N$) pada monolayer hBN, penelitian ini berupaya untuk mengungkap fisika menarik yang muncul—seperti ketergantungan temperatur anomali pada celah pita dan induksi magnetisme—dengan secara sistematis mempertimbangkan sejauh mana temuan ini dapat dipercaya dalam batas-batas pendekatan komputasi yang dipilih.
 
 \section{Rumusan Masalah}
 Berdasarkan latar belakang yang telah diuraikan, rumusan masalah dalam penelitian ini difokuskan untuk menjawab pertanyaan-pertanyaan fundamental berikut:
 \begin{enumerate}
     \item Bagaimana pengaruh temperatur (800 K, 1100 K, dan 1225 K) terhadap struktur elektronik, khususnya celah pita energi, dari monolayer hBN murni?
-    \item Sejauh mana defek antisite (N$_B$ dan B$_N$) memodifikasi struktur elektronik dan bagaimana respons termal dari sistem ber-defek ini berbeda secara kualitatif dari sistem murni?
-    \item Apakah defek antisite B$_N$ mampu menginduksi magnetisme pada monolayer hBN yang secara intrinsik non-magnetik, dan bagaimana distorsi struktural yang diinduksi oleh temperatur mempengaruhi kemunculan serta kekuatan momen magnetik tersebut?
+    \item Sejauh mana cacat antisite (N$_B$ dan B$_N$) memodifikasi struktur elektronik dan bagaimana respons termal dari sistem dengan cacat ini berbeda secara kualitatif dari sistem murni?
+    \item Apakah cacat antisite B$_N$ mampu menginduksi magnetisme pada monolayer hBN yang secara intrinsik non-magnetik, dan bagaimana distorsi struktural yang diinduksi oleh temperatur mempengaruhi kemunculan serta kekuatan momen magnetik tersebut?
 \end{enumerate}
 
 \section{Tujuan Penelitian}
-Secara umum, tujuan dari penelitian ini adalah untuk memperoleh pemahaman mendalam mengenai modulasi sifat elektronik dan magnetik monolayer hBN melalui efek termal dan rekayasa defek. Tujuan spesifiknya adalah sebagai berikut:
+Secara umum, tujuan dari penelitian ini adalah untuk memperoleh pemahaman mendalam mengenai modulasi sifat elektronik dan magnetik monolayer hBN melalui efek termal dan rekayasa cacat. Tujuan spesifiknya adalah sebagai berikut:
 \begin{enumerate}
 \item Menelaah pengaruh variasi temperatur (800 K, 1100 K, dan 1225 K) terhadap struktur elektronik monolayer hBN murni, khususnya dalam konteks perubahan celah pita energi sebagai akibat dari fluktuasi termal.
 
-\item Menganalisis secara sistematis bagaimana keberadaan defek antisite (N$_B$ dan B$_N$) memodifikasi struktur elektronik serta mengevaluasi respons termal sistem ber-defek dibandingkan dengan sistem murni, baik dari segi stabilitas struktural maupun perubahan sifat elektroniknya.
+\item Menganalisis secara sistematis bagaimana keberadaan cacat antisite (N$_B$ dan B$_N$) memodifikasi struktur elektronik serta mengevaluasi respons termal sistem ber-cacat dibandingkan dengan sistem murni, baik dari segi stabilitas struktural maupun perubahan sifat elektroniknya.
 
-\item Menyelidiki potensi induksi magnetisme $d^0$ oleh defek antisite B$_N$ pada monolayer hBN yang secara intrinsik bersifat non-magnetik, serta mengevaluasi pengaruh distorsi struktural akibat temperatur terhadap kemunculan dan kekuatan momen magnetik yang dihasilkan.
-
-\item Melakukan evaluasi kritis terhadap metodologi komputasi yang digunakan, termasuk keterbatasan potensial interatomik dalam MD dan fungsional pertukaran-korelasi dalam DFT, dalam merepresentasikan sistem dengan akurasi yang memadai.
+\item Menyelidiki potensi induksi magnetisme oleh cacat antisite B$_N$ pada monolayer hBN yang secara intrinsik bersifat non-magnetik, serta mengevaluasi pengaruh distorsi struktural akibat temperatur terhadap kemunculan dan kekuatan momen magnetik yang dihasilkan.
 \end{enumerate}
 
 \section{Batasan Masalah}
 Untuk menjaga fokus dan kedalaman analisis, penelitian ini dibatasi oleh beberapa parameter berikut:
 \begin{itemize}
-    \item Sistem yang dipelajari adalah monolayer hBN dalam supercell berukuran $4 \times 4 \times 1$ (terdiri dari 32 atom), dengan dan tanpa defek antisite tunggal (N$_B$ atau B$_N$).
-    \item Simulasi dinamika molekuler dilakukan menggunakan perangkat lunak LAMMPS dengan potensial interatomik ReaxFF. Analisis dinamika seperti RDF dan MSD tidak menjadi fokus utama; MD hanya digunakan untuk menghasilkan struktur atomik yang setimbang secara termal.
+    \item Sistem yang dipelajari adalah monolayer hBN dalam supercell berukuran $4 \times 4 \times 1$ (terdiri dari 32 atom), dengan dan tanpa cacat antisite tunggal (N$_B$ atau B$_N$).
+    \item Simulasi dinamika molekuler dilakukan menggunakan perangkat lunak LAMMPS dengan potensial interatomik ReaxFF. Analisis dinamika seperti RDF dan MSD tidak menjadi fokus utama tetapi menjadi pendukung data sifat elektronik; MD hanya digunakan untuk menghasilkan struktur atomik yang setimbang secara termal.
     \item Perhitungan sifat elektronik dilakukan menggunakan perangkat lunak Quantum ESPRESSO dengan pendekatan DFT. Fungsional yang digunakan adalah PBEsol (GGA) dengan pseudopotensial PAW.
     \item Analisis dilakukan pada tiga titik temperatur diskrit: 800 K, 1100 K, dan 1225 K, yang diwakili oleh potret struktur statis dari simulasi MD.
-    \item Analisis sifat elektronik difokuskan pada struktur pita, Kerapatan Keadaan (DOS), Kerapatan Keadaan Terproyeksi (PDOS), serta distribusi kerapatan muatan dan spin. Efek yang lebih tinggi seperti kopling spin-orbit tidak dihitung secara eksplisit.
+    \item Analisis sifat elektronik difokuskan pada struktur pita, Kerapatan Keadaan (DOS), Kerapatan Keadaan Terproyeksi (PDOS), serta distribusi kerapatan muatan dan spin. Efek yang lebih tinggi seperti kopling spin-orbit dan fonon tidak dihitung secara eksplisit.
 \end{itemize}
 
 \section{Manfaat Penelitian}
 Penelitian ini diharapkan dapat memberikan manfaat signifikan dari sisi ilmiah dan potensi aplikasi.
-Secara ilmiah, hasil penelitian ini akan memperkaya pemahaman fundamental tentang bagaimana interaksi antara getaran kisi (fonon), defek titik, dan keadaan elektron secara kolektif menentukan sifat material 2D pada temperatur tinggi. Analisis kritis terhadap metodologi juga memberikan kontribusi pada praktik terbaik dalam pemodelan material komputasi.
-Secara aplikatif, temuan mengenai kemampuan untuk menyetel celah pita dan menginduksi magnetisme melalui rekayasa defek dan perlakuan termal membuka perspektif baru untuk aplikasi hBN. Potensi ini mencakup pengembangan komponen optoelektronik yang dapat diatur (tunable optoelectronics), sensor termal, dan perangkat spintronik berbasis material 2D yang bebas dari unsur logam transisi.
+Secara ilmiah, hasil penelitian ini akan memperkaya pemahaman fundamental tentang bagaimana interaksi antara getaran kisi (fonon), cacat titik, dan keadaan elektron secara kolektif menentukan sifat material 2D pada temperatur tinggi. Analisis kritis terhadap metodologi juga memberikan kontribusi pada praktik terbaik dalam pemodelan material komputasi.
+Secara aplikatif, temuan mengenai kemampuan untuk menyetel celah pita dan menginduksi magnetisme melalui rekayasa cacat dan perlakuan termal membuka perspektif baru untuk aplikasi hBN. Potensi ini mencakup pengembangan komponen optoelektronik yang dapat diatur (tunable optoelectronics), sensor termal, dan perangkat spintronik berbasis material 2D yang bebas dari unsur logam transisi.
