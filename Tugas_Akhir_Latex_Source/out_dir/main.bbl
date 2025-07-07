@@ -1,489 +1,187 @@
-\begin{thebibliography}{59}
-\providecommand{\natexlab}[1]{#1}
-\providecommand{\url}[1]{\texttt{#1}}
-\expandafter\ifx\csname urlstyle\endcsname\relax
-  \providecommand{\doi}[1]{doi: #1}\else
-  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
 
-\bibitem[Allen and Tildesley(1989)]{Allen1989}
-M.~P. Allen and D.~J. Tildesley.
-\newblock \emph{Computer Simulation of Liquids}.
-\newblock Oxford University Press, Oxford, 1989.
 
-\bibitem[Allen and Cardona(1983)]{Allen1983}
-Philip~B. Allen and Manuel Cardona.
-\newblock Temperature dependence of the direct gap of si and ge.
-\newblock \emph{Physical Review B}, 27\penalty0 (8):\penalty0 4760--4769, 1983.
-\newblock \doi{10.1103/PhysRevB.27.4760}.
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global/global}
+    \entry{Ando2002}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=d378c5f0f0f4cd5af4044c98c8c60752}{%
+           family={Ando},
+           familyi={A\bibinitperiod},
+           given={Tsuneya},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9c372cab06a64454bdc57ae12420691e}{%
+           family={Zheng},
+           familyi={Z\bibinitperiod},
+           given={Yisong},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2f3185fed4a2b39d2d96e011b7ad536f}{%
+           family={Suzuura},
+           familyi={S\bibinitperiod},
+           given={Hidekatsu},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{64102d3adecde63f68cfe8c73b0ed922}
+      \strng{fullhash}{64102d3adecde63f68cfe8c73b0ed922}
+      \strng{fullhashraw}{64102d3adecde63f68cfe8c73b0ed922}
+      \strng{bibnamehash}{64102d3adecde63f68cfe8c73b0ed922}
+      \strng{authorbibnamehash}{64102d3adecde63f68cfe8c73b0ed922}
+      \strng{authornamehash}{64102d3adecde63f68cfe8c73b0ed922}
+      \strng{authorfullhash}{64102d3adecde63f68cfe8c73b0ed922}
+      \strng{authorfullhashraw}{64102d3adecde63f68cfe8c73b0ed922}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the Physical Society of Japan}
+      \field{number}{5}
+      \field{title}{Dynamical Conductivity and Zero-Mode Anomaly in Honeycomb Lattices}
+      \field{volume}{71}
+      \field{year}{2002}
+      \field{pages}{1318\bibrangedash 1324}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1143/JPSJ.71.1318
+      \endverb
+    \endentry
+    \entry{Geim2007}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=40f0ba5816a970378fff1e96ae8538f7}{%
+           family={Geim},
+           familyi={G\bibinitperiod},
+           given={A.\bibnamedelimi K.},
+           giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=edc496cb40fecf35de2f2957fb7a20ac}{%
+           family={Novoselov},
+           familyi={N\bibinitperiod},
+           given={K.\bibnamedelimi S.},
+           giveni={K\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e19ba104a56a580a0b3561b249ec8e4f}
+      \strng{fullhash}{e19ba104a56a580a0b3561b249ec8e4f}
+      \strng{fullhashraw}{e19ba104a56a580a0b3561b249ec8e4f}
+      \strng{bibnamehash}{e19ba104a56a580a0b3561b249ec8e4f}
+      \strng{authorbibnamehash}{e19ba104a56a580a0b3561b249ec8e4f}
+      \strng{authornamehash}{e19ba104a56a580a0b3561b249ec8e4f}
+      \strng{authorfullhash}{e19ba104a56a580a0b3561b249ec8e4f}
+      \strng{authorfullhashraw}{e19ba104a56a580a0b3561b249ec8e4f}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature Materials}
+      \field{number}{3}
+      \field{title}{The Rise of Graphene}
+      \field{volume}{6}
+      \field{year}{2007}
+      \field{pages}{183\bibrangedash 191}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1038/nmat1849
+      \endverb
+    \endentry
+    \entry{Novoselov2004}{article}{}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=edc496cb40fecf35de2f2957fb7a20ac}{%
+           family={Novoselov},
+           familyi={N\bibinitperiod},
+           given={K.\bibnamedelimi S.},
+           giveni={K\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=40f0ba5816a970378fff1e96ae8538f7}{%
+           family={Geim},
+           familyi={G\bibinitperiod},
+           given={A.\bibnamedelimi K.},
+           giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3ac1b6c954b4c96d13707e49d10d1604}{%
+           family={Morozov},
+           familyi={M\bibinitperiod},
+           given={S.\bibnamedelimi V.},
+           giveni={S\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1dee54224972293ef194ca10a2a6551e}{%
+           family={Jiang},
+           familyi={J\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1f26f664835ac6c347db22001b657f1a}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f788111879d4dc3a8f9da1b5ad19c531}{%
+           family={Dubonos},
+           familyi={D\bibinitperiod},
+           given={S.\bibnamedelimi V.},
+           giveni={S\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=95e5b1f7631e44941e31f4157a125fe8}{%
+           family={Grigorieva},
+           familyi={G\bibinitperiod},
+           given={I.\bibnamedelimi V.},
+           giveni={I\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ae41d4ab1c9dd572a0bf8b4356c95b90}{%
+           family={Firsov},
+           familyi={F\bibinitperiod},
+           given={A.\bibnamedelimi A.},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{fca77cb58b7f342711c9d7fa90d2e237}
+      \strng{fullhash}{31f0a68b2188545d07423b13d2c1fb34}
+      \strng{fullhashraw}{31f0a68b2188545d07423b13d2c1fb34}
+      \strng{bibnamehash}{fca77cb58b7f342711c9d7fa90d2e237}
+      \strng{authorbibnamehash}{fca77cb58b7f342711c9d7fa90d2e237}
+      \strng{authornamehash}{fca77cb58b7f342711c9d7fa90d2e237}
+      \strng{authorfullhash}{31f0a68b2188545d07423b13d2c1fb34}
+      \strng{authorfullhashraw}{31f0a68b2188545d07423b13d2c1fb34}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Science}
+      \field{number}{5696}
+      \field{title}{Electric Field Effect in Atomically Thin Carbon Films}
+      \field{volume}{306}
+      \field{year}{2004}
+      \field{pages}{666\bibrangedash 669}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1126/science.1102896
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
 
-\bibitem[Ando et~al.(2002)Ando, Zheng, and Suzuura]{Ando2002}
-Tsuneya Ando, Yisong Zheng, and Hidekatsu Suzuura.
-\newblock Dynamical conductivity and zero-mode anomaly in honeycomb lattices.
-\newblock \emph{Journal of the Physical Society of Japan}, 71\penalty0
-  (5):\penalty0 1318--1324, 2002.
-\newblock \doi{10.1143/JPSJ.71.1318}.
-
-\bibitem[Becke(1993)]{Becke1993}
-Axel~D. Becke.
-\newblock Density-functional thermochemistry. {III}. the role of exact
-  exchange.
-\newblock \emph{The Journal of Chemical Physics}, 98\penalty0 (7):\penalty0
-  5648--5652, 1993.
-\newblock \doi{10.1063/1.464913}.
-
-\bibitem[Bhimanapati et~al.(2016)Bhimanapati, Kozben, and
-  Robinson]{Bhimanapati2016}
-Ganesh~R. Bhimanapati, Drew Kozben, and Joshua~A. Robinson.
-\newblock {2D} boron nitride.
-\newblock In \emph{Semiconductors and Semimetals}, volume~95, pages 91--134.
-  Elsevier, 2016.
-\newblock \doi{10.1016/bs.semsem.2016.04.004}.
-
-\bibitem[Bl{\"o}chl(1994)]{Blochl1994}
-P.~E. Bl{\"o}chl.
-\newblock Projector augmented-wave method.
-\newblock \emph{Physical Review B}, 50\penalty0 (24):\penalty0 17953--17979,
-  1994.
-\newblock \doi{10.1103/PhysRevB.50.17953}.
-
-\bibitem[Castro~Neto et~al.(2009)Castro~Neto, Guinea, Peres, Novoselov, and
-  Geim]{CastroNeto2009}
-A.~H. Castro~Neto, F.~Guinea, N.~M.~R. Peres, K.~S. Novoselov, and A.~K. Geim.
-\newblock The electronic properties of graphene.
-\newblock \emph{Reviews of Modern Physics}, 81\penalty0 (1):\penalty0 109--162,
-  2009.
-\newblock \doi{10.1103/RevModPhys.81.109}.
-
-\bibitem[Commons(2025)]{pseudopotential}
-Wikimedia Commons.
-\newblock File:pseudopotential.png --- wikimedia commons{,} the free media
-  repository, 2025.
-\newblock URL
-  \url{https://commons.wikimedia.org/w/index.php?title=File:Pseudopotential.png&oldid=997216778}.
-\newblock [Online; accessed 16-June-2025].
-
-\bibitem[Das et~al.(2015)Das, Robinson, Dubey, Terrones, and Terrones]{Das2015}
-Saptarshi Das, Joshua~A. Robinson, Madan Dubey, Humberto Terrones, and Mauricio
-  Terrones.
-\newblock Beyond graphene: Progress in novel two-dimensional materials and van
-  der waals heterostructures.
-\newblock \emph{Annual Review of Materials Research}, 45:\penalty0 1--27, 2015.
-\newblock \doi{10.1146/annurev-matsci-070214-021034}.
-
-\bibitem[Dean et~al.(2010)Dean, Young, Meric, Lee, Wang, Sorgenfrei, Watanabe,
-  Taniguchi, Kim, Shepard, and Hone]{Dean2010}
-C.~R. Dean, A.~F. Young, I.~Meric, C.~Lee, L.~Wang, S.~Sorgenfrei, K.~Watanabe,
-  T.~Taniguchi, P.~Kim, K.~L. Shepard, and J.~Hone.
-\newblock Boron nitride substrates for high-quality graphene electronics.
-\newblock \emph{Nature Nanotechnology}, 5\penalty0 (10):\penalty0 722--726,
-  2010.
-\newblock \doi{10.1038/nnano.2010.172}.
-
-\bibitem[Deringer et~al.(2020)Deringer, Caro, and Cs{\'a}nyi]{Deringer2020}
-Volker~L. Deringer, Miguel~A. Caro, and G{\'a}bor Cs{\'a}nyi.
-\newblock A general-purpose machine-learning force field for bulk and
-  low-dimensional hexagonal boron nitride.
-\newblock \emph{npj 2D Materials and Applications}, 4\penalty0 (1):\penalty0
-  24, 2020.
-\newblock \doi{10.1038/s41699-020-00161-6}.
-
-\bibitem[Du et~al.(2017)Du, Li, Lin, and Jiang]{Du2017}
-X.~Z. Du, J.~Li, J.~Y. Lin, and H.~X. Jiang.
-\newblock Temperature dependence of the energy bandgap of multi-layer hexagonal
-  boron nitride.
-\newblock \emph{Applied Physics Letters}, 111\penalty0 (13):\penalty0 132106,
-  2017.
-\newblock \doi{10.1063/1.4994070}.
-
-\bibitem[Elias et~al.(2019)Elias, Valvin, Pelini, Summerfield, Mellor, Cheng,
-  Eaves, Foxon, Beton, Novikov, Gil, and Cassabois]{Elias2019}
-C.~Elias, P.~Valvin, T.~Pelini, A.~Summerfield, C.~J. Mellor, T.~S. Cheng,
-  L.~Eaves, C.~T. Foxon, P.~H. Beton, S.~V. Novikov, B.~Gil, and G.~Cassabois.
-\newblock Direct band-gap crossover in epitaxial monolayer boron nitride.
-\newblock \emph{Nature Communications}, 10\penalty0 (1):\penalty0 2639, 2019.
-\newblock \doi{10.1038/s41467-019-10610-5}.
-
-\bibitem[Elias(2020)]{elias2020}
-Christine Elias.
-\newblock \emph{Optical spectroscopy of hexagonal boron nitride: from bulk to
-  monolayer}.
-\newblock PhD thesis, 12 2020.
-
-\bibitem[Frenkel and Smit(2001)]{Frenkel2001}
-Daan Frenkel and Berend Smit.
-\newblock \emph{Understanding Molecular Simulation: From Algorithms to
-  Applications}.
-\newblock Academic Press, San Diego, 2nd edition, 2001.
-
-\bibitem[Freysoldt et~al.(2014)Freysoldt, Grabowski, Hickel, Neugebauer,
-  Kresse, Janotti, and Van~de Walle]{Freysoldt2014}
-Christoph Freysoldt, Blazej Grabowski, Tilmann Hickel, J{\"o}rg Neugebauer,
-  Georg Kresse, Anderson Janotti, and Chris~G. Van~de Walle.
-\newblock First-principles calculations for point defects in solids.
-\newblock \emph{Reviews of Modern Physics}, 86\penalty0 (1):\penalty0 253--305,
-  2014.
-\newblock \doi{10.1103/RevModPhys.86.253}.
-
-\bibitem[Fthenakis et~al.(2022)Fthenakis, Petsalakis, Tozzini, and
-  Lathiotakis]{Fthenakis2022}
-Zacharias~G. Fthenakis, Ioannis~D. Petsalakis, Valentina Tozzini, and
-  Nektarios~N. Lathiotakis.
-\newblock Evaluating the performance of {ReaxFF} potentials for sp2 carbon
-  systems (graphene, carbon nanotubes, fullerenes) and a new {ReaxFF}
-  potential.
-\newblock \emph{Frontiers in Chemistry}, 10:\penalty0 951261, 2022.
-\newblock \doi{10.3389/fchem.2022.951261}.
-
-\bibitem[Geim and Grigorieva(2013)]{Geim2013}
-A.~K. Geim and I.~V. Grigorieva.
-\newblock Van der waals heterostructures.
-\newblock \emph{Nature}, 499\penalty0 (7459):\penalty0 419--425, 2013.
-\newblock \doi{10.1038/nature12385}.
-
-\bibitem[Geim and Novoselov(2007)]{Geim2007}
-A.~K. Geim and K.~S. Novoselov.
-\newblock The rise of graphene.
-\newblock \emph{Nature Materials}, 6\penalty0 (3):\penalty0 183--191, 2007.
-\newblock \doi{10.1038/nmat1849}.
-
-\bibitem[Giannozzi et~al.(2009)Giannozzi, Baroni, Bonini, Calandra, Car,
-  Cavazzoni, Ceresoli, Chiarotti, Cococcioni, Dabo, Dal~Corso, de~Gironcoli,
-  Fabris, Fratesi, Gebauer, Gerstmann, Gougoussis, Kokalj, Lazzeri,
-  Martin-Samos, Marzari, Mauri, Mazzarello, Paolini, Pasquarello, Paulatto,
-  Sbraccia, Scandolo, Sclauzero, Seitsonen, Smogunov, Umari, and
-  Wentzcovitch]{Giannozzi2009}
-P.~Giannozzi, S.~Baroni, N.~Bonini, M.~Calandra, R.~Car, C.~Cavazzoni,
-  D.~Ceresoli, G.~L. Chiarotti, M.~Cococcioni, I.~Dabo, A.~Dal~Corso,
-  S.~de~Gironcoli, S.~Fabris, G.~Fratesi, R.~Gebauer, U.~Gerstmann,
-  C.~Gougoussis, A.~Kokalj, M.~Lazzeri, L.~Martin-Samos, N.~Marzari, F.~Mauri,
-  R.~Mazzarello, S.~Paolini, A.~Pasquarello, L.~Paulatto, C.~Sbraccia,
-  S.~Scandolo, G.~Sclauzero, A.~P. Seitsonen, A.~Smogunov, P.~Umari, and R.~M.
-  Wentzcovitch.
-\newblock {QUANTUM ESPRESSO}: a modular and open-source software project for
-  quantum simulations of materials.
-\newblock \emph{Journal of Physics: Condensed Matter}, 21\penalty0
-  (39):\penalty0 395502, 2009.
-\newblock \doi{10.1088/0953-8984/21/39/395502}.
-
-\bibitem[Giannozzi et~al.(2017)Giannozzi, Andreussi, Brumme, Bunau,
-  Buongiorno~Nardelli, Calandra, Car, Cavazzoni, Ceresoli, Cococcioni, Colonna,
-  Carnimeo, Dal~Corso, de~Gironcoli, Delugas, DiStasio~Jr, Ferretti, Floris,
-  Fratesi, Fugallo, Gebauer, Gerstmann, Giustino, Gorni, Jia, Kawamura, Ko,
-  Kokalj, K{\"u}{\c{c}}ükbenli, Lazzeri, Marsili, Marzari, Mauri, Nguyen,
-  Pham, Otero-de-la Roza, Paulatto, Ponc{\'e}, Rocca, Sabatini, Santra,
-  Schlipf, Seitsonen, Smogunov, Timrov, Thonhauser, Umari, Vast, Wu, and
-  Baroni]{Giannozzi2017}
-P.~Giannozzi, O.~Andreussi, T.~Brumme, O.~Bunau, M.~Buongiorno~Nardelli,
-  M.~Calandra, R.~Car, C.~Cavazzoni, D.~Ceresoli, M.~Cococcioni, N.~Colonna,
-  I.~Carnimeo, A.~Dal~Corso, S.~de~Gironcoli, P.~Delugas, R.~A. DiStasio~Jr,
-  A.~Ferretti, A.~Floris, G.~Fratesi, G.~Fugallo, R.~Gebauer, U.~Gerstmann,
-  F.~Giustino, T.~Gorni, J.~Jia, M.~Kawamura, H.-Y. Ko, A.~Kokalj,
-  E.~K{\"u}{\c{c}}ükbenli, M.~Lazzeri, M.~Marsili, N.~Marzari, F.~Mauri, N.~L.
-  Nguyen, H.-V. Pham, A.~Otero-de-la Roza, L.~Paulatto, S.~Ponc{\'e}, D.~Rocca,
-  R.~Sabatini, B.~Santra, M.~Schlipf, A.~P. Seitsonen, A.~Smogunov, I.~Timrov,
-  T.~Thonhauser, P.~Umari, N.~Vast, X.~Wu, and S.~Baroni.
-\newblock Advanced capabilities for materials modelling with {Quantum
-  ESPRESSO}.
-\newblock \emph{Journal of Physics: Condensed Matter}, 29\penalty0
-  (46):\penalty0 465901, 2017.
-\newblock \doi{10.1088/1361-648X/aa8f79}.
-
-\bibitem[Hohenberg and Kohn(1964)]{Hohenberg1964}
-P.~Hohenberg and W.~Kohn.
-\newblock Inhomogeneous electron gas.
-\newblock \emph{Physical Review}, 136\penalty0 (3B):\penalty0 B864--B871, 1964.
-\newblock \doi{10.1103/PhysRev.136.B864}.
-
-\bibitem[Huang and Lee(2012)]{Huang2012}
-Bing Huang and Hoonkyung Lee.
-\newblock Defect and impurity properties of hexagonal boron nitride: A
-  first-principles calculation.
-\newblock \emph{Physical Review B}, 86\penalty0 (24):\penalty0 245406, 2012.
-\newblock \doi{10.1103/PhysRevB.86.245406}.
-
-\bibitem[Kardar(2007)]{Kardar2007}
-Mehran Kardar.
-\newblock \emph{Statistical Physics of Particles}.
-\newblock Cambridge University Press, Cambridge, 2007.
-
-\bibitem[Khan et~al.(2017)Khan, Navabi, Male, Zhang, Liu, Mint, Bird, and
-  Balandin]{Khan2017}
-Asir~Intisar Khan, Anahita Navabi, Prathamesh Male, Ting Zhang, Ya-Qiong Liu,
-  A.~T. Mint, Jonathan~P. Bird, and Alexander~A. Balandin.
-\newblock Thermal transport characterization of hexagonal boron nitride
-  nanoribbons using a micro-bridge device.
-\newblock \emph{Applied Physics Letters}, 111\penalty0 (12):\penalty0 123103,
-  2017.
-\newblock \doi{10.1063/1.4997036}.
-
-\bibitem[Kohn and Sham(1965)]{Kohn1965}
-W.~Kohn and L.~J. Sham.
-\newblock Self-consistent equations including exchange and correlation effects.
-\newblock \emph{Physical Review}, 140\penalty0 (4A):\penalty0 A1133--A1138,
-  1965.
-\newblock \doi{10.1103/PhysRev.140.A1133}.
-
-\bibitem[Kresse and Joubert(1999)]{Kresse1999}
-G.~Kresse and D.~Joubert.
-\newblock From ultrasoft pseudopotentials to the projector augmented-wave
-  method.
-\newblock \emph{Physical Review B}, 59\penalty0 (3):\penalty0 1758--1775, 1999.
-\newblock \doi{10.1103/PhysRevB.59.1758}.
-
-\bibitem[Lee et~al.(2008)Lee, Wei, Kysar, and Hone]{Lee2008}
-Changgu Lee, Xiaoding Wei, Jeffrey~W. Kysar, and James Hone.
-\newblock Measurement of the elastic properties and intrinsic strength of
-  monolayer graphene.
-\newblock \emph{Science}, 321\penalty0 (5887):\penalty0 385--388, 2008.
-\newblock \doi{10.1126/science.1157996}.
-
-\bibitem[Lele et~al.(2022)Lele, Ostadhossein, van Duin, Rappe, and
-  Chen]{Lele2022}
-Aditya Lele, Alireza Ostadhossein, Adri C.~T. van Duin, Andrew~M. Rappe, and
-  Zhaodan Chen.
-\newblock {ReaxFF} force field development for gas-phase hbn nanostructure
-  synthesis and accurate description of {B-N} and {B-B/N-N} defective bonds.
-\newblock \emph{The Journal of Physical Chemistry A}, 126\penalty0
-  (2):\penalty0 321--331, 2022.
-\newblock \doi{10.1021/acs.jpca.1c09648}.
-
-\bibitem[Li et~al.(2025)Li, Li, and Gali]{song2025}
-Song Li, Pei Li, and Adam Gali.
-\newblock Native antisite defects in h-bn.
-\newblock \emph{Applied Physics Letters}, 126\penalty0 (6):\penalty0 062104, 02
-  2025.
-\newblock ISSN 0003-6951.
-\newblock \doi{10.1063/5.0248897}.
-\newblock URL \url{https://doi.org/10.1063/5.0248897}.
-
-\bibitem[Liu et~al.(2025)Liu, Gong, Huang, Jin, Du, He, Janzen, Yang,
-  Henriksen, Edgar, Galli, and Zu]{Liu_2025}
-Zhongyuan Liu, Ruotian Gong, Benchen Huang, Yu~Jin, Xinyi Du, Guanghui He, Eli
-  Janzen, Li~Yang, Erik~A. Henriksen, James~H. Edgar, Giulia Galli, and Chong
-  Zu.
-\newblock Temperature-dependent spin-phonon coupling of boron-vacancy centers
-  in hexagonal boron nitride.
-\newblock \emph{Physical Review B}, 111\penalty0 (2), January 2025.
-\newblock ISSN 2469-9969.
-\newblock \doi{10.1103/physrevb.111.024108}.
-\newblock URL \url{http://dx.doi.org/10.1103/PhysRevB.111.024108}.
-
-\bibitem[Mann et~al.(2017)Mann, Kumar, and Jindal]{Mann2017}
-Sarita Mann, Ranjan Kumar, and V.~K. Jindal.
-\newblock Negative thermal expansion of pure and doped graphene.
-\newblock \emph{RSC Advances}, 7:\penalty0 22378--22387, 2017.
-\newblock \doi{10.1039/C7RA01591G}.
-
-\bibitem[Martin(2004)]{Martin2004}
-Richard~M. Martin.
-\newblock \emph{Electronic Structure: Basic Theory and Practical Methods}.
-\newblock Cambridge University Press, Cambridge, 2004.
-
-\bibitem[Mori-S{\'a}nchez et~al.(2008)Mori-S{\'a}nchez, Cohen, and
-  Yang]{MoriSanchez2008}
-Paula Mori-S{\'a}nchez, Aron~J. Cohen, and Weitao Yang.
-\newblock Localization and delocalization errors in density functional theory
-  and implications for band-gap prediction.
-\newblock \emph{Physical Review Letters}, 100:\penalty0 146401, 2008.
-\newblock \doi{10.1103/PhysRevLett.100.146401}.
-
-\bibitem[Munro et~al.(2020)Munro, Court, and Chelikowsky]{Munro2020}
-Jason~M. Munro, Riley~E. Court, and James~R. Chelikowsky.
-\newblock An improved symmetry-based approach to reciprocal space path
-  selection in band structure calculations.
-\newblock \emph{npj Computational Materials}, 6\penalty0 (1):\penalty0 126,
-  2020.
-\newblock \doi{10.1038/s41524-020-00383-7}.
-
-\bibitem[Novoselov et~al.(2004)Novoselov, Geim, Morozov, Jiang, Zhang, Dubonos,
-  Grigorieva, and Firsov]{Novoselov2004}
-K.~S. Novoselov, A.~K. Geim, S.~V. Morozov, D.~Jiang, Y.~Zhang, S.~V. Dubonos,
-  I.~V. Grigorieva, and A.~A. Firsov.
-\newblock Electric field effect in atomically thin carbon films.
-\newblock \emph{Science}, 306\penalty0 (5696):\penalty0 666--669, 2004.
-\newblock \doi{10.1126/science.1102896}.
-
-\bibitem[Pantazopoulos et~al.(2024)Pantazopoulos, Feist, Garc{\'{i}}a-Vidal,
-  and Kamra]{Pantazopoulos2024}
-Petros~Andreas Pantazopoulos, Johannes Feist, F.~J. Garc{\'{i}}a-Vidal, and
-  Akashdeep Kamra.
-\newblock Unconventional magnetism mediated by spin-phonon-photon coupling.
-\newblock \emph{Nature Communications}, 15\penalty0 (1):\penalty0 4000, 2024.
-\newblock \doi{10.1038/s41467-024-48197-y}.
-
-\bibitem[Payne et~al.(1992)Payne, Teter, Allan, Arias, and
-  Joannopoulos]{Payne1992}
-M.~C. Payne, M.~P. Teter, D.~C. Allan, T.~A. Arias, and J.~D. Joannopoulos.
-\newblock Iterative minimization techniques for ab initio total-energy
-  calculations.
-\newblock \emph{Reviews of Modern Physics}, 64\penalty0 (4):\penalty0
-  1045--1097, 1992.
-\newblock \doi{10.1103/RevModPhys.64.1045}.
-
-\bibitem[Perdew and Zunger(1981)]{perdew1981}
-J.~P. Perdew and Alex Zunger.
-\newblock Self-interaction correction to density-functional approximations for
-  many-electron systems.
-\newblock \emph{Phys. Rev. B}, 23:\penalty0 5048--5079, May 1981.
-\newblock \doi{10.1103/PhysRevB.23.5048}.
-
-\bibitem[Perdew et~al.(2005)Perdew, Ruzsinszky, Tao, Staroverov, Scuseria, and
-  Csonka]{perdew2005}
-John Perdew, Adrienn Ruzsinszky, Jianmin Tao, Viktor Staroverov, Gustavo
-  Scuseria, and Gabor Csonka.
-\newblock Prescription for the design and selection of density functional
-  approximations: More constraint satisfaction with fewer fits.
-\newblock \emph{The Journal of chemical physics}, 123:\penalty0 62201, 09 2005.
-\newblock \doi{10.1063/1.1904565}.
-
-\bibitem[Perdew et~al.(1996)Perdew, Burke, and Ernzerhof]{Perdew1996}
-John~P. Perdew, Kieron Burke, and Matthias Ernzerhof.
-\newblock Generalized gradient approximation made simple.
-\newblock \emph{Physical Review Letters}, 77\penalty0 (18):\penalty0
-  3865--3868, 1996.
-\newblock \doi{10.1103/PhysRevLett.77.3865}.
-
-\bibitem[Perdew et~al.(2008)Perdew, Ruzsinszky, Csonka, Vydrov, Scuseria,
-  Constantin, Zhou, and Burke]{Perdew2008}
-John~P. Perdew, Adrienn Ruzsinszky, G{\'a}bor~I. Csonka, Oleg~A. Vydrov,
-  Gustavo~E. Scuseria, Lucian~A. Constantin, Xiaolan Zhou, and Kieron Burke.
-\newblock Restoring the density-gradient expansion for exchange in solids and
-  surfaces.
-\newblock \emph{Physical Review Letters}, 100\penalty0 (13):\penalty0 136406,
-  2008.
-\newblock \doi{10.1103/PhysRevLett.100.136406}.
-
-\bibitem[Plimpton(1995)]{Plimpton1995}
-Steve Plimpton.
-\newblock Fast parallel algorithms for short-range molecular dynamics.
-\newblock \emph{Journal of Computational Physics}, 117\penalty0 (1):\penalty0
-  1--19, 1995.
-\newblock \doi{10.1006/jcph.1995.1039}.
-
-\bibitem[Rapaport(2004)]{Rapaport2004}
-D.~C. Rapaport.
-\newblock \emph{The Art of Molecular Dynamics Simulation}.
-\newblock Cambridge University Press, Cambridge, 2nd edition, 2004.
-
-\bibitem[Sachs et~al.(2011)Sachs, Wehling, Katsnelson, and
-  Lichtenstein]{Sachs2011}
-B.~Sachs, T.~O. Wehling, M.~I. Katsnelson, and A.~I. Lichtenstein.
-\newblock Adhesion and electronic structure of graphene on hexagonal boron
-  nitride substrates.
-\newblock \emph{Physical Review B}, 84\penalty0 (19):\penalty0 195414, Nov
-  2011.
-\newblock \doi{10.1103/PhysRevB.84.195414}.
-
-\bibitem[Sarikurt et~al.(2022)Sarikurt, Abdullahi, Durgun, and
-  Ersan]{Sarikurt2022}
-Sevil Sarikurt, Yusuf~Zuntu Abdullahi, Engin Durgun, and Fatih Ersan.
-\newblock Negative thermal expansion of group {III-Nitride} monolayers.
-\newblock \emph{Journal of Physics D: Applied Physics}, 55\penalty0
-  (31):\penalty0 315303, 2022.
-\newblock \doi{10.1088/1361-6463/ac6e12}.
-
-\bibitem[Senftle et~al.(2016)Senftle, Hong, Islam, Kylasa, Zheng, Shin,
-  Junkermeier, Engel-Herbert, Janik, Aktulga, Verstraelen, Grama, and van
-  Duin]{Senftle2016}
-Thomas~P. Senftle, Sungwook Hong, Md~Mahbubul Islam, Sudhir~B. Kylasa, Yuan
-  Zheng, Yun~Kyung Shin, Chad Junkermeier, Roman Engel-Herbert, Michael~J.
-  Janik, Hasan~Metin Aktulga, Toon Verstraelen, Ananth Grama, and Adri C.~T.
-  van Duin.
-\newblock The {ReaxFF} reactive force-field: development, applications and
-  future directions.
-\newblock \emph{npj Computational Materials}, 2\penalty0 (1):\penalty0 15011,
-  2016.
-\newblock \doi{10.1038/npjcompumats.2015.11}.
-
-\bibitem[Shen et~al.(2022)Shen, Munro, Horton, Huck, Dwaraknath, and
-  Persson]{Shen2022}
-Jimmy-Xuan Shen, Jason~M. Munro, Matthew~K. Horton, Patrick Huck, Shyam
-  Dwaraknath, and Kristin~A. Persson.
-\newblock A representation-independent electronic charge density database for
-  crystalline materials.
-\newblock \emph{Scientific Data}, 9\penalty0 (1):\penalty0 56, 2022.
-\newblock \doi{10.1038/s41597-022-01158-4}.
-
-\bibitem[Slotman and Fasolino(2013)]{Slotman2013}
-G.~J. Slotman and A.~Fasolino.
-\newblock Structure, stability and defects of single layer hexagonal bn in
-  comparison to graphene.
-\newblock \emph{Journal of Physics: Condensed Matter}, 25\penalty0
-  (4):\penalty0 045009, 2013.
-\newblock \doi{10.1088/0953-8984/25/4/045009}.
-
-\bibitem[Timoshenko and Goodier(1970)]{Timoshenko1970}
-S.~P. Timoshenko and J.~N. Goodier.
-\newblock \emph{Theory of Elasticity}.
-\newblock McGraw-Hill, New York, 3rd edition, 1970.
-
-\bibitem[van Duin et~al.(2001)van Duin, Dasgupta, Lorant, and
-  Goddard]{vanDuin2001}
-Adri C.~T. van Duin, Siddharth Dasgupta, Francois Lorant, and William~A.
-  Goddard.
-\newblock {ReaxFF}: A reactive force field for hydrocarbons.
-\newblock \emph{The Journal of Physical Chemistry A}, 105\penalty0
-  (41):\penalty0 9396--9409, 2001.
-\newblock \doi{10.1021/jp004368u}.
-
-\bibitem[Wang et~al.(2017)Wang, Ma, and Sun]{Wang2017}
-Jingang Wang, Fengcai Ma, and Mengtao Sun.
-\newblock Graphene, hexagonal boron nitride, and their heterostructures:
-  properties and applications.
-\newblock \emph{RSC Advances}, 7\penalty0 (27):\penalty0 16801--16822, 2017.
-\newblock \doi{10.1039/C7RA00260B}.
-
-\bibitem[Watanabe et~al.(2004)Watanabe, Taniguchi, and Kanda]{Watanabe2004}
-K.~Watanabe, T.~Taniguchi, and H.~Kanda.
-\newblock Direct-bandgap properties and evidence for ultraviolet lasing of
-  hexagonal boron nitride single crystal.
-\newblock \emph{Nature Materials}, 3\penalty0 (6):\penalty0 404--409, 2004.
-\newblock \doi{10.1038/nmat1134}.
-
-\bibitem[Weismiller et~al.(2010)Weismiller, van Duin, Lee, and
-  Yetter]{Weismiller2010}
-Michael~R. Weismiller, Adri C.~T. van Duin, Jiyoung Lee, and Richard~A. Yetter.
-\newblock Reaction kinetics of the initial stages of boron nitride chemical
-  vapor deposition from borazine.
-\newblock \emph{The Journal of Physical Chemistry A}, 114:\penalty0 540--546,
-  2010.
-\newblock \doi{10.1021/jp908642n}.
-
-\bibitem[Weston et~al.(2018)Weston, Wickramaratne,
-  Mackoit-Sinkevi{\v{c}}ien{\.{e}}, Alkauskas, and Van~de Walle]{Weston2018}
-L.~Weston, D.~Wickramaratne, Ma{\v{z}}ena Mackoit-Sinkevi{\v{c}}ien{\.{e}},
-  A.~Alkauskas, and C.~G. Van~de Walle.
-\newblock Native point defects and impurities in hexagonal boron nitride.
-\newblock \emph{Physical Review B}, 97\penalty0 (21):\penalty0 214104, 2018.
-\newblock \doi{10.1103/PhysRevB.97.214104}.
-
-\bibitem[Yates et~al.(1972)Yates, Overy, and Pirgon]{Yates1972}
-B.~Yates, M.~J. Overy, and O.~Pirgon.
-\newblock The thermal expansion of graphite.
-\newblock \emph{Philosophical Magazine}, 26\penalty0 (6):\penalty0 1247--1258,
-  1972.
-\newblock \doi{10.1080/14786437208227429}.
-
-\bibitem[Zhang et~al.(2020)Zhang, Li, and Gali]{Zhang2020}
-Jijun Zhang, Song Li, and Adam Gali.
-\newblock Point defects in two-dimensional hexagonal boron nitride: A
-  perspective.
-\newblock \emph{Journal of Applied Physics}, 128\penalty0 (15):\penalty0
-  150901, 2020.
-\newblock \doi{10.1063/5.0021093}.
-
-\bibitem[Zheng et~al.(2025)Zheng, Yao, Zhou, Zhang, Bao, Tong, Chu, and
-  Duan]{Zheng2025}
-Jun-Ding Zheng, Cheng-Shi Yao, Song-Chuan Zhou, Yu-Ke Zhang, Zhi-Qiang Bao,
-  Wen-Yi Tong, Jun-Hao Chu, and Chun-Gang Duan.
-\newblock Machine learning exploration of topological polarization pattern in
-  twisted bilayer hexagonal boron nitride.
-\newblock \emph{arXiv preprint arXiv:2502.12698}, 2025.
-
-\bibitem[Zhou and Chen(2019)]{zhou2019}
-Shengqiang Zhou and Xiaolong Chen.
-\newblock Defect induced magnetism in sic.
-\newblock \emph{Journal of Physics D: Applied Physics}, 52, 07 2019.
-\newblock \doi{10.1088/1361-6463/ab2495}.
-
-\end{thebibliography}

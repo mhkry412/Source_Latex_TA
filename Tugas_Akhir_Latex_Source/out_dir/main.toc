@@ -34,11 +34,11 @@
 \contentsline {section}{\numberline {2.4}Dinamika Molekuler}{15}{section.2.4}%
 \contentsline {subsection}{\numberline {2.4.1}Persamaan Gerak dan Prinsip Dasar}{15}{subsection.2.4.1}%
 \contentsline {subsection}{\numberline {2.4.2}Medan Gaya dan Potensial Interaksi}{16}{subsection.2.4.2}%
-\contentsline {subsection}{\numberline {2.4.3}Ensemble dalam Simulasi MD}{17}{subsection.2.4.3}%
-\contentsline {subsection}{\numberline {2.4.4}Algoritma Verlet dan Metode Integrasi Waktu}{17}{subsection.2.4.4}%
+\contentsline {subsection}{\numberline {2.4.3}Ensemble dalam Simulasi MD}{18}{subsection.2.4.3}%
+\contentsline {subsection}{\numberline {2.4.4}Algoritma Verlet dan Metode Integrasi Waktu}{18}{subsection.2.4.4}%
 \contentsline {subsection}{\numberline {2.4.5}Pengaturan Temperatur: Thermostat dan Barostat}{19}{subsection.2.4.5}%
 \contentsline {subsection}{\numberline {2.4.6}Implementasi Simulasi dengan LAMMPS}{19}{subsection.2.4.6}%
-\contentsline {subsection}{\numberline {2.4.7}Pendekatan Lanjutan dan Implementasi Praktis MD}{20}{subsection.2.4.7}%
+\contentsline {subsection}{\numberline {2.4.7}Pendekatan Lanjutan dan Implementasi Praktis MD}{19}{subsection.2.4.7}%
 \contentsline {section}{\numberline {2.5} (DFT)}{21}{section.2.5}%
 \contentsline {subsection}{\numberline {2.5.1}Persamaan Schrödinger}{21}{subsection.2.5.1}%
 \contentsline {subsection}{\numberline {2.5.2}Model Thomas-Fermi}{22}{subsection.2.5.2}%
@@ -50,46 +50,46 @@
 \contentsline {subsection}{\numberline {2.5.8}Quantum Espresso}{26}{subsection.2.5.8}%
 \contentsline {section}{\numberline {2.6}Studi Lanjutan dan Pengembangan Metodologi}{27}{section.2.6}%
 \vskip 10pt
-\contentsline {chapter}{\numberline {III}METODOLOGI PENELITIAN}{29}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Perangkat Penelitian}{29}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Perangkat Keras}{29}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Perangkat Lunak}{29}{subsection.3.1.2}%
-\contentsline {section}{\numberline {3.2}Prosedur Penelitian}{30}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Tahap 1: Generasi Struktur Termal dengan Dinamika Molekuler}{30}{subsection.3.2.1}%
-\contentsline {subsubsection}{Model Sistem Komputasi}{30}{subsection.3.2.1}%
-\contentsline {subsubsection}{Detail Simulasi MD}{30}{figure.caption.11}%
-\contentsline {subsubsection}{Analisis Struktural dan Dinamis dari Trajektori MD}{34}{Item.21}%
-\contentsline {subsection}{\numberline {3.2.2}Tahap 2: Kalkulasi Sifat Elektronik dengan Teori Fungsional Kerapatan}{34}{subsection.3.2.2}%
-\contentsline {subsubsection}{Detail Perhitungan DFT}{34}{subsection.3.2.2}%
-\contentsline {subsubsection}{Prosedur Perhitungan}{35}{subsection.3.2.2}%
+\contentsline {chapter}{\numberline {III}METODOLOGI PENELITIAN}{28}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Perangkat Penelitian}{28}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Perangkat Keras}{28}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Perangkat Lunak}{28}{subsection.3.1.2}%
+\contentsline {section}{\numberline {3.2}Prosedur Penelitian}{29}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Tahap 1: Generasi Struktur Termal dengan Dinamika Molekuler}{29}{subsection.3.2.1}%
+\contentsline {subsubsection}{Model Sistem Komputasi}{29}{subsection.3.2.1}%
+\contentsline {subsubsection}{Detail Simulasi MD}{29}{figure.caption.11}%
+\contentsline {subsubsection}{Analisis Struktural dan Dinamis dari Trajektori MD}{33}{Item.21}%
+\contentsline {subsection}{\numberline {3.2.2}Tahap 2: Kalkulasi Sifat Elektronik dengan Teori Fungsional Kerapatan}{33}{subsection.3.2.2}%
+\contentsline {subsubsection}{Detail Perhitungan DFT}{33}{subsection.3.2.2}%
+\contentsline {subsubsection}{Prosedur Perhitungan}{34}{subsection.3.2.2}%
 \vskip 10pt
-\contentsline {chapter}{\numberline {IV}HASIL DAN PEMBAHASAN}{36}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Tinjauan Metodologi Komputasi dan Implikasinya pada Hasil}{36}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Generasi Struktur melalui Dinamika Molekuler: Potensial ReaxFF}{36}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}Kalkulasi Sifat Elektronik: Fungsional PBEsol dan Keterbatasannya}{37}{subsection.4.1.2}%
-\contentsline {section}{\numberline {4.2}Analisis Stabilitas dan Struktur Termal dari Simulasi MD}{38}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Struktur Atomik Hasil Pemanasan}{38}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Analisis Tatanan Struktural dan Mobilitas Atomik: RDF dan MSD}{42}{subsection.4.2.2}%
-\contentsline {section}{\numberline {4.3}Pengaruh Temperatur pada Sifat Elektronik Monolayer hBN Murni}{44}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Karakteristik Elektronik Dasar hBN Murni (Sistem Referensi)}{44}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Renormalisasi Celah Pita oleh Kopling Elektron-Fonon (EPC)}{44}{subsection.4.3.2}%
-\contentsline {subsection}{\numberline {4.3.3}Analisis Visual Kerapatan Muatan dan Spin}{47}{subsection.4.3.3}%
-\contentsline {section}{\numberline {4.4}Rekayasa Sifat Elektronik dan Magnetik Melalui Cacat Antisite}{49}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Cacat N\textsubscript {B}: Pergeseran Biru Anomali dan Kopling Elektron-Fonon Terlokalisasi}{49}{subsection.4.4.1}%
-\contentsline {subsubsection}{Analisis Visual Kerapatan Muatan dan Spin untuk Cacat N\textsubscript {B}}{51}{figure.caption.25}%
-\contentsline {subsection}{\numberline {4.4.2}Cacat B\textsubscript {N}: Induksi Magnetisme $d^0$ dan Kopling Spin-Fonon}{53}{subsection.4.4.2}%
-\contentsline {subsubsection}{Bukti Visual Kopling Spin-Fonon dari Kerapatan Muatan dan Spin}{55}{Item.28}%
-\contentsline {section}{\numberline {4.5}Keterkaitan antara Dinamika Struktur, Stabilitas Termal, dan Sifat Kuantum}{57}{section.4.5}%
-\contentsline {subsection}{\numberline {4.5.1}Korelasi Struktur-Sifat: Dari RDF dan MSD ke Elektronik}{57}{subsection.4.5.1}%
-\contentsline {subsection}{\numberline {4.5.2}Ringkasan Mekanisme Fisik dan Implikasi}{58}{subsection.4.5.2}%
+\contentsline {chapter}{\numberline {IV}HASIL DAN PEMBAHASAN}{35}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Tinjauan Metodologi Komputasi dan Implikasinya pada Hasil}{35}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Generasi Struktur melalui Dinamika Molekuler: Potensial ReaxFF}{35}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Kalkulasi Sifat Elektronik: Fungsional PBEsol dan Keterbatasannya}{36}{subsection.4.1.2}%
+\contentsline {section}{\numberline {4.2}Analisis Stabilitas dan Struktur Termal dari Simulasi MD}{37}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Struktur Atomik Hasil Pemanasan}{37}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Analisis Tatanan Struktural dan Mobilitas Atomik: RDF dan MSD}{37}{subsection.4.2.2}%
+\contentsline {section}{\numberline {4.3}Pengaruh Temperatur pada Sifat Elektronik Monolayer hBN Murni}{43}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Karakteristik Elektronik Dasar hBN Murni (Sistem Referensi)}{43}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Renormalisasi Celah Pita oleh Kopling Elektron-Fonon (EPC)}{43}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Analisis Visual Kerapatan Muatan dan Spin}{46}{subsection.4.3.3}%
+\contentsline {section}{\numberline {4.4}Rekayasa Sifat Elektronik dan Magnetik Melalui Cacat Antisite}{47}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Cacat N\textsubscript {B}: Pergeseran Biru Anomali dan Kopling Elektron-Fonon Terlokalisasi}{47}{subsection.4.4.1}%
+\contentsline {subsubsection}{Analisis Visual Kerapatan Muatan dan Spin untuk Cacat N\textsubscript {B}}{49}{figure.caption.25}%
+\contentsline {subsection}{\numberline {4.4.2}Cacat B\textsubscript {N}: Induksi Magnetisme $d^0$ dan Kopling Spin-Fonon}{51}{subsection.4.4.2}%
+\contentsline {subsubsection}{Bukti Visual Kopling Spin-Fonon dari Kerapatan Muatan dan Spin}{53}{Item.28}%
+\contentsline {section}{\numberline {4.5}Keterkaitan antara Dinamika Struktur, Stabilitas Termal, dan Sifat Kuantum}{55}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Korelasi Struktur-Sifat: Dari RDF dan MSD ke Elektronik}{55}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}Ringkasan Mekanisme Fisik dan Implikasi}{56}{subsection.4.5.2}%
 \vskip 10pt
-\contentsline {chapter}{\numberline {V}PENUTUP}{60}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Kesimpulan}{60}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Saran}{60}{section.5.2}%
+\contentsline {chapter}{\numberline {V}PENUTUP}{58}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Kesimpulan}{58}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Saran}{58}{section.5.2}%
 \vskip 10pt
-\contentsline {chapter}{DAFTAR PUSTAKA}{61}{section.5.2}%
+\contentsline {chapter}{DAFTAR PUSTAKA}{59}{section.5.2}%
  \addtolength \cftchapnumwidth {-\mylength } \renewcommand {\cftchappresnum }{LAMPIRAN~} \settowidth \mylength { \bfseries \cftchappresnum \cftchapaftersnum } \addtolength \cftchapnumwidth {\mylength }
 \vskip 10pt
-\contentsline {chapter}{\numberline {A}Lampiran}{68}{appendix.A}%
-\contentsline {section}{\numberline {A.1}Kode dan Keluaran Hasil Simulasi dan Komputasi MD dan DFT }{68}{section.A.1}%
+\contentsline {chapter}{\numberline {A}Lampiran}{60}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Kode dan Keluaran Hasil Simulasi dan Komputasi MD dan DFT }{60}{section.A.1}%
 \vskip 10pt
