@@ -25,31 +25,31 @@ Bagian ini menyajikan tinjauan metodologis terhadap dua pilar komputasi yang dig
 Evaluasi ini krusial karena kualitas struktur atomik input dan pilihan parameter kuantum secara fundamental menentukan akurasi serta validitas interpretasi hasil akhir.
 \subsection{Generasi Struktur melalui Dinamika Molekuler: Potensial ReaxFF}
 \label{subsec:md_reaxff}
-Struktur atomik yang merepresentasikan monolayer hBN pada temperatur tinggi (800 K, 1100 K, dan 1225 K) dihasilkan melalui simulasi dinamika molekuler (MD) menggunakan perangkat lunak LAMMPS \citep{Plimpton1995}.
-Interaksi antar-atom dimodelkan menggunakan potensial medan gaya reaktif (ReaxFF), dengan parameterisasi yang dikembangkan oleh Lele et al. \citep{Lele2022}.
+Struktur atomik yang merepresentasikan monolayer hBN pada temperatur tinggi (800 K, 1100 K, dan 1225 K) dihasilkan melalui simulasi dinamika molekuler (MD) menggunakan perangkat lunak LAMMPS \cite{Plimpton1995}.
+Interaksi antar-atom dimodelkan menggunakan potensial medan gaya reaktif (ReaxFF), dengan parameterisasi yang dikembangkan oleh Lele et al. \cite{Lele2022}.
 Pemilihan potensial interatomik merupakan langkah kritis yang menentukan evolusi sistem dan konfigurasi kesetimbangan termalnya.
 Potensial ReaxFF, pada dasarnya, dirancang untuk memodelkan proses kimia yang kompleks, di mana pembentukan dan pemutusan ikatan menjadi fenomena sentral.
-Hal ini dicapai melalui konsep orde ikatan yang dinamis, yang memungkinkan deskripsi jalur reaksi secara akurat \citep{Weismiller2010, vanDuin2001, Senftle2016}.
-Parameterisasi spesifik yang digunakan dalam penelitian ini \citep{Lele2022} dioptimalkan untuk mereplikasi kimia fasa gas yang relevan dengan sintesis nanostruktur hBN, seperti pada proses \emph{Chemical Vapor Deposition} (CVD).
-Meskipun sangat kuat dalam domainnya, penting untuk mengenali bahwa potensial yang dioptimalkan untuk dinamika reaksi belum tentu ideal untuk mereproduksi sifat-sifat fasa padat yang lebih subtil, seperti spektrum fonon atau respons termomekanik yang halus \citep{Fthenakis2022, Deringer2020}.
-Studi komparatif menunjukkan bahwa beberapa parameterisasi ReaxFF dapat menunjukkan keterbatasan dalam memprediksi modulus elastisitas atau spektrum fonon secara kuantitatif untuk material berbasis $\emph{sp}^2$ \citep{Fthenakis2022, Deringer2020}.
+Hal ini dicapai melalui konsep orde ikatan yang dinamis, yang memungkinkan deskripsi jalur reaksi secara akurat \cite{Weismiller2010, vanDuin2001, Senftle2016}.
+Parameterisasi spesifik yang digunakan dalam penelitian ini \cite{Lele2022} dioptimalkan untuk mereplikasi kimia fasa gas yang relevan dengan sintesis nanostruktur hBN, seperti pada proses \emph{Chemical Vapor Deposition} (CVD).
+Meskipun sangat kuat dalam domainnya, penting untuk mengenali bahwa potensial yang dioptimalkan untuk dinamika reaksi belum tentu ideal untuk mereproduksi sifat-sifat fasa padat yang lebih subtil, seperti spektrum fonon atau respons termomekanik yang halus \cite{Fthenakis2022, Deringer2020}.
+Studi komparatif menunjukkan bahwa beberapa parameterisasi ReaxFF dapat menunjukkan keterbatasan dalam memprediksi modulus elastisitas atau spektrum fonon secara kuantitatif untuk material berbasis $\emph{sp}^2$ \cite{Fthenakis2022, Deringer2020}.
 Implikasi paling signifikan untuk penelitian ini adalah potensi kegagalan ReaxFF dalam menangkap fisika anharmonik dari moda fonon lentur (\emph{flexural phonons}).
-Pada material 2D seperti hBN dan grafena, eksitasi termal dari moda vibrasi keluar-bidang (dikenal sebagai moda ZA) dapat menyebabkan fenomena Ekspansi Termal Negatif (NTE), di mana kisi mengalami kontraksi saat dipanaskan \citep{Sarikurt2022, Mann2017}.
-Mekanisme ini, yang dikenal sebagai efek membran \citep{Yates1972}, sangat bergantung pada deskripsi yang sangat presisi dari anharmonisitas potensial.
-Mengingat fokus parameterisasi ReaxFF yang digunakan adalah pada energi reaksi fasa gas \citep{Lele2022}, kemungkinan besar potensial ini tidak mereproduksi perilaku moda ZA secara akurat.
+Pada material 2D seperti hBN dan grafena, eksitasi termal dari moda vibrasi keluar-bidang (dikenal sebagai moda ZA) dapat menyebabkan fenomena Ekspansi Termal Negatif (NTE), di mana kisi mengalami kontraksi saat dipanaskan \cite{Sarikurt2022, Mann2017}.
+Mekanisme ini, yang dikenal sebagai efek membran \cite{Yates1972}, sangat bergantung pada deskripsi yang sangat presisi dari anharmonisitas potensial.
+Mengingat fokus parameterisasi ReaxFF yang digunakan adalah pada energi reaksi fasa gas \cite{Lele2022}, kemungkinan besar potensial ini tidak mereproduksi perilaku moda ZA secara akurat.
 Konsekuensinya, struktur yang dihasilkan MD mungkin tidak menunjukkan kontraksi kisi yang diharapkan, sebuah poin penting yang akan dibahas lebih lanjut saat menganalisis ketergantungan temperatur dari celah pita pada Bagian \ref{subsec:hbn_murni_termal}.
 Oleh karena itu, hasil yang diperoleh harus diinterpretasikan sebagai representasi sistem di bawah asumsi yang ditentukan oleh medan gaya yang dipilih, di mana efek termal didominasi oleh mekanisme selain NTE.
 \subsection{Kalkulasi Sifat Elektronik: Fungsional PBEsol dan Keterbatasannya}
 \label{subsec:dft_qe}
-Setelah struktur atomik diperoleh, sifat elektronik dihitung menggunakan Teori Fungsional Kerapatan (DFT) \citep{Hohenberg1964, Kohn1965} dalam paket perangkat lunak Quantum ESPRESSO \citep{Giannozzi2009, Giannozzi2017}.
-Fungsional tukar-tambah-korelasi yang digunakan adalah Perdew-Burke-Ernzerhof yang dioptimalkan untuk padatan (PBEsol) \citep{Perdew2008}.
-PBEsol, sebagai bagian dari kerangka Aproksimasi Gradien Umum (GGA), dirancang untuk memberikan deskripsi yang lebih baik tentang tumpang-tindih kerapatan elektron dalam padatan, yang seringkali menghasilkan parameter kisi yang lebih akurat dibandingkan PBE standar \citep{Perdew2008}.
-Namun, seperti semua fungsional (semi-)lokal, PBEsol memiliki keterbatasan sistematis dalam memprediksi celah pita energi ($E_g$) semikonduktor dan isolator, di mana ia cenderung meremehkan (\emph{underestimate}) nilai tersebut secara signifikan \citep{perdew2005}.
-Untuk hBN, nilai celah pita eksperimental dilaporkan berada di kisaran 5.9–6.1 eV \citep{Watanabe2004, Elias2019}, sementara kalkulasi PBE/PBEsol umumnya menghasilkan nilai 4.5–4.7 eV.
+Setelah struktur atomik diperoleh, sifat elektronik dihitung menggunakan Teori Fungsional Kerapatan (DFT) \cite{Hohenberg1964, Kohn1965} dalam paket perangkat lunak Quantum ESPRESSO \cite{Giannozzi2009, Giannozzi2017}.
+Fungsional tukar-tambah-korelasi yang digunakan adalah Perdew-Burke-Ernzerhof yang dioptimalkan untuk padatan (PBEsol) \cite{Perdew2008}.
+PBEsol, sebagai bagian dari kerangka Aproksimasi Gradien Umum (GGA), dirancang untuk memberikan deskripsi yang lebih baik tentang tumpang-tindih kerapatan elektron dalam padatan, yang seringkali menghasilkan parameter kisi yang lebih akurat dibandingkan PBE standar \cite{Perdew2008}.
+Namun, seperti semua fungsional (semi-)lokal, PBEsol memiliki keterbatasan sistematis dalam memprediksi celah pita energi ($E_g$) semikonduktor dan isolator, di mana ia cenderung meremehkan (\emph{underestimate}) nilai tersebut secara signifikan \cite{perdew2005}.
+Untuk hBN, nilai celah pita eksperimental dilaporkan berada di kisaran 5.9–6.1 eV \cite{Watanabe2004, Elias2019}, sementara kalkulasi PBE/PBEsol umumnya menghasilkan nilai 4.5–4.7 eV.
 Hasil yang diperoleh dalam penelitian ini untuk hBN murni, $E_g = 4.446$ eV, konsisten dengan tingkat penyusutan ini.
-Penyebab fundamental dari peremehan celah pita ini adalah Kesalahan Interaksi-Diri atau \emph{Self-Interaction Error} (SIE) \citep{perdew1981}.
+Penyebab fundamental dari peremehan celah pita ini adalah Kesalahan Interaksi-Diri atau \emph{Self-Interaction Error} (SIE) \cite{perdew1981}.
 Dalam teori yang eksak, energi tukar harus secara sempurna membatalkan energi elektrostatis Hartree dari interaksi sebuah elektron dengan dirinya sendiri.
-Fungsional aproksimasi seperti GGA gagal mencapai pembatalan sempurna ini, menyebabkan setiap elektron secara artifisial "merasakan" tolakan dari sebagian densitas muatannya sendiri \citep{MoriSanchez2008}.
+Fungsional aproksimasi seperti GGA gagal mencapai pembatalan sempurna ini, menyebabkan setiap elektron secara artifisial "merasakan" tolakan dari sebagian densitas muatannya sendiri \cite{MoriSanchez2008}.
 Konsekuensi utama dari SIE adalah kecenderungan fungsional untuk secara tidak fisik menyukai keadaan elektronik yang terdelokalisasi, karena ini menyebarkan kerapatan muatan dan mengurangi energi interaksi-diri palsu.
 Pada hBN, di mana puncak pita valensi (VBM) didominasi oleh orbital N $2p$ yang relatif terlokalisasi, SIE menyebabkan orbital-orbital ini menjadi terlalu terdelokalisasi, yang secara artifisial menaikkan energinya.
 Kombinasi dari VBM yang dinaikkan dan pita konduksi (CBM) yang diturunkan secara langsung menghasilkan nilai $E_g$ yang lebih kecil dari nilai sebenarnya.
@@ -57,7 +57,7 @@ Meskipun terdapat keterbatasan kuantitatif ini, PBEsol tetap merupakan alat yang
 Selama interpretasi difokuskan pada perbandingan antar sistem (misalnya, murni vs. cacat) atau perubahan sebagai fungsi temperatur, kesimpulan yang ditarik tetap bermakna secara fisik.
 Kalkulasi DFT dilakukan pada supercell monolayer hBN berukuran $4 \times 4 \times 1$ (32 atom).
 Ukuran ini memadai untuk material murni, namun untuk studi cacat titik, ia dapat menimbulkan efek ukuran terbatas (\emph{finite-size effects}) akibat interaksi artifisial antara cacat dan citra periodiknya.
-Interaksi non-fisik ini dapat mempengaruhi akurasi energi pembentukan, posisi tingkat energi cacat, dan terutama sifat magnetik yang mungkin diinduksi \citep{Freysoldt2014}.
+Interaksi non-fisik ini dapat mempengaruhi akurasi energi pembentukan, posisi tingkat energi cacat, dan terutama sifat magnetik yang mungkin diinduksi \cite{Freysoldt2014}.
 Secara khusus, ketika sistem menunjukkan kecenderungan menuju tatanan magnetik, seperti pada kasus cacat B\textsubscript{N}, interaksi pertukaran antar citra periodik dapat secara keliru menstabilkan keadaan magnetik.
 Oleh karena itu, sifat-sifat cacat yang diperoleh, khususnya yang berkaitan dengan magnetisme, harus diinterpretasikan dengan mempertimbangkan potensi pengaruh dari ukuran supercell yang digunakan.
 
@@ -257,7 +257,7 @@ Analisis terhadap sistem hBN murni berfungsi sebagai dasar untuk memahami bagaim
 Sebagai titik acuan, sifat elektronik monolayer hBN murni dalam kondisi \emph{pristine} (struktur ideal teroptimasi, mendekati 0 K) dianalisis terlebih dahulu.
 Hasil kalkulasi DFT (Gambar \ref{fig:hbn_pristine_bs_pdos}) menunjukkan bahwa hBN murni adalah isolator celah pita lebar non-magnetik.
 Struktur pita menunjukkan celah pita langsung (\emph{direct band gap}) sebesar $E_g = 4.446$ eV pada titik K di Zona Brillouin.
-Analisis Kerapatan Keadaan Terproyeksi (PDOS) mengonfirmasi bahwa puncak pita valensi (VBM) didominasi oleh orbital N $2p_z$ (membentuk pita $\pi$), sedangkan dasar pita konduksi (CBM) didominasi oleh orbital B $2p_z$ (membentuk pita $\pi^*$), sesuai dengan literatur \citep{Sachs2011}.
+Analisis Kerapatan Keadaan Terproyeksi (PDOS) mengonfirmasi bahwa puncak pita valensi (VBM) didominasi oleh orbital N $2p_z$ (membentuk pita $\pi$), sedangkan dasar pita konduksi (CBM) didominasi oleh orbital B $2p_z$ (membentuk pita $\pi^*$), sesuai dengan literatur \cite{Sachs2011}.
 Visualisasi kerapatan muatan (tidak ditampilkan) menunjukkan akumulasi elektron di sekitar atom nitrogen yang lebih elektronegatif, mengindikasikan ikatan B-N yang bersifat kovalen polar.
 \begin{figure}[htbp!] % PERUBAHAN: Ukuran gambar diperbesar
     \centering
@@ -312,10 +312,10 @@ Fenomena \emph{redshift} ini adalah manifestasi langsung dari kopling elektron-f
 Pada temperatur hingga, kisi tidak lagi statis; atom-atomnya bervibrasi di sekitar posisi kesetimbangannya. Kuantisasi dari vibrasi kisi ini disebut fonon.
 Struktur atomik yang digunakan dalam kalkulasi DFT ini adalah "foto" sesaat atau \emph{snapshot} dari konfigurasi atom yang terdistorsi oleh fonon-fonon ini (pendekatan \emph{frozen-phonon}).
 Ketika elektron bergerak melalui kisi yang bergetar ini, energinya direnormalisasi (diubah).
-Menurut teori Allen-Heine-Cardona, ada dua kontribusi utama untuk perubahan ini \citep{Allen1983}: (1) koreksi energi-diri Fan-Migdal, di mana elektron "berpakaian" awan fonon virtual, dan (2) kontribusi Debye-Waller, di mana elektron bergerak dalam potensial periodik yang "tercoreng" oleh vibrasi termal.
+Menurut teori Allen-Heine-Cardona, ada dua kontribusi utama untuk perubahan ini \cite{Allen1983}: (1) koreksi energi-diri Fan-Migdal, di mana elektron "berpakaian" awan fonon virtual, dan (2) kontribusi Debye-Waller, di mana elektron bergerak dalam potensial periodik yang "tercoreng" oleh vibrasi termal.
 Kedua efek ini hampir secara universal menyebabkan penurunan energi celah pita pada semikonduktor.
 Dengan demikian, penurunan $E_g$ yang diamati dari Gambar \ref{fig:hbn_pure_800K} hingga \ref{fig:hbn_pure_1225K} adalah cerminan dari meningkatnya populasi fonon dan penguatan efek EPC pada temperatur yang lebih tinggi.
-Hasil \emph{redshift} yang konsisten ini tampak kontras dengan beberapa laporan eksperimental pada hBN multilayer, yang menunjukkan pergeseran biru (\emph{blueshift}) anomali pada temperatur tinggi \citep{Du2017}.
+Hasil \emph{redshift} yang konsisten ini tampak kontras dengan beberapa laporan eksperimental pada hBN multilayer, yang menunjukkan pergeseran biru (\emph{blueshift}) anomali pada temperatur tinggi \cite{Du2017}.
 \emph{Blueshift} tersebut diatribusikan pada dominasi efek Ekspansi Termal Negatif (NTE), di mana kontraksi kisi akibat moda fonon lentur memperlebar celah pita.
 Seperti yang telah dibahas pada Bagian \ref{subsec:md_reaxff}, potensial ReaxFF yang digunakan kemungkinan besar tidak menangkap mekanisme NTE ini.
 Akibatnya, simulasi ini secara efektif mengisolasi kontribusi dari EPC. Oleh karena itu, \emph{redshift} yang diamati bukanlah sebuah kontradiksi, melainkan hasil yang konsisten secara internal dengan fisika yang "diizinkan" oleh model: tanpa adanya mekanisme \emph{blueshift} dari NTE, mekanisme \emph{redshift} dari EPC menjadi dominan dan secara akurat ditangkap oleh kalkulasi DFT.
@@ -549,11 +549,11 @@ Namun, seperti yang ditunjukkan pada Tabel \ref{tab:hbn_defek_bn}, transisi fasa
     \label{fig:hbn_BB_1225K}
 \end{figure}
 
-Kemunculan magnetisme pada sistem yang hanya terdiri dari unsur-unsur blok-p ini dikenal sebagai magnetisme $d^0$ \citep{zhou2019}.
+Kemunculan magnetisme pada sistem yang hanya terdiri dari unsur-unsur blok-p ini dikenal sebagai magnetisme $d^0$ \cite{zhou2019}.
 Magnetisme ini tidak berasal dari orbital $d$ atau $f$ yang terisi sebagian, melainkan dari polarisasi spin elektron-elektron $p$ yang terlokalisasi akibat ketidakseimbangan elektron dan ikatan tak jenuh (\emph{dangling bonds}) yang diciptakan oleh cacat.
 Cacat B\textsubscript{N} menciptakan keadaan elektronik terlokalisasi di dekat tingkat Fermi, yang jika kerapatannya cukup tinggi, dapat memicu polarisasi spin spontan untuk menurunkan energi total sistem (kriteria Stoner).
 Temuan yang paling luar biasa adalah \emph{peningkatan} magnetisasi dengan suhu, dari nol pada 800 K menjadi $1.850 \mu_B$ pada 1225 K. Perilaku ini sangat tidak konvensional, karena energi termal ($k_B T$) biasanya berfungsi mengacaukan tatanan magnetik.
-Fenomena ini menunjuk pada adanya mekanisme kopling spin-fonon (SPC) yang kuat \citep{Liu_2025}.
+Fenomena ini menunjuk pada adanya mekanisme kopling spin-fonon (SPC) yang kuat \cite{Liu_2025}.
 Hipotesisnya adalah sebagai berikut:
 \begin{enumerate}
     \item Pada 800 K, distorsi termal pada kisi belum cukup kuat untuk membuat keadaan dasar magnetik lebih stabil daripada keadaan non-magnetik.
@@ -562,7 +562,7 @@ Hipotesisnya adalah sebagai berikut:
 \item Interaksi ini berarti vibrasi kisi tidak lagi bertindak sebagai sumber kekacauan, tetapi secara aktif \emph{menciptakan dan menstabilkan} distorsi struktural lokal (misalnya, pemanjangan ikatan atau pengerutan) yang kondusif untuk polarisasi spin.
 \end{enumerate}
 Dengan kata lain, fonon menjadi bahan aktif yang memediasi transisi menuju fasa magnetik.
-Temperatur yang lebih tinggi mendorong sistem lebih dalam ke fase magnetik yang lebih teratur, sebuah contoh menakjubkan dari bagaimana interaksi kolektif dapat memunculkan tatanan yang tidak terduga \citep{Pantazopoulos2024}.
+Temperatur yang lebih tinggi mendorong sistem lebih dalam ke fase magnetik yang lebih teratur, sebuah contoh menakjubkan dari bagaimana interaksi kolektif dapat memunculkan tatanan yang tidak terduga \cite{Pantazopoulos2024}.
 
 \subsubsection{Bukti Visual Kopling Spin-Fonon dari Kerapatan Muatan dan Spin}
 \label{subsec:hbn_BB_density_analysis}

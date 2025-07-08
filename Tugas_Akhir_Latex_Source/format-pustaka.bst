@@ -1,6 +1,5 @@
 %   This document is a modified version of agsm.bst to which it owes much of
 %   its functionality.
-
 % AUTHOR
 %   Peter Williams, Key Centre for Design Quality, Sydney University
 %   e-mail: peterw@archsci.arch.su.oz.au
@@ -66,51 +65,48 @@ FUNCTION {output.nonnull}
   s
 }
 
- FUNCTION {output.nonnull2}
- { 's :=
-   output.state2 mid.sentence2 =
-     { "  " * write$ }
-     { output.state2 after.block2 =
-         { add.period$ write$
-           newline$
-           "\newblock " write$
-         }
-         { output.state2 before.all2 =
-             { 'write$ }
-             { add.period$ " " * write$ }
-           if$
-         }
-       if$
-       mid.sentence2 'output.state2 :=
-     }
-   if$
--  s
-+  s   % push s
-+  pop$  % pop it off, so no leak
- }
+FUNCTION {output.nonnull2}
+{ 's :=
+  output.state2 mid.sentence2 =
+    { "  " * write$ }
+    { output.state2 after.block2 =
+        { add.period$ write$
+          newline$
+          "\newblock " write$
+        }
+        { output.state2 before.all2 =
+            { 'write$ }
+            { add.period$ " " * write$ }
+          if$
+        }
+      if$
+      mid.sentence2 'output.state2 :=
+    }
+  if$
+  s
+}
 
- FUNCTION {output.nonnull3}
- { 's :=
-   output.state2 mid.sentence2 =
-     { ". " * write$ }
-     { output.state2 after.block2 =
-         { add.period$ write$
-           newline$
-           "\newblock " write$
-         }
-         { output.state2 before.all2 =
-             'write$
-             { add.period$ " " * write$ }
-           if$
-         }
-       if$
-       mid.sentence2 'output.state2 :=
-     }
-   if$
--  s
-+  s    % push s
-+  pop$ % pop it off
- }
+
+FUNCTION {output.nonnull3}
+{ 's :=
+  output.state2 mid.sentence2 =
+    { ". " * write$ }
+    { output.state2 after.block2 =
+	{ add.period$ write$
+	  newline$
+	  "\newblock " write$
+	}
+	{ output.state2 before.all2 =
+	    'write$
+	    { add.period$ " " * write$ }
+	  if$
+	}
+      if$
+      mid.sentence2 'output.state2 :=
+    }
+  if$
+  s
+}
 
 FUNCTION {output}
 { duplicate$ empty$
@@ -314,9 +310,7 @@ FUNCTION {n.dashify}
 }
 
 FUNCTION {format.btitle}
-{ title embolden
-% { title emphasize
-}
+{ title embolden }
 
 FUNCTION {tie.or.space.connect}
 { duplicate$ text.length$ #3 <
@@ -761,9 +755,8 @@ FUNCTION {article}
     { format.title quote "title" output.check dot }
   if$
   crossref missing$
-    { journal embolden "journal" duplicate$ item.check
-      " " * format.vol.num.pages * output 
-    }
+    { journal embolden " " * format.vol.num.pages * output
+        }
     { format.article.crossref output.nonnull
       format.pages output
     }
@@ -794,7 +787,7 @@ FUNCTION {book}
       format.number.series output
       format.edition output
       address empty$
-      {skip$}     
+      {skip$}
       {format.address "address" output.check semicolon}
         if$
       publisher "publisher" output.check
@@ -857,7 +850,7 @@ FUNCTION {inbook}
   fin.entry
 }
 
-FUNCTION {incollection}{book}
+FUNCTION {incollection} { book }
 
 FUNCTION {inproceedings}
 { output.bibitem
@@ -1117,7 +1110,7 @@ FUNCTION {author.editor.key.label}
 	    { title.field 'field.used := }
 	    { key.field 'field.used := }
 	  if$
-  	}
+    	}
 	{ editor.field 'field.used := }
       if$
     }
