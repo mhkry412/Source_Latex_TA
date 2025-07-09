@@ -21,8 +21,8 @@ Seluruh simulasi komputasi dilakukan pada klaster komputasi performa tinggi deng
 \subsection{Perangkat Lunak}
 Perangkat lunak yang digunakan dalam penelitian ini meliputi:
 \begin{itemize}
-    \item \textbf{LAMMPS (\textit{Large-scale Atomic/Molecular Massively Parallel Simulator}):} Digunakan untuk simulasi MD \cite{Plimpton1995}.
-\item \textbf{Quantum ESPRESSO:} Digunakan untuk perhitungan DFT dari prinsip pertama \cite{Giannozzi2009, Giannozzi2017}.
+    \item \textbf{LAMMPS (\textit{Large-scale Atomic/Molecular Massively Parallel Simulator}):} Digunakan untuk simulasi MD \citep{Plimpton1995}.
+\item \textbf{Quantum ESPRESSO:} Digunakan untuk perhitungan DFT dari prinsip pertama \citep{Giannozzi2009, Giannozzi2017}.
 \item \textbf{Atomic Simulation Environment (ASE):} Digunakan untuk pembuatan model struktur dan konversi format file antar perangkat lunak.
 \item \textbf{VMD, OVITO, XCrySDen, VESTA:} Digunakan untuk visualisasi struktur atomik, kerapatan muatan, dan kerapatan spin.
 \item \textbf{Python (NumPy, Matplotlib):} Digunakan untuk analisis data dan pembuatan plot hasil komputasi.
@@ -91,7 +91,7 @@ Visualisasi model-model ini dapat dilihat pada Gambar \ref{fig:struktur_hBN_4x4x
 Simulasi MD dilakukan menggunakan perangkat lunak LAMMPS.
 \begin{itemize}
     \item \textbf{Potensial Interatomik:} Interaksi antar atom dimodelkan menggunakan potensial ReaxFF yang diparameterisasi oleh Lele et al.
-\cite{Lele2022}. Perlu dicatat bahwa potensial ini secara spesifik dikembangkan untuk memodelkan sintesis fasa gas dan mekanisme reaksi.
+\citep{Lele2022}. Perlu dicatat bahwa potensial ini secara spesifik dikembangkan untuk memodelkan sintesis fasa gas dan mekanisme reaksi.
 Penggunaannya untuk mensimulasikan dinamika termal fasa padat, seperti dalam penelitian ini, membawa asumsi bahwa potensial ini cukup akurat dalam mendeskripsikan vibrasi kisi dan relaksasi struktural.
 Validitas asumsi ini akan dievaluasi secara kritis pada Bab IV.
 \item \textbf{Prosedur Simulasi:}
@@ -117,10 +117,10 @@ Tujuan dari tahap ini adalah untuk menghitung secara akurat sifat elektronik dan
 \subsubsection{Detail Perhitungan DFT}
 Perhitungan DFT dilakukan menggunakan paket perangkat lunak Quantum ESPRESSO.
 \begin{itemize}
-    \item \textbf{Fungsional Tukar-Tambah-Hubungan:} Fungsional Perdew-Burke-Ernzerhof yang dioptimalkan untuk padatan (PBEsol) \cite{Perdew2008} dalam kerangka Aproksimasi Gradien Umum (GGA) digunakan.
+    \item \textbf{Fungsional Tukar-Tambah-Hubungan:} Fungsional Perdew-Burke-Ernzerhof yang dioptimalkan untuk padatan (PBEsol) \citep{Perdew2008} dalam kerangka Aproksimasi Gradien Umum (GGA) digunakan.
 Fungsional GGA seperti PBEsol dikenal secara sistematis meremehkan (\textit{underestimate}) nilai celah pita energi.
 Oleh karena itu, analisis akan difokuskan pada tren kualitatif dan perubahan relatif, bukan pada nilai absolut celah pita.
-\item \textbf{Pseudopotensial:} Metode \textit{Projector Augmented-Wave} (PAW) dari repositori JTH v1.1 digunakan untuk merepresentasikan interaksi antara elektron valensi dan inti atom \cite{Blochl1994, Kresse1999}.
+\item \textbf{Pseudopotensial:} Metode \textit{Projector Augmented-Wave} (PAW) dari repositori JTH v1.1 digunakan untuk merepresentasikan interaksi antara elektron valensi dan inti atom \citep{Blochl1994, Kresse1999}.
 \item \textbf{Parameter Komputasi:}
     \begin{itemize}
         \item Energi potong (\textit{cutoff energy}) untuk basis \textit{plane-wave} ditetapkan sebesar 60 Ry.
